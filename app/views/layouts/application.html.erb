@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Summit Call</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <!-- include Google Web fonts: -->
+  <link href='https://fonts.googleapis.com/css?family=Meie+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+  <%= favicon_link_tag 'favicon.ico' %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+<footer id="footer" class="panel-footer">
+  <div class="row">
+    <%= link_to "About", home_about_path %> <a href="mailto:mario.roncador@icloud.com">Email    </a><a href="https://www.linkedin.com/in/marioroncador/">LinkedIn   </a><a href="https://github.com/MarioRoncador">GitHub</a>
+    <p><small>Copyright © 2017 <strong>Mario Roncador</strong>. All rights reserved </small></p>
+  </div>
+</footer>
+</html>
