@@ -39,5 +39,9 @@ gem 'devise'
 gem 'figaro', '1.0'
 # Fake data seeding
 gem 'faker'
+# Stripe for payments
+gem 'stripe'
+# Google Maps API
+gem 'gmaps4rails'
 
 require 'digest/md5'

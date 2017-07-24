@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="//maps.google.com/maps/api/js?key=AIzaSyD4WPq7LRRWSNW081kj_jbuVByoXQTO0Zc"></script>
+  <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+  <script src='//cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js' type='text/javascript'></script> <!-- only if you need custom infoboxes -->
+</head>
+<body>
+  <div class="pull-right"><%= link_to "Mountains", mountains_path  %> <%= link_to "Climbs", climbs_path  %></div>
+
+  <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+  <h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
+
+  <h1 class="font_meie_script"><strong><%= @mountain.name %></strong> - <%= @mountain.height %> ft.</h1>
+  <h5><%= @mountain.range %></h5>
+  <h4><%= @mountain.description %></h4>
+  <div class="divider"></div>
+
+
+  <div style='width: 800px;'>
+    <div id="map" style='width: 800px; height: 400px;  border: 1px solid black;'></div>
+  </div>
+
+  <script type="text/javascript">
+  handler = Gmaps.build('Google');
+  handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
+    // markers = handler.addMarkers([
+    //   {
+    //     "lat": 40.7128,
+    //     "lng": 74.0059,
+    //     "picture": {
+    //       "width":  32,
+    //       "height": 32
+    //     },
+    //     "infowindow": "hello!"
+    //   }
+    // ]);
+    markers = handler.addMarkers(<%=raw @hash.to_json %>);
+    handler.bounds.extendWith(markers);
+    handler.fitMapToBounds();
+  });
+  </script>
+
+</body>
+</html>

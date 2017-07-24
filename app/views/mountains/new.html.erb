@@ -1,0 +1,11 @@
+<%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+<h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
+<h2 class="font_meie_script">New Mountain</h2>
+
+<%if current_user.present?%>
+          <%= render partial: 'mountains/form' %>
+<%else%>
+  Sign in or sign up before proceeding:
+  <button type="button" class="btn btn-info"><%=link_to "Sign in", new_user_session_path %></button>
+  <button type="button" class="btn btn-info"><%=link_to "Sign up", new_user_registration_path %></button>
+<%end%>

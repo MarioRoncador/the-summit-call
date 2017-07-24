@@ -1,0 +1,31 @@
+<%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+<h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
+
+<h2 class="font_meie_script">Guiding Services</h2>
+
+<div class="divider"></div>
+
+<div class="container">
+  <table style="width:100%">
+    <tr>
+      <th></th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>Zip</th>
+      <th>Country</th>
+      <th>Phone</th>
+    </tr>
+    <% @companies.each do |company| %>
+    <tr>
+      <td><%= link_to company.name, company %></td>
+      <td><%= company.email %></td>
+      <td><%= company.address %></td>
+      <td><%= company.city %></td>
+      <td><%= company.zip %></td>
+      <td><%= company.country %></td>
+      <td><%= company.phone %></td>
+    </tr>
+    <% end %>
+  </table>
+  </div>

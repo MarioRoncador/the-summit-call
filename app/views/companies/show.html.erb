@@ -1,0 +1,28 @@
+<div class="pull-right"><%= link_to "Climbs", climbs_path  %></div>
+
+  <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+<h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
+
+<h1 class="font_meie_script"><strong><%= @company.name %></strong></h1>
+
+<div class="divider"></div>
+
+<div class="container">
+  <ul>
+    <p><%= @company.name%></p>
+    <p>Email: <strong><%= @company.name%></strong></p>
+    <p>Phone: <strong><%= @company.name%></strong></p>
+    <p>Address: <%= @climb.address%></p>
+    <p><%= @climb.city%></p>
+    <p><%= @climb.zip%></strong></p>
+    <p><%= @climb.country%></strong></p>
+  </ul>
+</div>
+
+t.string :name
+t.string :email
+t.string :address
+t.string :city
+t.string :zip
+t.string :country
+t.string :phone
