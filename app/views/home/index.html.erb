@@ -14,7 +14,8 @@
     <ul class="nav nav-tabs">
       <li><%= link_to "Mountains", mountains_path %></li>
       <li><%= link_to "Search Climbs", climbs_path  %></li>
-      <li><%= link_to "Guiding Services", companies_index_path  %></li>
+      <li><%= link_to "Guiding Services", guide_services_path  %></li>
+      <li><%= link_to "Lodges", guide_services_path  %></li>
       <div class="pull-right user-info">
         <% if user_signed_in? %>
         Signed in as: <strong> <%= current_user.email%> </strong> |

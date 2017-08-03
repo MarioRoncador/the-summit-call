@@ -1,11 +1,12 @@
 FactoryGirl.define do
-  factory :company do
+  factory :guide_service do
     name "MyString"
     email "MyString"
+    phone "MyString"
     address "MyString"
     city "MyString"
     zip "MyString"
-    country ""
-    phone "MyString"
+    country "MyString"
+    description "MyString"
   end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170724012636) do
+ActiveRecord::Schema.define(version: 20170725032709) do
 
   create_table "climbs", force: :cascade do |t|
     t.string   "title"
@@ -23,25 +23,44 @@ ActiveRecord::Schema.define(version: 20170724012636) do
     t.string   "difficulty"
     t.decimal  "price"
     t.integer  "mountain_id"
-    t.integer  "company_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.integer  "guide_service_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
-  add_index "climbs", ["company_id"], name: "index_climbs_on_company_id"
+  add_index "climbs", ["guide_service_id"], name: "index_climbs_on_guide_service_id"
   add_index "climbs", ["mountain_id"], name: "index_climbs_on_mountain_id"
 
-  create_table "companies", force: :cascade do |t|
+  create_table "guide_services", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
+    t.string   "phone"
     t.string   "address"
     t.string   "city"
     t.string   "zip"
     t.string   "country"
-    t.string   "phone"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.text     "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
+
+  create_table "lodges", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.float    "lat"
+    t.float    "lng"
+    t.string   "range"
+    t.string   "country"
+    t.text     "description"
+    t.string   "open"
+    t.string   "offer"
+    t.integer  "mountain_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "lodges", ["mountain_id"], name: "index_lodges_on_mountain_id"
 
   create_table "mountains", force: :cascade do |t|
     t.string   "name"
@@ -52,9 +71,12 @@ ActiveRecord::Schema.define(version: 20170724012636) do
     t.string   "country"
     t.string   "firstsummit"
     t.text     "description"
+    t.integer  "lodge_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
+
+  add_index "mountains", ["lodge_id"], name: "index_mountains_on_lodge_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

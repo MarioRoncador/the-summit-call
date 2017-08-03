@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'companies/index'
-
-  get 'companies/show'
+  resources :guide_services
 
   resources :mountains
 

@@ -11,7 +11,7 @@ class CreateClimbs < ActiveRecord::Migration
       t.decimal :price
 
       t.references :mountain, index: true, foreign_key: true
-      t.references :company, index: true, foreign_key: true
+      t.references :guide_service, index: true, foreign_key: true
 
       t.timestamps null: false
     end
