@@ -43,5 +43,9 @@ gem 'faker'
 gem 'stripe'
 # Google Maps API
 gem 'gmaps4rails'
+# Bootstrao forms for rails
+gem 'bootstrap_form'
+# Menu to select a date
+gem 'bootstrap-datepicker-rails'
 
 require 'digest/md5'

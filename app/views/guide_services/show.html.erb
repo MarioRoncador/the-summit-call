@@ -10,11 +10,31 @@
 <div class="container">
   <ul>
     <p><em><%= @guide_service.description%></em></p>
-    <p>Email: <strong><%= @guide_service.email %></strong></p>
-    <p>Phone: <strong><%= @guide_service.phone %></strong></p>
+    <p>Website: <a href="<%=@guide_service.website%>"><strong><%= @guide_service.website %></a></strong></p>
+    <p>Email: <a href="mailto:<%=@guide_service.email%>"><strong><%= @guide_service.email %></a></strong></p>
+    <p>Phone: <a href="tel:<%=@guide_service.phone%>"><strong><%= @guide_service.phone %></strong></a></p>
     <p>Address: <%= @guide_service.address %>
     <%= @guide_service.city %>
     <%= @guide_service.zip %>
     <%= @guide_service.country %></p>
   </ul>
 </div>
+
+    <table style="width:50%">
+      <tr>
+        <th></th>
+        <th>Route</th>
+        <th>Date</th>
+        <th>Days</th>
+        <th>Price</th>
+      </tr>
+      <%  @guide_service.climbs.each do |climb| %>
+      <tr>
+        <td><%= link_to climb.title, climb %></td>
+        <td><%= climb.route %></td>
+        <td><%= climb.date %></td>
+        <td><%= climb.days %> days</td>
+        <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>
+      </tr>
+      <% end %>
+    </table>

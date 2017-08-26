@@ -6,32 +6,25 @@
   <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
   <h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
   <h2 class="font_meie_script">Mountains</h2>
-  <div class="container">
-    <table style="width:100%">
-      <tr>
-        <th>Name</th>
-        <th>Height</th>
-        <th>Range</th>
-        <th>Country</th>
-        <th>Latitude</th>
-        <th>Longitude</th>
-      </tr>
-      <% @mountains.each do |mountain| %>
-      <tr>
-        <td><%= link_to mountain.name, mountain %></td>
-        <td><%= mountain.height %></td>
-        <td><%= mountain.range %></td>
-        <td><%= mountain.country %></td>
-        <td><%= mountain.lat %></td>
-        <td><%= mountain.lng %></td>
-      </tr>
-      <% end %>
-    </table>
+
+  <!--Search Form Starts-->
+  <div class="form-group" >
+    <div class="input-group">
+      <%= form_tag(mountains_path, :method => "get", id: "search-form") do %>
+      <%= text_field_tag :search, params[:search], placeholder: "Search Climbs by Mountain", class: 'form-control' %>
+      <%= submit_tag "Search", class: 'btn btn-sm btn-info' %>
+    <% end %>
   </div>
+  <!--Search Form Finishes-->
+
+  <div class="divider"></div>
+
+  <%= render partial: 'mountains/mountains' %>
+
 </body>
-<footer  class="panel-footer" style="background-color: transparent">
+<div style="background-color: transparent">
   <div class="row pull-right"><small><em>
- Can't find the mountain you are looking for? </em><button type="button xsm" class="btn btn-info btn-sm"><%=link_to "Sign it up now!", new_mountain_path %></button>
-    </small></div>
-</footer>
+    Can't find the mountain you are looking for? </em><button type="button xsm" class="btn btn-info btn-sm"><%=link_to "Sign it up now!", new_mountain_path %></button>
+  </small></div>
+</div>
 </html>

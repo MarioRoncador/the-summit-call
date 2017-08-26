@@ -1,6 +1,11 @@
 class MountainsController < ApplicationController
   def index
-    @mountains = Mountain.all
+     @mountains = Mountain.all.order("name ASC")
+    if params[:search]
+      @mountains = Mountain.search(params[:search]).order("name ASC")
+    else
+      @mountains = Mountain.all.order("name ASC")
+    end
   end
 
   def show

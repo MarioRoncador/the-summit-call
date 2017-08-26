@@ -1,36 +1,20 @@
+<div id="top_bar">
 <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
 <h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
+</div>
 
 <h2 class="font_meie_script">Climbs</h2>
+<!--Search Form Starts-->
+
+<div class="form-group" >
+  <div class="input-group">
+    <%= form_tag(mountains_path, :method => "get", id: "search-form") do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Climbs by Mountain", class: 'form-control' %>
+    <%= submit_tag "Search", class: 'btn btn-sm btn-info' %>
+  <% end %>
+</div>
+<!--Search Form Finishes-->
 
 <div class="divider"></div>
 
-<div class="container">
-  <table style="width:100%">
-    <tr>
-      <th></th>
-      <th>Mountain</th>
-      <th>Route</th>
-      <th>Date</th>
-      <th>Price</th>
-    </tr>
-    <% @climbs.each do |climb| %>
-    <tr>
-      <td><%= link_to climb.title, climb %></td>
-      <td><%= climb.mountain_id %></td>
-      <td><%= climb.route %></td>
-      <td><%= climb.date %></td>
-      <td>$<%= climb.price %></td>
-    </tr>
-    <% end %>
-  </table>
-  </div>
-
-  <% @mountains.each do |mountain| %>
-  <table>
-    <tr>
-            <td><%= mountain.id %></td>
-      <td><%= mountain.name %></td>
-    </tr>
-  </table>
-    <% end %>
+  <%= render partial: 'climbs/climbs' %>

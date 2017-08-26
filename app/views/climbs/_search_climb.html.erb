@@ -1,0 +1,27 @@
+
+<% if @mountain.present?  %>
+  <% if @mountain.climbs.exists? %>
+  <table style="width:50%">
+    <tr>
+      <th></th>
+      <th>Route</th>
+      <th>Date</th>
+      <th>Days</th>
+      <th>Price</th>
+    </tr>
+    <%  @mountain.climbs.each do |climb| %>
+    <tr>
+      <td><%= link_to climb.title, climb %></td>
+      <td><%= climb.route %></td>
+      <td><%= climb.date %></td>
+      <td><%= climb.days %> days</td>
+      <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>
+    </tr>
+    <% end %>
+  </table>
+  <% else %>
+   <p>Call us at: <a href="tel:+19073467010">+1 (907) 340-7010</a></p>
+  <% end %>
+<% else %>
+<p>Search for your next big adventure</p>
+<% end %>

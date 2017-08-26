@@ -1,0 +1,21 @@
+<div class="container">
+  <table style="width:100%">
+    <tr>
+      <th>Mountain</th>
+      <th>Trip</th>
+      <th>Route</th>
+      <th>Date</th>
+      <th>Price</th>
+    </tr>
+    <% @climbs.each do |climb| %>
+    <tr>
+      <td><%= climb.mountain.name %></td>
+      <td><%= link_to climb.title, climb %></td>
+      <td><%= climb.route %></td>
+      <td><%= climb.date %></td>
+      <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>
+    </tr>
+
+    <% end %>
+  </table>
+  </div>

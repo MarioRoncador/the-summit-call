@@ -1,0 +1,22 @@
+<div class="container">
+  <table style="width:100%">
+    <tr>
+      <th>Name</th>
+      <th>Elevation</th>
+      <th>Range</th>
+      <th>Country</th>
+      <th>Difficulty</th>
+      <th>Climbing Period</th>
+    </tr>
+    <% @mountains.each do |mountain| %>
+    <tr>
+      <td><%= link_to mountain.name, mountain %></td>
+      <td><%= mountain.elevation %> mt.</td>
+      <td><%= mountain.range %></td>
+      <td><%= mountain.country %></td>
+      <td><%= mountain.difficulty %></td>
+      <td><%= mountain.climb_period %></td>
+    </tr>
+    <% end %>
+  </table>
+</div>

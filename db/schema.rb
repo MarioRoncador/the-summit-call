@@ -33,15 +33,21 @@ ActiveRecord::Schema.define(version: 20170725032709) do
 
   create_table "guide_services", force: :cascade do |t|
     t.string   "name"
+    t.string   "logo"
+    t.string   "languages"
+    t.string   "since"
+    t.string   "founder"
+    t.string   "website"
     t.string   "email"
     t.string   "phone"
     t.string   "address"
     t.string   "city"
     t.string   "zip"
     t.string   "country"
+    t.string   "achievements"
     t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "lodges", force: :cascade do |t|
@@ -64,19 +70,24 @@ ActiveRecord::Schema.define(version: 20170725032709) do
 
   create_table "mountains", force: :cascade do |t|
     t.string   "name"
-    t.integer  "height"
+    t.integer  "elevation"
+    t.string   "continent"
+    t.string   "country"
     t.string   "range"
     t.float    "lat"
     t.float    "lng"
-    t.string   "country"
-    t.string   "firstsummit"
+    t.string   "difficulty"
+    t.string   "first_summit"
+    t.string   "first_summiter"
+    t.string   "climb_period"
+    t.string   "climbs_year"
+    t.string   "summit_rate"
+    t.string   "nearest_airport"
+    t.string   "created_by"
     t.text     "description"
-    t.integer  "lodge_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
-
-  add_index "mountains", ["lodge_id"], name: "index_mountains_on_lodge_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
