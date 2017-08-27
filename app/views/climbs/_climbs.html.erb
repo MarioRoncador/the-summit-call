@@ -10,7 +10,7 @@
     <% @climbs.each do |climb| %>
     <tr>
       <td><%= climb.mountain.name %></td>
-      <td><%= link_to climb.title, climb %></td>
+      <td><%= link_to climb.title, climb %> - <%= link_to climb.guide_service.name, climb.guide_service %></td>
       <td><%= climb.route %></td>
       <td><%= climb.date %></td>
       <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>

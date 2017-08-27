@@ -1,12 +1,12 @@
 class HomeController < ApplicationController
 
-require 'date'
+  require 'date'
 
   def index
     if params[:search] && params[:date]
-      @climbs = Climb.search(params[:search]).order("created_at DESC")
+      @climbs = Climb.search(params[:search]).order("date ASC")
     else
-      @climbs = Climb.all.order("name ASC")
+      @climbs = Climb.all.order("date ASC")
     end
   end
 
