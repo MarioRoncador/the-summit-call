@@ -1,11 +1,11 @@
-<div id="top_bar">
+<div id="top_bar" class="pull-right">
 <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
 <h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
-</div>
+
 
 <h2 class="font_meie_script">Climbs</h2>
 <!--Search Form Starts-->
-
+</div>
 <div class="form-group" >
   <div class="input-group">
     <%= form_tag(mountains_path, :method => "get", id: "search-form") do %>
@@ -13,6 +13,8 @@
     <%= submit_tag "Search", class: 'btn btn-sm btn-info' %>
   <% end %>
 </div>
+</div >
+
 <!--Search Form Finishes-->
 
 <div class="divider"></div>

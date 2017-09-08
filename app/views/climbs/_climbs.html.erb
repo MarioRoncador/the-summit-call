@@ -1,12 +1,14 @@
 <div class="container">
-  <table style="width:100%">
-    <tr>
-      <th>Mountain</th>
-      <th>Trip</th>
-      <th>Route</th>
-      <th>Date</th>
-      <th>Price</th>
-    </tr>
+  <table id="table_list" class="table table-bordered" style="width:100%" >
+    <thead>
+      <tr>
+        <th><%= sort_link "mountain" %></th>
+        <th><%= sort_link "title" %></th>
+        <th><%= sort_link "route" %></th>
+        <th><%= sort_link "date" %></th>
+        <th><%= sort_link "price" %></th>
+      </tr>
+    </thead>
     <% @climbs.each do |climb| %>
     <tr>
       <td><%= climb.mountain.name %></td>
@@ -18,4 +20,4 @@
 
     <% end %>
   </table>
-  </div>
+</div>

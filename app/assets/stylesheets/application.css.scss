@@ -55,6 +55,32 @@
   color:#D9230F;
 }
 
+/* Style tables */
+
+#table_list{
+  color:black;
+  background-color:rgba(255,255,255,0.7)
+}
+
+th td{
+  color:black;
+  opacity: 0;
+}
+
+thead{
+  background-color:#D8BFD8;
+}
+
+/* Style tables end*/
+
+#top_bar {
+
+}
+
+.form-group{
+  	vertical-align: baseline;
+}
+
 #footer {
   width:100%;
   padding:5px;

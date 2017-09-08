@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :lodges
+
   resources :guide_services
 
   resources :mountains
