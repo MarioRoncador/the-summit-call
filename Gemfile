@@ -47,5 +47,10 @@ gem 'gmaps4rails'
 gem 'bootstrap_form'
 # Menu to select a date
 gem 'bootstrap-datepicker-rails'
+# Country selection list
+gem 'country_select'
+# Image upload
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.3'
 
 require 'digest/md5'

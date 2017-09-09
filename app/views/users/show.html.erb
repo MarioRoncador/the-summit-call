@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+  <h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
+
+  <%= link_to 'Edit', edit_user_registration_path, :class => 'navbar-link' %>
+
+  <h1 class="font_meie_script"><%= current_user.first_name %> <%= current_user.last_name %></h1>
+
+  <h3 class="font_meie_script"><%= current_user.city %>, <%= current_user.country %></h3>
+
+  <h2 class="font_meie_script"><%= current_user.description %></h2>
+
+</body>
+</html>

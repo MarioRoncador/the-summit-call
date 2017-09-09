@@ -13,8 +13,8 @@
     <h3 class="font_meie_script"> - When the summit calls, we answer - </h3>
     <div class="pull-right user-info">
       <% if user_signed_in? %>
-      Signed in as: <strong> <%= current_user.first_name%> </strong> |
-      <%= link_to 'Profile', edit_user_registration_path, :class => 'navbar-link' %> |
+      <strong><big> <%= current_user.first_name%> </big></strong> |
+      <%= link_to 'Profile', current_user, :class => 'navbar-link' %> |
       <%= link_to "Logout", destroy_user_session_path, method: :delete %>
       <% else %>
       <%= link_to "Sign Up", new_user_registration_path, :class => 'navbar-link' %> -

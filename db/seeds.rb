@@ -6901,7 +6901,7 @@ guide_services = GuideService.all
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Create Climbs
-100.times do
+500.times do
   Climb.create!(
   title: Faker::Book.title,
   description: Faker::Food.ingredient,
@@ -6939,9 +6939,17 @@ lodges = Lodge.all
 1.times do
   User.create!(
   email: "mario.roncador@gmail.com",
-  password: "123456"
-  #    email: Faker::Internet.email,
-  #    password: Faker::Internet.password
+  password: "123456",
+  first_name: "Mario",
+  last_name: "Roncador",
+  date_of_birth:"1992-01-14",
+  phone: "+19073467010",
+  address: "25 Glenbrook Rd",
+  city: "Stamford, CT",
+  zip: "06902",
+  country: "USA",
+  gender: 0,
+  description: "Avid climber and snow lover"
   )
 end
 users = User.all
