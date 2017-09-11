@@ -5932,6 +5932,828 @@ end
   )
 end
 
+
+1.times do
+  Mountain.create!(
+  name: "Jebel Shams" ,
+  elevation: 3009,
+  continent: "Asia",
+  country: "Oman",
+  range: "Southeast Arabia",
+  lat: 23.2125,
+  lng: 57.2783,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, Oct, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Muscat, Seeb International",
+  created_by: "The Summit Call",
+  description: "Highest summit in Oman. This trek is pretty hard especially when the sun comes out, so an early start is recommended. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Jichu Drake" ,
+  elevation: 6794,
+  continent: "Asia",
+  country: "Bhutan/ China",
+  range: "Bhutan Himalaya",
+  lat: 27.7025,
+  lng: 88.150278,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Paro",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Jiigatake" ,
+  elevation: 2670,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 36.5874,
+  lng: 137.75,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International Airport, Kansai International Airport",
+  created_by: "The Summit Call",
+  description: "Mountain with three summits.  The view from Jiigatake is extremely impressive. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Jogin Ii" ,
+  elevation: 6340,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: "",
+  lng: "",
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1980,
+  first_summiter: "	Amit Chowdhury (Leader) and Others",
+  climb_period: "May, Jun, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dehradun",
+  created_by: "The Summit Call",
+  description: "Difficult rock to climb."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Jonen Dake" ,
+  elevation: 2857,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 36.3266,
+  lng: 137.728,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International, Kansai International",
+  created_by: "The Summit Call",
+  description: "Steep climb up the trail to the top. Views from the mountain chain ridge over to the Hotakas and Yarigatake are spectacular."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Jugghar" ,
+  elevation: 1264,
+  continent: "Asia",
+  country: "Afghanistan",
+  range: "",
+  lat: 43.5794,
+  lng: 87.6036,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Feyzabad,Afghanistan airport",
+  created_by: "The Summit Call",
+  description: "Very beautiful on the top."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "K-6 Baltistan Peak" ,
+  elevation: 7282,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "",
+  lat: 35.25,
+  lng: 76.33,
+  difficulty: "Technical Climb",
+  first_summit: 1970,
+  first_summiter: "Von der Hecken, G. Haberl, E. Koblmüller, G. Pressl",
+  climb_period: "May, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Skardu",
+  created_by: "The Summit Call",
+  description: "K-6 has huge, steep faces, and great relief above the nearby valleys, making it an impressive peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "K2" ,
+  elevation: 8612,
+  continent: "Asia",
+  country: "Pakistan/ China",
+  range: "",
+  lat: 35.8825,
+  lng: 76.5133,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1954,
+  first_summiter: "Achille Compagnoni, Lino Lacedelli (Italian expedition)",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad, Pakistan",
+  created_by: "The Summit Call",
+  description: "K2 is the second highest mountain in the world. Its giant pyramid peak towers in isolation, 12,000 feet above the wide Concordia glacial field at the head of the Baltoro Glacier. K2 is known as the Savage Mountain due to the extreme difficulty of ascent. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kabru" ,
+  elevation: 7317,
+  continent: "Asia",
+  country: "Nepal/India",
+  range: "	Sikkim-Eastern Nepal Himalaya",
+  lat: 27.635,
+  lng: 88.118333,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1965,
+  first_summiter: "Swiss Expedition",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Darjeeling",
+  created_by: "The Summit Call",
+  description: "Kabru is the biggest mountain south of Kangchenjunga Himal."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kackar" ,
+  elevation: 3942,
+  continent: "Asia",
+  country: "Turkey",
+  range: "",
+  lat: 	40.830956,
+  lng: 	41.154785,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Trabzon Airport",
+  created_by: "The Summit Call",
+  description: "You can climb from North or South route. Easy route is South route and begin Yaylalar village. You can reach Dilberdüzü after 8hr trekking from Yaylalar. Clear water is not problem in Mt Kaçkar. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kai-Komagatake" ,
+  elevation: 2967,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.7581,
+  lng: 	138.237,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tokyo",
+  created_by: "The Summit Call",
+  description: " One of the most impressive peaks in Japan's Southern Alps."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kailas" ,
+  elevation: 6714,
+  continent: "Asia",
+  country: "China",
+  range: "	Gangdisi Shanmai",
+  lat: 	31.0667,
+  lng: 	81.3167,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lhasa, Tibet",
+  created_by: "The Summit Call",
+  description: " Climbing the peak has never been permitted. However, religious pilgrims of all ages regularly practice parikarma, a sacred circuit of the mountain."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kala Pattar" ,
+  elevation: 5545,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.995833,
+  lng: 	86.828417,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lukla",
+  created_by: "The Summit Call",
+  description: "  A basic trekking peak at moderate altitude."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kalanag" ,
+  elevation: 6383,
+  continent: "Asia",
+  country: "India",
+  range: "	Garhwal Himalaya",
+  lat: 	31.0112,
+  lng: 	78.3412,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1955,
+  first_summiter: "JTM Gibson",
+  climb_period: "May, Jun, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Jolly Grant, Dehradun",
+  created_by: "The Summit Call",
+  description: "The peak provides a very descent and gradual southern approach but towards the Northern slope it features a very steep, almost vertical slope.  "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kalindi" ,
+  elevation: 6188,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dehradun",
+  created_by: "The Summit Call",
+  description: " High altitude trek."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Kalisungan" ,
+  elevation: 686,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 	14.1465,
+  lng: 	121.345,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Manila International Airport",
+  created_by: "The Summit Call",
+  description: "The peak is covered with short cogon grass, strong winds at the peak. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kalsubai" ,
+  elevation: 1646,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	19.35,
+  lng: 	73.42,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Nasik",
+  created_by: "The Summit Call",
+  description: "Various trekking routes to reach the summit. Three hours to reach the summit.  "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kamet" ,
+  elevation: 7756,
+  continent: "Asia",
+  country: "India/ China",
+  range: "Garhwal Himalaya",
+  lat: 	30.920278,
+  lng: 	79.593611,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1931,
+  first_summiter: "Frank Smythe, Eric Shipton, R.L. Holdsworth, Lewa Sherpa",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi, India",
+  created_by: "The Summit Call",
+  description: " Second highest mountain in the Garhwal region. The standard route offers a relatively straightforward ascent."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kamikouchidake" ,
+  elevation: 2803,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.391429,
+  lng: 	138.15239,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita, Kansai",
+  created_by: "The Summit Call",
+  description: " Beautiful mountain. It’s a long hard hike to reach the spine of the ridge but the views are fantastic."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kang Karpo" ,
+  elevation: 6740,
+  continent: "Asia",
+  country: "Deqen",
+  range: "	Parallel Gorges Area",
+  lat: 	28.3833,
+  lng: 	98.5833,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "Unclibed",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kunming(China), Lhasa(Tibet)",
+  created_by: "The Summit Call",
+  description: "The peak is protected by perpendicular cliffs and a foul climate.  "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kang-Yatze" ,
+  elevation: 6400,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Leh",
+  created_by: "The Summit Call",
+  description: "Early morning departure otherwise snow will laying soft and deep."
+  )
+end
+#33°44′54″N 77°33′25″E
+
+1.times do
+  Mountain.create!(
+  name: "Kangbachen" ,
+  elevation: 7858,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: 	27.7166,
+  lng: 	88.1105,
+  difficulty: "	Major Mountain Expedition",
+  first_summit: 1974,
+  first_summiter: "Wojciech Brański, Wiesław Kłaput, Marek Malatyński, Kazimierz Olech, Zbigniew Rubinowski (Polish expedition led by Piotr Młotecki)",
+  climb_period: "Apr, May, Jun, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Darjeeling",
+  created_by: "The Summit Call",
+  description: "High and hard mountain to climb."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kangchejunga South" ,
+  elevation: 8476,
+  continent: "Asia",
+  country: "India",
+  range: "	Sikkim-Eastern Nepal Himalaya",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Darjeeling",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kangchenjunga" ,
+  elevation: 8586,
+  continent: "Asia",
+  country: "Nepal/India",
+  range: "Sikkim-Eastern Nepal Himalaya",
+  lat: 	27.7025,
+  lng: 	88.1483,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1955,
+  first_summiter: "George Band, Joe Brown, (British expedition)",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Kangchenjunga is the third highest mountain in the world. Located on the border of Nepal and Sikkim (Darjeeling), it is an enormous mountain mass, and many satellite peaks rise from its narrow icy ridges."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kangchenjunga North" ,
+  elevation: 7741,
+  continent: "Asia",
+  country: "India/Nepal",
+  range: "Sikkim-Eastern Nepal Himalaya",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Darjeeling from India",
+  created_by: "The Summit Call",
+  description: "Kangchenjunga North is formed where an east-west ridge joins the main ridge running north from the Kangchenjunga Main Summit"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kangchenjunga West" ,
+  elevation: 8505,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Sikkim-Eastern Nepal Himalaya",
+  lat: 	27.705187,
+  lng: 	88.136616,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "14 May 1973",
+  first_summiter: "Ageta Yutake (JPN)",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Bhadrapur",
+  created_by: "The Summit Call",
+  description: "Formally known as Yalung Kang, is the second highest of the five high peaks of the Kangchenjunga massif."
+  )
+end
+
+
+1.times do
+  Mountain.create!(
+  name: "Kangguru" ,
+  elevation: 6979,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.730869,
+  lng: 	86.789031,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "2 Jul 1955",
+  first_summiter: "Hans Steinmetz and party",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: " It can be a dangerous tour because the weather can change rapidly."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kangtega" ,
+  elevation: 6782,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.7833,
+  lng: 	86.8167,
+  difficulty: "Technical Climb",
+  first_summit: 1963,
+  first_summiter: "Edmund Hillary",
+  climb_period: "Apr, May, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lukla",
+  created_by: "The Summit Call",
+  description: " Beautiful mountain which rises majestically to a saddle shaped summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kanjiroba" ,
+  elevation: 6883,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Western Nepal Himalaya",
+  lat: 	29.368114,
+  lng: 	82.778549,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: 1976,
+  first_summiter: "Dick Isherwood",
+  climb_period: "Apr, May, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Jumla or Dunai",
+  created_by: "The Summit Call",
+  description: "The mountain has a simple route up its wide south-west ridge with only minimal difficulties to cross several near-vertical icy stretches."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kanjut Sar" ,
+  elevation: 7760,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 	36.205,
+  lng: 	75.418333,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1959,
+  first_summiter: "Camillo Pellissier",
+  climb_period: "May, Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Rawalpindi",
+  created_by: "The Summit Call",
+  description: " It is the 26th highest mountain on Earth and the 11th highest in Pakistan."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Karagöl" ,
+  elevation: 3107,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Pontic Mountains",
+  lat: 	38,
+  lng: 	37,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Trabzon",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Karakoram Pass" ,
+  elevation: 5540,
+  continent: "Asia",
+  country: "Pakistan/India",
+  range: "Karakoram",
+  lat: 	35.513333,
+  lng: 	77.823056,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: " There is no vegetation or icecap and it is generally free of snow due to the winds. There is no motorable road across the pass, and the pass currently remains closed to all traffic."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Karcal" ,
+  elevation: 3428,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Pontic Mountains",
+  lat: 	41.05,
+  lng: 	42,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Trabzon",
+  created_by: "The Summit Call",
+  description: "This mount remains between Coruh River and Georgian Border."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Karkas" ,
+  elevation: 3890,
+  continent: "Asia",
+  country: "Iran",
+  range: "Central Iranian Plateau",
+  lat: 	33.45613,
+  lng: 	51.80023,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Isfahan",
+  created_by: "The Summit Call",
+  description: "You can climb the monutain in 4 ways. Good peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kartse" ,
+  elevation: 6507,
+  continent: "Asia",
+  country: "China",
+  range: "Central Nepal Himalaya",
+  lat: 	28.0167,
+  lng: 	87,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: 1921,
+  first_summiter: "George Mallory and other members",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lhasa, Tibet",
+  created_by: "The Summit Call",
+  description: "Today it is still considered to be the most dangerous side of Everest, due to the avalanche risks. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Karyolung" ,
+  elevation: 6511,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.733452,
+  lng: 	86.611919,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1982,
+  first_summiter: "Japanese-Nepalese team",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Rarely visited but relatively accesible mountain."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kashima Yarigatake" ,
+  elevation: 2889,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.6238,
+  lng: 	137.747,
+  difficulty: "Walk up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International Airport, Kansai International Airport",
+  created_by: "The Summit Call",
+  description: "There are three access routes, from the summit you have a 360-degree view over all the surrounding peaks both near and far."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Kasra" ,
+  elevation: 4505,
+  continent: "Asia",
+  country: "Iran",
+  range: "",
+  lat: ""	,
+  lng: ""	,
+  difficulty: "Scramble",
+  first_summit: 1966,
+  first_summiter: "Deceased Mr Latifie",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Ardabil",
+  created_by: "The Summit Call",
+  description: "It has some different rout for ascent(rock climbing,ice climbing,Edge,mixed rout) and two glacier on the northface "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kedarnath" ,
+  elevation: 6940,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	30.7833,
+  lng: 	79.0667,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Delhi",
+  created_by: "The Summit Call",
+  description: "It is situated in one of the most religious places of hindus in india. Challenging mountain to climb."
+  )
+end
+
 mountains = Mountain.all
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
