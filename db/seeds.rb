@@ -6754,6 +6754,640 @@ end
   )
 end
 
+1.times do
+  Mountain.create!(
+  name: "Kedarnath Dome" ,
+  elevation: 6831,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	30.7833,
+  lng: 	79.0667,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Delhi",
+  created_by: "The Summit Call",
+  description: "Dome shaped peak, connected to it's higher companion Kedarnath Peak by a deep ridge."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Kerinchi" ,
+  elevation: 3800,
+  continent: "Asia",
+  country: "Indonesia",
+  range: "Sumatra",
+  lat: 	-1.7,
+  lng: 	101.267,
+  difficulty: "Scramble",
+  first_summit: 1877,
+  first_summiter: "Von Hasselt and Veth",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Padang, Sumatra",
+  created_by: "The Summit Call",
+  description: "Highest mountain in Sumatra, it is a volcano. Steep, pine-forested slopes rise in isolation above surrounding farmland."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khan Tengri" ,
+  elevation: 7010,
+  continent: "Asia",
+  country: "Kazakhstan/Kyrgyzstan",
+  range: "	Central Tien Shan",
+  lat: 	42.2108,
+  lng: 	80.175,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1931,
+  first_summiter: "Mikhail Pogrebetsky",
+  climb_period: "Aug, Sept",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Almaty, Kazakhstan, ",
+  created_by: "The Summit Call",
+  description: "Huge icy pyramid. Khan Tengri is the highest point in Kazakhstan."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khangri Shar" ,
+  elevation: 6811,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	28.01956,
+  lng: 	86.816025,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "2004 Unsuccessful attempt by a UK expedition ",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Big glacier situated on the Nepal-Tibet border."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khartaphu" ,
+  elevation: 7227,
+  continent: "Asia",
+  country: "China",
+  range: "Central Nepal Himalaya",
+  lat: 	28.05,
+  lng: 	86.9667,
+  difficulty: "",
+  first_summit: 1935,
+  first_summiter: "",
+  climb_period: "Sep, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu ( Nepal), Lhasa (Tibet)",
+  created_by: "The Summit Call",
+  description: "One of the lesser-known peaks of the Everest-area."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khazret Sultan" ,
+  elevation: 4643,
+  continent: "Asia",
+  country: "Uzbekistan/Tajikistan",
+  range: "",
+  lat: 	38.947394,
+  lng: 	68.172655,
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dushanbe",
+  created_by: "The Summit Call",
+  description: "Highest point of Uzbekistan and situated on the borter with Tajikistan."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khiangyang Kish" ,
+  elevation: 7852,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 	36.088159,
+  lng: 	75.121036,
+  difficulty: "Major Mountain Expedition",
+  first_summit: " 26 August 1971",
+  first_summiter: "Zawada's Polish Expedition",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad, Pakistan",
+  created_by: "The Summit Call",
+  description: " Twenty-first-highest independent mountain in the world. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Chole-no" ,
+  elevation: 4375,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 	36.108201,
+  lng: 	51.588192,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tehran",
+  created_by: "The Summit Call",
+  description: "Easy to climb. Good trekking."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kholodnaja Stena" ,
+  elevation: 5947,
+  continent: "Asia",
+  country: "Tajikistan",
+  range: "Pamir",
+  lat: 	38.6028,
+  lng: 	72.5556,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Aug, Sept",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tashkent",
+  created_by: "The Summit Call",
+  description: "Discovered and measured from Richard Finsterwalder."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khuiten Uul" ,
+  elevation: 4374,
+  continent: "Asia",
+  country: "Mongolia/China",
+  range: "Altai",
+  lat: 	49.149167,
+  lng: 	87.825,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Olgii",
+  created_by: "The Summit Call",
+  description: " Highest peak of Mongolia, situated on the border with China. If the conditions are right, it can be climbed on skis."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Khumbutse" ,
+  elevation: 6636,
+  continent: "Asia",
+  country: "",
+  range: "Central Nepal Himalaya",
+  lat: 	28.021492,
+  lng: 	86.872416,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1993,
+  first_summiter: "Bart Vos",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu (Nepal), Lhasa (Tibet)",
+  created_by: "The Summit Call",
+  description: " First mountain to the west of Everest. Steep sides covered in snow and ice."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kim Phung" ,
+  elevation: 427,
+  continent: "Asia",
+  country: "Vietnam",
+  range: "Annamese Cordillera",
+  lat: 	16.390305,
+  lng: 	107.535521,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Hue",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Kinabalu" ,
+  elevation: 4102,
+  continent: "Asia",
+  country: "Malaysia",
+  range: "Borneo",
+  lat: 	6.08333,
+  lng: 	116.55,
+  difficulty: "Scramble",
+  first_summit: 1858,
+  first_summiter: "H. Low and Spencer",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kota Kinabalu, Borneo",
+  created_by: "The Summit Call",
+  description: "Highest mountain of Borneo. It is impressive flat-topped granite block, rising in isolation, thousands of feet above the gently sloping plain."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kinner Kailash" ,
+  elevation: 6050,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	31.520556,
+  lng: 	78.363611,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Shimla",
+  created_by: "The Summit Call",
+  description: "The easier of the treks is around 8 to 10 kilometers one way with one night to be spent in the caves before starting the final climb to the Shiv Lingam. While the other trek is 32 kilometers long and takes a minimum of two days complete."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kinpu-San" ,
+  elevation: 2599,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.872,
+  lng: 	138.626,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International Airport",
+  created_by: "The Summit Call",
+  description: "The trail to the summit is a little steep in places but still easily manageable. There is a tower of granite standing near the summit. The mountain can be climbed in winter."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kita Dake" ,
+  elevation: 3192,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.6734,
+  lng: 	138.239,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tokyo, Japan",
+  created_by: "The Summit Call",
+  description: "Highest mountain of the Japanese Alps, and is the second highest in all of Japan. Easily accessibile."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kizlarsivrisi" ,
+  elevation: 3086,
+  continent: "Asia",
+  country: "Turkey",
+  range: "	Taurus Mountains",
+  lat: 	37,
+  lng: 	37,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Antalya",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kliuchevskoi" ,
+  elevation: 4750,
+  continent: "Asia",
+  country: "Russia",
+  range: "Kamchatka Peninsula",
+  lat: 	56.0667,
+  lng: 	160.633,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1788,
+  first_summiter: "Daniel Gauss and two other members of the Billings Expedition",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Petropavlovsk-Kamchatskiy, Russia",
+  created_by: "The Summit Call",
+  description: "Highest volcano in Asia. It is a steep symmetrical cone. Several climbers were killed by flying lava as they descended. Similar dangers exist today, and few ascents are made."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Kolahoi" ,
+  elevation: 5425,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	34.15,
+  lng: 	75.330278,
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "It is also known as the Matterhorn of Kashmir."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kolakchal" ,
+  elevation: 3300,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 	35.513,
+  lng: 	51.273,
+  difficulty: "Apr, May, Jun, Jul, Aug, Sep, Oct",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Mehrabad (Tehran)",
+  created_by: "The Summit Call",
+  description: "There are several ways to reach the peaks but the normal way is the best and safest way."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kongur" ,
+  elevation: 7719,
+  continent: "Asia",
+  country: "China",
+  range: "Kunlun",
+  lat: 	38.6667,
+  lng: 	75.35,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1981,
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kashi, China",
+  created_by: "The Summit Call",
+  description: " The mountain is a towering wall, and it's high summit is a steep rugged pyramid. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Pik Korjenevskaya" ,
+  elevation: 7105,
+  continent: "Asia",
+  country: "Tajikistan",
+  range: "Pamir",
+  lat: 	39.057,
+  lng: 	72.01,
+  difficulty: "Technical Climb",
+  first_summit: 1953,
+  first_summiter: "Ugarov, B. Dimitriev, A. Goziev, A. Kovyrkov, L. Krasavin, E. Ryspajev, R. Sielidzanov, and P. Skorobogatov",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dushanbe",
+  created_by: "The Summit Call",
+  description: "The group consisted of eight mountain-climbers from Leningrad reached the top, ascending along the Northern edge from the glacier Korjenevskaya. For present there are known about 10 different routes of different difficulties leading to the summit. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Korona" ,
+  elevation: 4860,
+  continent: "Asia",
+  country: "Kyrgyzstan",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Bishkek",
+  created_by: "The Summit Call",
+  description: "The summit climb follows the left side of the glacier, on the moraine until this peters out. At this point climb up the glacier. Route varies in steepness from 15 degrees to up to 40 degrees."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Koyo Zom" ,
+  elevation: 6889,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Hindu Kush",
+  lat: 	36.5833,
+  lng: 	73,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1968,
+  first_summiter: "Dr. Stamm's Austrian expedition",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Rawalpindi, Pakistan",
+  created_by: "The Summit Call",
+  description: "Long narrow mountain with steep icy slopes."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Koz Sar" ,
+  elevation: 6680,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: ""	,
+  lng: 	"",
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kuk Sar Peak Passu Batura" ,
+  elevation: 6700,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+#questa se pol fa senza metela
+
+1.times do
+  Mountain.create!(
+  name: "Kula Kangri" ,
+  elevation: 7358,
+  continent: "Asia",
+  country: "Bhutan",
+  range: "Bhutan Himalaya",
+  lat: 	28.2333,
+  lng: 	90.6,
+  difficulty: "	Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Paro, Bhutan",
+  created_by: "The Summit Call",
+  description: "This mountain is located in a remote area of Northern Bhutan, near the Chinese border."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kun" ,
+  elevation: 7077,
+  continent: "Asia",
+  country: "India",
+  range: "	Punjab Himalaya",
+  lat: 	34.012807,
+  lng: 	76.056992,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Srinagar or Leh",
+  created_by: "The Summit Call",
+  description: "Easily accessible, twin peaked, year round snow cover with a full day glacier trek to base of south west face route and advance camp. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kunyang Chhish" ,
+  elevation: 7410,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 	36.205,
+  lng: 	75.2065,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1971,
+  first_summiter: "Andrzej Zawada",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad",
+  created_by: "The Summit Call",
+  description: "It is the 21st highest independent peak in the World, and was first ascended by a Polish team."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kusum Kangguru" ,
+  elevation: 6367,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.730793,
+  lng: 	86.788816,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1979,
+  first_summiter: "Japanese Expedition",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: " Kusum Kanguru is one of the first high snowy mountains that is seen when trekking from Jiri to Mount Everest base camp."
+  )
+end
+
+
+
+
 mountains = Mountain.all
 
 #----------------------------------------------------------------------------------------------------------------------------------------------

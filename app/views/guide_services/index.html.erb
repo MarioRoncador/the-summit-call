@@ -6,14 +6,16 @@
 <div class="divider"></div>
 
 <div class="container">
-  <table style="width:100%">
+  <table id="table_list" class="table table-bordered" style="width:100%">
+   <thead>
     <tr>
-      <th></th>
-      <th>City</th>
-      <th>Country</th>
-      <th>Email</th>
-      <th>Phone</th>
+      <th><%= sort_link "Name" %></th>
+      <th><%= sort_link "City" %></th>
+      <th><%= sort_link "Country" %></th>
+      <th><%= "Email" %></th>
+      <th><%= "Phone" %></th>
     </tr>
+    </thead>
     <% @guide_services.each do |gs| %>
     <tr>
       <td><%= link_to gs.name, gs %></td>
@@ -24,6 +26,7 @@
     </tr>
     <% end %>
   </table>
+    <%= will_paginate @gs, renderer: BootstrapPagination::Rails %>
   </div>
 
   <div style="background-color: transparent">

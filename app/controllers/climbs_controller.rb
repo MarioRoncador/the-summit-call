@@ -2,11 +2,11 @@ class ClimbsController < ApplicationController
   helper_method :sort_column, :sort_direction
 
   def index
-    @climbs = Climb.all.order("#{sort_column} #{sort_direction}")
+    # @climbs = Climb.all.order("#{sort_column} #{sort_direction}")
     if params[:search]
-      @climbs = Climb.search(params[:search]).order("#{sort_column} #{sort_direction}")
+      @climbs = Climb.search(params[:search]).order("#{sort_column} #{sort_direction}").paginate(:page => params[:page], :per_page => 12)
     else
-      @climbs = Climb.all.order("#{sort_column} #{sort_direction}")
+      @climbs = Climb.all.order("#{sort_column} #{sort_direction}").paginate(:page => params[:page], :per_page => 12)
     end
   end
 

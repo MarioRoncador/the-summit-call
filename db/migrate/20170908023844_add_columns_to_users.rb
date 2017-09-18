@@ -10,5 +10,6 @@ class AddColumnsToUsers < ActiveRecord::Migration
     add_column :users, :country, :string
     add_column :users, :gender, :boolean, default: false
     add_column :users, :description, :text
+    add_column :users, :image, :string
   end
 end

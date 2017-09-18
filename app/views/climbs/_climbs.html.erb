@@ -17,7 +17,7 @@
       <td><%= climb.date %></td>
       <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>
     </tr>
-
     <% end %>
   </table>
+    <%= will_paginate @climbs, renderer: BootstrapPagination::Rails %>
 </div>

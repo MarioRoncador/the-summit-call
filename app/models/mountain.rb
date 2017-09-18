@@ -2,8 +2,14 @@ class Mountain < ActiveRecord::Base
   has_many :climbs
   has_many :lodges
 
-  def self.search(search)
-    where("name LIKE ?", "%#{search}%")
-  end
+  mount_uploader :image, ImageUploader
 
+  def self.search(search)
+    if search
+      where("name LIKE ?", "%#{search}%")
+    else
+      scoped
+    end
+  end
+  
 end

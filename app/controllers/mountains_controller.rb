@@ -1,10 +1,12 @@
 class MountainsController < ApplicationController
+  helper_method :sort_column, :sort_direction
+
   def index
-     @mountains = Mountain.all.order("name ASC")
+    # @mountains = Mountain.all.order("name ASC")
     if params[:search]
-      @mountains = Mountain.search(params[:search]).order("name ASC")
+      @mountains = Mountain.search(params[:search]).order("#{sort_column} #{sort_direction}").paginate(:page => params[:page], :per_page => 12)
     else
-      @mountains = Mountain.all.order("name ASC")
+      @mountains = Mountain.all.order("#{sort_column} #{sort_direction}").paginate(:page => params[:page], :per_page => 12)
     end
   end
 
@@ -35,17 +37,20 @@ class MountainsController < ApplicationController
 
   private
 
+  def sortable_columns
+    ["name", "elevation", "range", "country", "difficulty", "climb_period"]
+  end
+
+  def sort_column
+    sortable_columns.include?(params[:column]) ? params[:column] : "elevation"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
   def mountain_params
-    params.require(:mountain).permit(:name, :height, :range, :lat, :lng, :country, :firstsummit, :description)
+    params.require(:mountain).permit(:name, :elevation, :image, :range, :lat, :lng, :country, :firstsummit, :description)
   end
 
 end
-
-# t.string :name
-# t.integer :height
-# t.string :range
-# t.float :lat
-# t.float :lng
-# t.string :country
-# t.string :firstsummit
-# t.text :description

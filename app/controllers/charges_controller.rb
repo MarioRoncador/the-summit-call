@@ -13,7 +13,7 @@ class ChargesController < ApplicationController
     # Where the real magic happens
     charge = Stripe::Charge.create(
     customer: customer.id, # Note -- this is NOT the user_id in your app
-    amount: "1500", #Amount.default,
+    amount: "1", #Amount.default,
     description: "Climb Payment - #{current_user.email}",
     currency: 'usd'
     )
@@ -34,7 +34,7 @@ class ChargesController < ApplicationController
     @stripe_btn_data = {
       key: "#{ Rails.configuration.stripe[:publishable_key] }",
       description: "Climb Payment - #{current_user.email}",
-      amount: "1500" #Amount.default,
+      amount: "1" #Amount.default,
     }
   end
 

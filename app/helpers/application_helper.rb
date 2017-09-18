@@ -1,9 +1,9 @@
 module ApplicationHelper
   def sort_link(column, title = nil)
     title ||= column.titleize
+    css_class = (column == sort_column) ? "current &crarr;
+      #{sort_direction}" : nil
     direction = column == sort_column && sort_direction == "asc" ? "desc" : "asc"
-    icon = sort_direction == "asc" ? "glyphicon glyphicon-chevron-up" : "glyphicon glyphicon-chevron-down"
-    icon = column == sort_column ? icon : ""
-    link_to "#{title} <span class='#{icon}'></span>".html_safe, {column: column, direction: direction}
+    link_to title, params.merge(:column => column, :direction => direction, :page => nil), {:class => css_class}
   end
 end

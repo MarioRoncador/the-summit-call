@@ -1,13 +1,15 @@
 <div class="container">
-  <table style="width:100%">
-    <tr>
-      <th>Name</th>
-      <th>Elevation</th>
-      <th>Range</th>
-      <th>Country</th>
-      <th>Difficulty</th>
-      <th>Climbing Period</th>
-    </tr>
+  <table id="table_list" class="table table-bordered" style="width:100%">
+    <thead>
+      <tr>
+        <th><%=  sort_link 'name' %></th>
+        <th><%=  sort_link 'elevation' %></th>
+        <th><%=  sort_link 'range' %></th>
+        <th><%=  sort_link 'country' %></th>
+        <th><%=  sort_link 'difficulty' %></th>
+        <th><%=  sort_link 'climbing Period' %></th>
+      </tr>
+    </thead>
     <% @mountains.each do |mountain| %>
     <tr>
       <td><%= link_to mountain.name, mountain %></td>
@@ -19,4 +21,5 @@
     </tr>
     <% end %>
   </table>
+    <%= will_paginate @mountain, renderer: BootstrapPagination::Rails %>
 </div>

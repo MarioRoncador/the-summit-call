@@ -3,8 +3,24 @@ class Climb < ActiveRecord::Base
   belongs_to :guide_service
 
   def self.search(search)
-    Climb.joins(:mountain)
-    .where("name LIKE ?", "%#{search}%")
+    if search
+      Climb.joins(:mountain)
+      .where("name LIKE ?", "%#{search}%")
+    else
+      scoped
+    end
   end
-
+  
 end
+
+#
+# class Product < ActiveRecord::Base
+#   attr_accessible :name, :price, :released_at
+#
+#   def self.search(search)
+#     if search
+#       where('name LIKE ?', "%#{search}%")
+#     else
+#       scoped
+#     end
+#   end

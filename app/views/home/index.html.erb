@@ -37,6 +37,8 @@
 <div class="container_search">
   <div class="input-group">
     <%= form_tag(climbs_path, :method => "get", id: "search-form") do %>
+    <%= hidden_field_tag :direction, params[:direction] %>
+    <%= hidden_field_tag :sort, params[:sort] %>
     <label for="name" class="font_meie_script"><strong><big>Where to:</big></strong></label>
     <%= text_field_tag :search, params[:search], placeholder: "Any Mountain", class: 'form-control'%>
     <%= text_field_tag :date, params[:date], placeholder: "Any Date", class: 'form-control', "data-provide" => 'datepicker', :value => Time.now.strftime('%m/%d/%Y')%>

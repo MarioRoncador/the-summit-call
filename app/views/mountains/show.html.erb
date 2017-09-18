@@ -16,27 +16,30 @@
   <h5><small><em>Thank you </em><strong><%= @mountain.created_by%> </strong><em>for this contribution!</em></small></h5>
 
   <div class="container-fluid">
-      <div class="row">
-          <div class="col-lg-6">
-                <div id="map" style='width: 540px; height: 440px;  border: 1px solid black;'></div>
-          </div>
-          <div class="col-lg-6">
-            <% if present? %>
-            <h5><small>Climb difficulty:</small> <%= @mountain.difficulty %></h5>
-            <h5><small>Best months to climb:</small> <%= @mountain.climb_period %></h5>
-            <h5><small>First Summit:</small> <%= @mountain.first_summit%></h5>
-            <h5><small>First Successful Climbers:</small> <%= @mountain.first_summiter %></h5>
-            <h5><small>Cimbers per year:</small> <%= @mountain.climbs_year %><small> with success rate of </small> <%= @mountain.summit_rate %> <small> % </small></h5>
-            <h5><small>Nearest Airport:</small> <%= @mountain.nearest_airport%></h5>
-            <h5><small>Description:</small></h5>
-            <h6><%= @mountain.description %></h6>
-            <%end%>
-          </div>
-          <h5> .</h5>
-          <h5><em>Want to climb this mountain?</em></h5>
-          <h5><small>Related Climbs:</small></h5>
-              <%= render partial: 'climbs/search_climb' %>
+    <div class="row">
+      <div class="col-lg-6 col-md-4 col-sm-2">
+        <div id="map" style='width: 540px; height: 440px;  border: 1px solid black;'></div>
       </div>
+      <div class="col-lg-6 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-2 col-sm-offset-1">
+        <% if present? %>
+        <div id="mountain_image" class: "img-responsive">
+          <%= image_tag(@mountain.image.url, alt: 'Image') if @mountain.image? %>
+        </div>
+        <h5><small>Climb difficulty:</small> <%= @mountain.difficulty %></h5>
+        <h5><small>Best months to climb:</small> <%= @mountain.climb_period %></h5>
+        <h5><small>First Summit:</small> <%= @mountain.first_summit%></h5>
+        <h5><small>First Successful Climbers:</small> <%= @mountain.first_summiter %></h5>
+        <h5><small>Cimbers per year:</small> <%= @mountain.climbs_year %><small> with success rate of </small> <%= @mountain.summit_rate %> <small> % </small></h5>
+        <h5><small>Nearest Airport:</small> <%= @mountain.nearest_airport%></h5>
+        <h5><small>Description:</small></h5>
+        <h6><%= @mountain.description %></h6>
+        <%end%>
+        <h5> .</h5>
+        <h5><em>Want to climb this mountain?</em></h5>
+        <h5><small>Related Climbs:</small></h5>
+        <%= render partial: 'climbs/search_climb' %>
+      </div>
+    </div>
   </div>
 
   <script type="text/javascript">

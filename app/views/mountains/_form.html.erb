@@ -9,6 +9,12 @@
     <%= f.text_field :elevation, class: 'form-control', placeholder: "Enter Mountain Height" %>
   </div>
 
+
+  <div>
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+  </div>
+  
     <div class="form-group">
       <%= f.label :range %>
       <%= f.text_field :range, class: 'form-control', placeholder: "Enter Mountain Range" %>

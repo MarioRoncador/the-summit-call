@@ -50,7 +50,10 @@ gem 'bootstrap-datepicker-rails'
 # Country selection list
 gem 'country_select'
 # Image upload
-gem 'carrierwave', '~> 0.10.0'
-gem 'mini_magick', '~> 4.3'
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+# Sortable table and pagination
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap'
 
 require 'digest/md5'

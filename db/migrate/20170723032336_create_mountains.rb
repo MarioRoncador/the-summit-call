@@ -3,6 +3,7 @@ class CreateMountains < ActiveRecord::Migration
     create_table :mountains do |t|
       t.string :name
       t.integer :elevation
+      t.string :image
       t.string :continent
       t.string :country
       t.string :range

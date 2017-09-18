@@ -71,6 +71,7 @@ ActiveRecord::Schema.define(version: 20170908023844) do
   create_table "mountains", force: :cascade do |t|
     t.string   "name"
     t.integer  "elevation"
+    t.string   "image"
     t.string   "continent"
     t.string   "country"
     t.string   "range"
@@ -112,6 +113,7 @@ ActiveRecord::Schema.define(version: 20170908023844) do
     t.string   "country"
     t.boolean  "gender",                 default: false
     t.text     "description"
+    t.string   "image"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
