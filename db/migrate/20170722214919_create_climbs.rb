@@ -9,6 +9,8 @@ class CreateClimbs < ActiveRecord::Migration
       t.integer :days
       t.string :difficulty
       t.decimal :price
+      t.text :payment
+      t.text :notes
 
       t.references :mountain, index: true, foreign_key: true
       t.references :guide_service, index: true, foreign_key: true

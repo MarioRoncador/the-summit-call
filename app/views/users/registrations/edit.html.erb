@@ -1,7 +1,10 @@
-<%= link_to "Back", :back %>
-
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
-
+<%= link_to "Profile", :back %>
+<!-- Header -->
+<div id="top_bar" class="pull-right">
+  <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+  <h5 class="quote"> - When the summit calls, we answer - </h5>
+</div>
+<!-- Header -->
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
 

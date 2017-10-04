@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 20170908023844) do
     t.integer  "days"
     t.string   "difficulty"
     t.decimal  "price"
+    t.text     "payment"
+    t.text     "notes"
     t.integer  "mountain_id"
     t.integer  "guide_service_id"
     t.datetime "created_at",       null: false

@@ -1900,7 +1900,7 @@ end
 1.times do
   Mountain.create!(
   name: "Adi Kailash" ,
-  elevation: 6.191,
+  elevation: 5945,
   continent: "Asia",
   country: "India",
   range: "	Garhwal Himalaya",
@@ -4210,7 +4210,7 @@ end
 
 1.times do
   Mountain.create!(
-  name: "Mount Everest" ,
+  name: "Everest" ,
   elevation: 8850,
   continent: "Asia",
   country: "Nepal",
@@ -4221,7 +4221,7 @@ end
   first_summit: 1953,
   first_summiter: "Edmund Hillary, Tenzing Norgay",
   climb_period: "Apr, May",
-  climbs_year: "",
+  climbs_year: 800,
   summit_rate: "63%",
   nearest_airport: "Kathmandu, Nepal",
   created_by: "The Summit Call",
@@ -7385,6 +7385,1313 @@ end
   )
 end
 
+1.times do
+  Mountain.create!(
+  name: "Kwangde" ,
+  elevation: 6178,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: "",
+  lng: "",
+  difficulty: "",
+  first_summit: 1975,
+  first_summiter: "Lharkpha Tenzing, Sonam Gyalzen, Shambhu Tamang, Sonam Hisi",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: " This is one of the trekking peaks of Nepal. This peak offers views of the Rolwaling, Cho Oyu, Everest and Ama Dablam regions."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kyajo Ri" ,
+  elevation: 6186,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: "",
+  lng: "",
+  difficulty: "Major Mountain Expedition",
+  first_summit: 2003,
+  first_summiter: "Duncan Wilson, Vincent Marche",
+  climb_period: "Apr, May, Sep, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Syanboche / Lukla",
+  created_by: "The Summit Call",
+  description: "This is a difficult expedition. There is significant technical climbing at high altitude. Summit day is very long and tiring. 17 days are needed to climb this peak."
+  )
+end
+#Latitude: 86º 56’ 03”.N , Longitude: 27º 57’ 45”.E
+
+1.times do
+  Mountain.create!(
+  name: "Kyangjin" ,
+  elevation: 4350,
+  continent: "Asia",
+  country: "Nepal",
+  range: "CEntral Nepal Himalaya",
+  lat: 28.202465,
+  lng: 85.610447,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Three days climb to reach the summit. Spectacular view from the top."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Kyimoshung Ri" ,
+  elevation: 4620,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Cenetral Nepal Himalaya",
+  lat: 28.214945,
+  lng: 85.593667,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Good mountain to trek and beautiful scenery on the top."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lady Finger" ,
+  elevation: 1829,
+  continent: "Asia",
+  country: "Pakistan/China",
+  range: "Karakoram",
+  lat: 36,
+  lng: 74,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad, Gilgit",
+  created_by: "The Summit Call",
+  description: "Particularly notable for being a sharp, relatively snowless rock spire among snow peaks."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Laila Peak" ,
+  elevation: 6200,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 35.591645,
+  lng: 76.410298,
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Skardu",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lal Qil'Ah" ,
+  elevation: 6349,
+  continent: "Asia",
+  country: "India",
+  range: "	Punjab Himalaya",
+  lat: "",
+  lng: "",
+  difficulty: "",
+  first_summit: 1961,
+  first_summiter: "Franco Alletto, Domenico de Riso during Paolo Consiglio' s italian expedition",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dehli",
+  created_by: "The Summit Call",
+  description: "Rocky mountain with a tower shape."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Langshisha Ri" ,
+  elevation: 6427,
+  continent: "Asia",
+  country: "Nepal/China",
+  range: "Central Nepal Himalaya",
+  lat: 28.2169,
+  lng: 85.7136,
+  difficulty: "Technical Climb",
+  first_summit: 1982,
+  first_summiter: "Hirosh Inoue",
+  climb_period: "May, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Langtang Lirung" ,
+  elevation: 7227,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 28.256111,
+  lng: 85.519444,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1978,
+  first_summiter: "Seishi Wada and Pemba Tsering",
+  climb_period: "Apr, May, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Langtang Himal is clearly visible from Kathmandu, its highest peak is infrequently climbed compared to other high peaks of the region. Most climbs follow routes along the Southwest or Southeast ridges."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Langtang Ri" ,
+  elevation: 7205,
+  continent: "Asia",
+  country: "China/Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 28.381389,
+  lng: 85.683611,
+  difficulty: "Technical Climb",
+  first_summit: 1981,
+  first_summiter: "",
+  climb_period: "Apr, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "High peak of the Langtang massif, which is clearly visible from Kathmandu. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lantawan Peak" ,
+  elevation: 1049,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.83254,
+  lng: 123.235533,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: " The peak is largely uninhabited, especially its back-country Southern side. It is largely covered by forest."
+  )
+end
+
+
+1.times do
+  Mountain.create!(
+  name: "Leo Pargial" ,
+  elevation: 6816,
+  continent: "Asia",
+  country: "India/China",
+  range: "Punjab Himalaya",
+  lat: 31.901935,
+  lng: 78.74249,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1933,
+  first_summiter: "Marco Pallis",
+  climb_period: "May, Jun, Jul",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Buntur Manali",
+  created_by: "The Summit Call",
+  description: "Also known as Reo Purgyil or Leo Pargil, is the highest mountain peak in the state of Himachal Pradesh."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lhakpa Ri" ,
+  elevation: 7045,
+  continent: "Asia",
+  country: "China/Nepal",
+  range: "",
+  lat: 28.037811,
+  lng: 86.969831,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "The summit view from Lhakpa Ri rivals that from many of the world's greatest mountains. It gives very unusual views of some of the world's best known mountains and excellent views of some very little known mountains. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lhotse" ,
+  elevation: 8516,
+  continent: "Asia",
+  country: "Nepal/China",
+  range: "Central Nepal Himalaya",
+  lat: 27.9667,
+  lng: 86.9333,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1956,
+  first_summiter: "Ernst Reiss, Fritz Luchsinger, (Swiss team)",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Fourth highest mountain in the world. In addition to the main summit, there are two subsidiary peaks, Lhotse Shar, which is immediately east of the main summit, and Nuptse, a high peak on the mountain's west ridge."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lhotse Middle" ,
+  elevation: 8430,
+  continent: "Asia",
+  country: "China/Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 27.9667,
+  lng: 86.95,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "23rd May 2001",
+  first_summiter: "Nickolai Cherny and his 10 member team",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Highest unclimbed subsidary peak in the world. Four members of the Russian Lhotse Middle Expedition successfully climbed the summit from West side."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lhotse Shar" ,
+  elevation: 8400,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 27.9667,
+  lng: 86.95,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1970,
+  first_summiter: "Austrian Expedition",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "The lowest of the three Lhotse summits."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lingtren" ,
+  elevation: 6749,
+  continent: "Asia",
+  country: "Nepal/ Tibet",
+  range: "Central Nepal Himalaya",
+  lat: 28.027554,
+  lng: 86.855249,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1935,
+  first_summiter: "English Expedition led by Eric Shipton ",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "The easiest routes on the mountain are on the Tibetan slopes, pretty much only snow and ice. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Link Sar" ,
+  elevation: 7041,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 35.42207,
+  lng: 	76.302795,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Sakardu Airport",
+  created_by: "The Summit Call",
+  description: "Link Sar is one of the unclimbed peaks in Karakoram. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lobuche East" ,
+  elevation: 6119,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 27.9595,
+  lng: 86.7899,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: 1984,
+  first_summiter: "Laurence Neilson and Ang Gyalzen Sherpa",
+  climb_period: "Apr, May, Sep, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "The hardest of the trekking peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Loengpogang" ,
+  elevation: 7083,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 28.2,
+  lng: 85.8,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1962,
+  first_summiter: "Yasuhisa and Morita, (Japanese expedition)",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: " Its name means Big White Peak, a name which accurately describes this glacier-clad mountain, whose ice-falls."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Lungser Kangri" ,
+  elevation: 6666,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: "",
+  lng: "",
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Leh",
+  created_by: "The Summit Call",
+  description: "Fairly easy peak over 6,500m climable in summer under ideal conditions."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Machapuchare" ,
+  elevation: 7000,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 28.495547,
+  lng: 83.946227,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Pokhara",
+  created_by: "The Summit Call",
+  description: "Machapuchare has never been climbed to its summit. The only attempt was in 1957 by a British team led by Lieutenant Colonel Jimmy Roberts. Climbers Wilfrid Noyce and A. D. M. Cox climbed to within 150 m of the summit via the north ridge, to an approximate altitude of 22,793 ft (6,947 m). They did not complete the ascent, as they had promised not to set foot on the actual summit.[1] Since then, the mountain has been declared sacred, and is now closed to climbers."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Madoriama" ,
+  elevation: 914,
+  continent: "Asia",
+  country: "Japan",
+  range: "",
+  lat: 36.2561,
+  lng: 137.825,
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Jan, Apr, Jun, Oct, Nov, Dec",
+  created_by: "The Summit Call",
+  description: "Beautiful view on the top. Easy to climb."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Madja-as Mountain" ,
+  elevation: 2117,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Visayas",
+  lat: 11.389083,
+  lng: 122.162132,
+  difficulty: "Walk Up",
+  first_summit: 1977,
+  first_summiter: "Team led by John M. Fortes",
+  climb_period: "Jan, Feb, Mar, Apr, May, Oct, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Caticlan (Boracay) Airport, AKLAN",
+  created_by: "The Summit Call",
+  description: " All year round Madja-as keeps its forest and vegetation evergreen with fourteen waterfalls around its base. Trekking to the summit one has to endure a 15-kilometer stony road leading up to a dry river bed"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mahadev" ,
+  elevation: 3966,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 34.152443,
+  lng: 74.987268,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Srinagar, Indian Administered Kashmir",
+  created_by: "The Summit Call",
+  description: "It can be climbed from many routes."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Maiktoli" ,
+  elevation: 6803,
+  continent: "Asia",
+  country: "India",
+  range: "	Garhwal Himalaya",
+  lat: 30.274486,
+  lng: 79.877472,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1977,
+  first_summiter: "On May 29 Nishimura and Yamaguchi got to the top, followed on May 31 by Fukuriki and Nakae and on June 1 by Sasamto and Nomura.",
+  climb_period: "May, Jun, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Pant Nagar",
+  created_by: "The Summit Call",
+  description: "Difficult mountain to climb. Covered with snow and ice."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Makalu" ,
+  elevation: 8462,
+  continent: "Asia",
+  country: "Nepal/China",
+  range: "Central Nepal Himalaya",
+  lat: 27.889915,
+  lng: 87.089396,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1955,
+  first_summiter: "J. Franco's French Expedition",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: " Fifth highest mountain in the world. It is an isolated peak, located just 14 miles east of Mount Everest. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Makawili Peak" ,
+  elevation: 1412,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.672145,
+  lng: 123.160007,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Makawili Peak is very much a forested peak although there are signs of deforestation and human encroachment over its western side."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Malika Parbat" ,
+  elevation: 5334,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "",
+  lat: 34.842049,
+  lng: 	73.734199,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad",
+  created_by: "The Summit Call",
+  description: "Malika Parbat is the highest mountain in the Hazara Division, and it is clearly visible from the popular tourist spot of Lake Saiful Maluk in Kaghan Valley."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Malika Parbat" ,
+  elevation: 5290,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 34.82761,
+  lng: 73.726587,
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May, Jun, Jul",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Malika Parbat means Queen of the Mountain. It has three summits and the view on the top is spectacular."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mt. Malinao" ,
+  elevation: 1548,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 13.4667,
+  lng: 123.6,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Legaspi Airport",
+  created_by: "The Summit Call",
+  description: "The view is limited to only one side because of the dense vegetation. The peak is usually covered with thick fog and visibility could that is why the summer season is the best way climb it."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Malubiting" ,
+  elevation: 7458,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 36.003068,
+  lng: 74.876286,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1971,
+  first_summiter: "K. Pirker, H. Schell, H. Schindlbacher, H. Sturm",
+  climb_period: "Jun, Jul",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad, Pakistan",
+  created_by: "The Summit Call",
+  description: "Malubiting rises steeply over the Phuparash River to the southwest, while on the east the large Chogo Lungma Glacier starts on its slopes."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mamostong Kangri - I" ,
+  elevation: 7516,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 35.14083,
+  lng: 77.5775,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1984,
+  first_summiter: "Col. Balwant Sandhu & Yoshio Ogata (Leader :Indo-Japan Joint Expedition)",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Leh Airport",
+  created_by: "The Summit Call",
+  description: "Highest peak in the remote Rimo Muztagh, a subrange of the Karakoram range in Jammu and Kashmir state of India near its border with China. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Manaphag" ,
+  elevation: 530,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 11.278824,
+  lng: 123.167515,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "	Iloilo International Airport",
+  created_by: "The Summit Call",
+  description: " This mountain is craggy and has steep inclines. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Manaslu" ,
+  elevation: 8156,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 28.549959,
+  lng: 84.559536,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1956,
+  first_summiter: "T. Imanishi, Gyalzen Norbu, (Japanese expedition)",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Manaslu is the high peak of the Gurkha massif, and is the eighth highest mountain in the world. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Manaslu East" ,
+  elevation: 7992,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: "",
+  lng: "",
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "Unclimbed",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Tis is not a main summit, but only an extension of Manaslu. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Manaslu South-East" ,
+  elevation: 8010,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: "",
+  lng: "",
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "Unclimbed",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Also this peak is near the main summit, Manaslu."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Mandalagan" ,
+  elevation: 1884,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.636969,
+  lng: 123.2361,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Mount Mandalagan is largely covered by tropical rain forest, portions of which are second-growth. Logging concessionaires had stripped much of its old hardwood like the red lawa-an"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Marapara Daku Peak" ,
+  elevation: 1873,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.637351,
+  lng: 	123.195799,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Marapara Daku is very much an isolated peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Marapara Peak" ,
+  elevation: 1683,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.6655,
+  lng: 123.17914,
+  difficulty: "Scramble",
+  first_summit: "Unknown",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Gradually climbs and turns almost vertical on the summit-wall in the northern side. Marapara offering wonderful vistas of the surrounding landscape."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Marapara South Peak" ,
+  elevation: 1490,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.660758,
+  lng: 	123.17859,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Despite of visual obstructions provided by the vegetation, the summit affords a vantage position to survey the surrounding landscape in the interior of the mountain."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Marapara West Peak" ,
+  elevation: 1565,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 10.663331,
+  lng: 123.1758,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Marapara West Peak is an obscure peak even for mountaineers who frequent Patag. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Pik Marshal Zhukov" ,
+  elevation: 6842,
+  continent: "Asia",
+  country: "Tajikistan",
+  range: "Pamir",
+  lat: 39.3167,
+  lng: 72.8833,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1950,
+  first_summiter: "Russian/Chinese",
+  climb_period: "	Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Osh ",
+  created_by: "The Summit Call",
+  description: " As the base of the mountain is difficult to reach, it is seldom visited nowadays. Best way to get there is by way of Daraut Kurgan village in Kyzyl Suu valley, south Kyrghyzstan and from here follow the Atyn Darja river up to its origin at the termination of the stupendous Fedchenko glacier, about 40 km on donkey tracks."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Masada" ,
+  elevation: 460,
+  continent: "Asia",
+  country: "Israel",
+  range: "",
+  lat: 	31.31639,
+  lng: 35.35383,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tel Aviv",
+  created_by: "The Summit Call",
+  description: " It is a unique mountain which is almost all below the sea level. It starts at a negative altitude because it raises above the Dead Sea that is the lowest depression on the Earth. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Masala Peak" ,
+  elevation: 5650,
+  continent: "Asia",
+  country: "India",
+  range: "Western Nepal Himalaya",
+  lat: "",
+  lng: "",
+  difficulty: "Technical Climb",
+  first_summit: "24 August 2004",
+  first_summiter: "Michal Apollo, Marek Zoladek",
+  climb_period: "Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi",
+  created_by: "The Summit Call",
+  description: "Very har and difficult peak. Fantastic view on the top."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Masaraga" ,
+  elevation: 1328,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 13.32,
+  lng: 123.6,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Legaspi City",
+  created_by: "The Summit Call",
+  description: "Sharp top and thickly forested peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Masherbrum" ,
+  elevation: 7821,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 35.642301,
+  lng: 76.306658,
+  difficulty: "	Major Mountain Expedition",
+  first_summit: 1960,
+  first_summiter: "George Bell, Willi Unsoeld, (American-Pakistani expedition)",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad, Pakistan",
+  created_by: "The Summit Call",
+  description: "Spectacular rock and ice peak. The summit is a perfect steep pyramid."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mayakovsky" ,
+  elevation: 1280,
+  continent: "Asia",
+  country: "Kazakistan",
+  range: "",
+  lat: "",
+  lng: "",
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Interesting peak with lots of different routes."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mayer Kangri" ,
+  elevation: 6262,
+  continent: "Asia",
+  country: "China",
+  range: "",
+  lat: 33.4667,
+  lng: 86,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Located in the northen of Tibet, is still an unclimbed peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mayon Volcano" ,
+  elevation: 2463,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 13.2552,
+  lng: 123.686,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Mar, Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Legazpi Airport",
+  created_by: "The Summit Call",
+  description: "Active volcato with the title of -the world's most perfect cone-."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Medetsiz" ,
+  elevation: 3524,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Taurus Mountain",
+  lat: 37,
+  lng: 37,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Adana",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Melungste" ,
+  elevation: 7181,
+  continent: "Asia",
+  country: "China/Nepal",
+  range: "",
+  lat: 27.9667,
+  lng: 86.4333,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "Unclimbed",
+  first_summiter: "",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Melungtse's sharp pyramid summit rises just northeast of this spectacular ridge."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mentok 1" ,
+  elevation: 6277,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 32.89555,
+  lng: 	78.2254,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Leh, India, Jammu and Kasjmir",
+  created_by: "The Summit Call",
+  description: "From the summit there is an excellent view"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mera Peak" ,
+  elevation: 6476,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: 27.709167,
+  lng: 86.868333,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: 1953,
+  first_summiter: "J.O.M. Roberts, Sen Tenzing",
+  climb_period: "	Sep, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lukla",
+  created_by: "The Summit Call",
+  description: "This peak is the highest non-expedition in Nepal."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Meron" ,
+  elevation: 1208,
+  continent: "Asia",
+  country: "Israel",
+  range: "",
+  lat: 	32.99945,
+  lng: 35.411682,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tel Aviv",
+  created_by: "The Summit Call",
+  description: "The mountain has a strong undergrowth and it cannot be walked up from every direction. The main path starts at the northwest side of the Meron village. There is also a path on the west side of the mountain."
+  )
+end
+
+
+1.times do
+  Mountain.create!(
+  name: "Minya Konka" ,
+  elevation: 7556,
+  continent: "Asia",
+  country: "China",
+  range: "	West Sichuan Ranges",
+  lat: 29.5667,
+  lng: 101.883,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1932,
+  first_summiter: "	Terris Moore, Richard Burdsall",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Chengdu, China",
+  created_by: "The Summit Call",
+  description: "High snowy peak with narrow ridges."
+  )
+end
+
+
+1.times do
+  Mountain.create!(
+  name: "Misho" ,
+  elevation: 2860,
+  continent: "Asia",
+  country: "Iran",
+  range: "Northwest Iran Ranges",
+  lat: 37,
+  lng: 46,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Good peak with beautiful nature and waterfalls."
+  )
+end
+
+
+1.times do
+  Mountain.create!(
+  name: "Mitre Peak" ,
+  elevation: 6025,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 35.718039,
+  lng: 76.503064,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad",
+  created_by: "The Summit Call",
+  description: "Good peak. Hard to climb. Snow and Ice."
+  )
+end
+
+
+1.times do
+  Mountain.create!(
+  name: "Mizugaki Yama" ,
+  elevation: 2230,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.8936,
+  lng: 138.592,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International, Kansai International",
+  created_by: "The Summit Call",
+  description: "Granite mountain. One of Japan's hundred famous mountains. It doesn't require any special gear to rich the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mokolla" ,
+  elevation: 2591,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "",
+  lat: 	"",
+  lng: "",
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Apr, May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad",
+  created_by: "The Summit Call",
+  description: "Beautiful and isolated mountain. Not easy to find."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Makra 3885-M" ,
+  elevation: 3810,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Himalaya/Northest of Pakistan",
+  lat: 	"",
+  lng: "",
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Muzaffarabad",
+  created_by: "The Summit Call",
+  description: "Scenic and beautiful peak.  "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mramornaja Stena" ,
+  elevation: 6400,
+  continent: "Asia",
+  country: "Asia",
+  range: "Kazakistan/China",
+  lat: 	42.281881,
+  lng: 80.267658,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1953,
+  first_summiter: "V. Shipilov",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Almaty International Airport",
+  created_by: "The Summit Call",
+  description: "Technicaly easy mountain, just in two or three places need of rock climbing. Weather is rapidly changing."
+  )
+end
 
 
 
@@ -8356,6 +9663,730 @@ guide_services = GuideService.all
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
+1.times do
+  Climb.create!(
+  title: "EVEREST SOUTH COL",
+  description: "Mt. Everest, rising 8,850 m (29,035 ft.) above sea level reigns as the highest mountain on Earth.\n
+  Since the first ascent in 1953 by Edmund Hillary and Tenzing Norgay, reaching the summit of Everest has been considered one of the greatest achievements in mountaineering.\n
+  Every spring, Alpine Ascents International embraces this challenge, taking a group of qualified climbers to climb Mt. Everest via the South Col route in Nepal.\n
+  With over 25 years of guiding experience on Everest, Alpine Ascents is recognized as the premier guide service to provide you a truly rewarding experience climbing to the summit of the highest mountain in the world. We are known for the quality of our logistical services and the expertise of our guides, Sherpa team, and Base Camp staff. We have the latest technology in weather forecasting and communication systems both on and off the mountain. Our Base Camp services, which provide private tents and well-prepared meals by western trained chefs allow you to relax and regain strength when returning from your acclimation climbs.\n
+  On the mountain, our guides and Sherpa are focused on your welfare and safety.\n
+  Our philosophy is that by working together as a team we will climb safer and have more climbers reach the summit.\n
+  Through leadership and excellent climber care, this has proven true year after year, giving us the highest success rate on the mountain and an excellent safety record.",
+  gearlist: "CLIMBING EQUIPMENT\n
+  -ICE AXE\n
+  -ACCESSORY CORD OR PRE-CUT PRUSSIKS\n
+  -CRAMPONS\n
+  -CARABINER SYSTEM\n
+  -ALPINE CLIMBING HARNESS\n
+  -BELAY DEVICE\n
+  -TREKKING POLES\n
+  -ASCENDER\n\n
+
+  FOOTWEAR\n
+  -HIGH-ALTITUDE ALL-IN-ONE BOOT\n
+  -CAMP BOOTS\n
+  -INSULATED CAMP BOOTIES\n
+  -LIGHT HIKING BOOTS OR TREKKING SHOES\n
+  -WOOL OR SYNTHETIC SOCKS\n
+  -LINER SOCKS\n\n
+
+  TECHNICAL CLOTHING\n
+  -BASELAYERS - TOP & BOTTOM\n
+  -HEAVY BASELAYER BOTTOMS\n
+  -MIDLAYER TOP\n
+  -TREKKING PANTS\n
+  -SOFTSHELL PANTS\n
+  -SOFTSHELL JACKET\n
+  -INSULATED SYNTHETIC HOODED JACKET\n
+  -INSULATED DOWN PARKA\n
+  -EXPEDITION DOWN PARKA\n
+  -EXPEDITION DOWN PANTS\n
+  -DOWN SUIT\n
+  -INSULATED SYNTHETIC PANTS\n\n
+
+  HANDWEAR\n
+  -LIGHTWEIGHT LINER GLOVES\n
+  -SOFTSHELL GLOVES\n
+  -INSULATED SHELL GLOVES\n
+  -EXPEDITION MITTENS\n\n
+
+  HEADWEAR\n
+  -CLIMBING HELMET\n
+  -BUFF\n
+  -SUN HAT\n
+  -BALACLAVA SYSTEM\n
+  -WOOL/SYNTHETIC SKI HAT\n
+  -FACEMASK\n
+  -GLACIER GLASSES\n
+  -SKI GOGGLES\n
+  -NOSE GUARD\n
+  -HEADLAMP\n\n
+
+  PERSONAL EQUIPMENT\n
+  -55-LITER CLIMBING PACK\n
+  --40 DOWN SLEEPING BAG\n
+  -SMALL PACK\n
+  --20 DOWN SLEEPING BAG\n
+  -INFLATABLE SLEEPING PAD\n
+  -FOAM PAD\n
+  -WATER BOTTLES\n
+  -MUG\n
+  -KNIFE\n
+  -PEE BOTTLE (1-1.5 LITER)\n
+  -SPOON\n
+  -WATER BOTTLES PARKAS\n
+  -PEE FUNNEL (FOR WOMEN)\n
+  -BOWL\n
+  -THERMOS\n
+  -TRASH COMPACTOR BAGS\n
+  -CAMERA\n
+  -LARGE DUFFEL BAG\n
+  -WATER PURIFICATION TOOLS\n
+  -TOILETRY BAG\n
+  -SUNSCREEN\n
+  -LIPSCREEN\n
+  -RUNNING SHOES\n
+  -SMALL PERSONAL FIRST-AID KIT\n
+  -MEDICATIONS & PRESCRIPTIONS\n
+  -HAND AND TOE WARMERS\n
+  -BASE CAMP COMFORTS\n
+  -FOOD\n\n
+
+  TRAVELING\n
+  -TRAVEL CLOTHES",
+  route: "EVEREST + LHOTSE",
+  date: DateTime.new(2018, 3, 27),
+  days: 66,
+  difficulty: "Major Mountain Expedition",
+  price: 65000,
+  payment: "Deposit: $20,000 due upon registration\n
+  Balance: $64,500 due December 1, 2017\n
+  Please note a 2.7% surcharge will be added to all credit card charges over $10,000.00\n
+  Refunds: NO REFUNDS are provided on the deposit or payments for this expedition.\n\n
+
+  Note: Acceptance based on prior experience. Enrollment is confirmed upon receipt of deposit.\n
+  A complete Climber Information Package is forwarded to all members in conjunction with multiple email and phone briefings.\n
+  Detailed gear lists, logistics, and training information are available upon request.\n\n
+
+  PRICE INCLUDES\n\n
+
+  Two nightsí accommodations in Kathmandu ó one night before, and one night after the expedition\n
+  All food and lodging during the trek and climb. No expense is spared in providing high-quality food from the USA and Nepal. If you have particular dietary requirements, please give us specific details and we will accommodate your needs.\n
+  Unlimited access to amedical doctor in Base Camp\n
+  All transportation in Nepal, including round-trip flights from Kathmandu to Lukla/Syangboche\n
+  All group equipment needed to reach Base Camp and climb the mountain: cooking gear, fuel, stoves, ropes, all forms of rock and ice protection, radio communications, oxygen, medical supplies, etc.\n
+  Sherpa, porters, liaison officer, camp staff, and guides\n
+  Wi-Fi available ñ fees to apply\n
+  All administration fees owed to Nepal, including climbing permit.\n\n
+
+
+
+  PRICE DOES NOT INCLUDE\n\n
+
+  $25 wire transfer fee (if applicable)\n
+  International round-trip airfare (USA-Nepal-USA)\n
+  Meals in Kathmandu and hotels after the climb (once the climber has left the mountain)\n
+  Personal gear, clothing and sleeping equipment (see Gear List)\n
+  Insurance. Climbers are required to have a comprehensive medical insurance policy in order to embark on this expedition.\n
+  Trip cancellation insurance. This is highly recommended and can be purchased through Alpine Ascents.\n
+  Comprehensive medical exam. A physician-signed medical release form is required.\n
+  Alcoholic beverages and bottled drinks\n
+  All expenses incurred in the event of early departure (evacuation fees, transport, extra hotel nights, etc.)\n
+  Personal Items\n
+  Charges incurred as a result of delays beyond the control of Alpine Ascents International\n
+  Personal communication (phone, fax, email) between Nepal and home country\n
+  A medical evacuation insurance policy is mandatory. Available through Alpine Ascents (included in our standard Cancellation/Refund Policy.)",
+  notes:
+  "EVEREST CANCELLATION/REFUND POLICY\n\n
+
+  Refund Policy: No refunds are provided on the deposit or any payments for the expedition. The reason for such a strict refund policy is due to the great expense incurred in such an expedition. All gear and food must be purchased several months in advance to ensure that it reaches Nepal and Base Camp before we arrive. Our refund policy also protects other members who have committed their time and money to the expedition.\n
+  Each deposit and remaining balance is nonrefundable.\n
+  All balances are due 120 days prior to departure date unless otherwise specified.\n
+  Emergency: In case of emergency and at any time during the expedition, Alpine Ascents and its staff will use all resources available to rescue and evacuate injured climbers. From Base Camp, helicopter rescue is possible. Above Base Camp, an emergency situation can only be handled with the resources of the expedition and other expeditions in the area.\n
+  Any additional cost involved in an emergency will be the responsibility of the climbing member(s) requiring immediate medical attention and/or evacuation.\n
+
+
+  TRIP CANCELLATION INSURANCE\n\n
+
+  As there are many unforeseen circumstances that may occur during or leading up to the trip, we highly recommend trip cancellation insurance.\n
+  In many situations, this may be the only way to receive a refund for unused services.\n
+  In brief, trip cancellation insurance may allow you to get reimbursement if you need to cancel your expedition when you are not entitled to a refund from Alpine Ascents.\n
+  Alpine Ascents International offers a plan in conjunction with our travel insurance partner.",
+  mountain: Mountain.find_by_id(200),
+  guide_service: GuideService.find_by_id(1)
+  )
+end
+
+1.times do
+  Climb.create!(
+  title: "EVEREST + LHOTSE",
+  description: "Mt. Everest, rising 8,850 m (29,035 ft.) above sea level reigns as the highest mountain on Earth.\n
+Since the first ascent in 1953 by Edmund Hillary and Tenzing Norgay, reaching the summit of Everest has been considered one of the greatest achievements in mountaineering.\n
+Every spring, Alpine Ascents International embraces this challenge, taking a group of qualified climbers to climb Mt. Everest via the South Col route in Nepal.\n
+With over 25 years of guiding experience on Everest, Alpine Ascents is recognized as the premier guide service to provide you a truly rewarding experience climbing to the summit of the highest mountain in the world. We are known for the quality of our logistical services and the expertise of our guides, Sherpa team, and Base Camp staff. We have the latest technology in weather forecasting and communication systems both on and off the mountain. Our Base Camp services, which provide private tents and well-prepared meals by western trained chefs allow you to relax and regain strength when returning from your acclimation climbs.\n
+On the mountain, our guides and Sherpa are focused on your welfare and safety.\n
+Our philosophy is that by working together as a team we will climb safer and have more climbers reach the summit.\n
+Through leadership and excellent climber care, this has proven true year after year, giving us the highest success rate on the mountain and an excellent safety record.",
+  gearlist: "CLIMBING EQUIPMENT\n
+ -ICE AXE\n
+ -ACCESSORY CORD OR PRE-CUT PRUSSIKS\n
+ -CRAMPONS\n
+ -CARABINER SYSTEM\n
+ -ALPINE CLIMBING HARNESS\n
+ -BELAY DEVICE\n
+ -TREKKING POLES\n
+ -ASCENDER\n\n
+
+ FOOTWEAR\n
+ -HIGH-ALTITUDE ALL-IN-ONE BOOT\n
+ -CAMP BOOTS\n
+ -INSULATED CAMP BOOTIES\n
+ -LIGHT HIKING BOOTS OR TREKKING SHOES\n
+ -WOOL OR SYNTHETIC SOCKS\n
+ -LINER SOCKS\n\n
+
+ TECHNICAL CLOTHING\n
+ -BASELAYERS - TOP & BOTTOM\n
+ -HEAVY BASELAYER BOTTOMS\n
+ -MIDLAYER TOP\n
+ -TREKKING PANTS\n
+ -SOFTSHELL PANTS\n
+ -SOFTSHELL JACKET\n
+ -INSULATED SYNTHETIC HOODED JACKET\n
+ -INSULATED DOWN PARKA\n
+ -EXPEDITION DOWN PARKA\n
+ -EXPEDITION DOWN PANTS\n
+ -DOWN SUIT\n
+ -INSULATED SYNTHETIC PANTS\n\n
+
+ HANDWEAR\n
+ -LIGHTWEIGHT LINER GLOVES\n
+ -SOFTSHELL GLOVES\n
+ -INSULATED SHELL GLOVES\n
+ -EXPEDITION MITTENS\n\n
+
+ HEADWEAR\n
+ -CLIMBING HELMET\n
+ -BUFF\n
+ -SUN HAT\n
+ -BALACLAVA SYSTEM\n
+ -WOOL/SYNTHETIC SKI HAT\n
+ -FACEMASK\n
+ -GLACIER GLASSES\n
+ -SKI GOGGLES\n
+ -NOSE GUARD\n
+ -HEADLAMP\n\n
+
+ PERSONAL EQUIPMENT\n
+ -55-LITER CLIMBING PACK\n
+ --40 DOWN SLEEPING BAG\n
+ -SMALL PACK\n
+ --20 DOWN SLEEPING BAG\n
+ -INFLATABLE SLEEPING PAD\n
+ -FOAM PAD\n
+ -WATER BOTTLES\n
+ -MUG\n
+ -KNIFE\n
+ -PEE BOTTLE (1-1.5 LITER)\n
+ -SPOON\n
+ -WATER BOTTLES PARKAS\n
+ -PEE FUNNEL (FOR WOMEN)\n
+ -BOWL\n
+ -THERMOS\n
+ -TRASH COMPACTOR BAGS\n
+ -CAMERA\n
+ -LARGE DUFFEL BAG\n
+ -WATER PURIFICATION TOOLS\n
+ -TOILETRY BAG\n
+ -SUNSCREEN\n
+ -LIPSCREEN\n
+ -RUNNING SHOES\n
+ -SMALL PERSONAL FIRST-AID KIT\n
+ -MEDICATIONS & PRESCRIPTIONS\n
+ -HAND AND TOE WARMERS\n
+ -BASE CAMP COMFORTS\n
+ -FOOD\n\n
+
+ TRAVELING\n
+ -TRAVEL CLOTHES",
+  route: "EVEREST + LHOTSE",
+  date: DateTime.new(2018, 3, 27),
+  days: 66,
+  difficulty: "Major Mountain Expedition",
+  price: 84500,
+  payment: "Deposit: $20,000 due upon registration\n
+Balance: $64,500 due December 1, 2017\n
+Please note a 2.7% surcharge will be added to all credit card charges over $10,000.00\n
+Refunds: NO REFUNDS are provided on the deposit or payments for this expedition.\n\n
+
+Note: Acceptance based on prior experience. Enrollment is confirmed upon receipt of deposit.\n
+A complete Climber Information Package is forwarded to all members in conjunction with multiple email and phone briefings.\n
+Detailed gear lists, logistics, and training information are available upon request.\n\n
+
+PRICE INCLUDES\n\n
+
+Two nightsí accommodations in Kathmandu ó one night before, and one night after the expedition\n
+All food and lodging during the trek and climb. No expense is spared in providing high-quality food from the USA and Nepal. If you have particular dietary requirements, please give us specific details and we will accommodate your needs.\n
+Unlimited access to amedical doctor in Base Camp\n
+All transportation in Nepal, including round-trip flights from Kathmandu to Lukla/Syangboche\n
+All group equipment needed to reach Base Camp and climb the mountain: cooking gear, fuel, stoves, ropes, all forms of rock and ice protection, radio communications, oxygen, medical supplies, etc.\n
+Sherpa, porters, liaison officer, camp staff, and guides\n
+Wi-Fi available ñ fees to apply\n
+All administration fees owed to Nepal, including climbing permit.\n\n
+
+
+
+PRICE DOES NOT INCLUDE\n\n
+
+$25 wire transfer fee (if applicable)\n
+International round-trip airfare (USA-Nepal-USA)\n
+Meals in Kathmandu and hotels after the climb (once the climber has left the mountain)\n
+Personal gear, clothing and sleeping equipment (see Gear List)\n
+Insurance. Climbers are required to have a comprehensive medical insurance policy in order to embark on this expedition.\n
+Trip cancellation insurance. This is highly recommended and can be purchased through Alpine Ascents.\n
+Comprehensive medical exam. A physician-signed medical release form is required.\n
+Alcoholic beverages and bottled drinks\n
+All expenses incurred in the event of early departure (evacuation fees, transport, extra hotel nights, etc.)\n
+Personal Items\n
+Charges incurred as a result of delays beyond the control of Alpine Ascents International\n
+Personal communication (phone, fax, email) between Nepal and home country\n
+A medical evacuation insurance policy is mandatory. Available through Alpine Ascents (included in our standard Cancellation/Refund Policy.)",
+  notes:
+"EVEREST CANCELLATION/REFUND POLICY\n\n
+
+Refund Policy: No refunds are provided on the deposit or any payments for the expedition. The reason for such a strict refund policy is due to the great expense incurred in such an expedition. All gear and food must be purchased several months in advance to ensure that it reaches Nepal and Base Camp before we arrive. Our refund policy also protects other members who have committed their time and money to the expedition.\n
+Each deposit and remaining balance is nonrefundable.\n
+All balances are due 120 days prior to departure date unless otherwise specified.\n
+Emergency: In case of emergency and at any time during the expedition, Alpine Ascents and its staff will use all resources available to rescue and evacuate injured climbers. From Base Camp, helicopter rescue is possible. Above Base Camp, an emergency situation can only be handled with the resources of the expedition and other expeditions in the area.\n
+Any additional cost involved in an emergency will be the responsibility of the climbing member(s) requiring immediate medical attention and/or evacuation.\n
+
+
+TRIP CANCELLATION INSURANCE\n\n
+
+As there are many unforeseen circumstances that may occur during or leading up to the trip, we highly recommend trip cancellation insurance.\n
+In many situations, this may be the only way to receive a refund for unused services.\n
+In brief, trip cancellation insurance may allow you to get reimbursement if you need to cancel your expedition when you are not entitled to a refund from Alpine Ascents.\n
+Alpine Ascents International offers a plan in conjunction with our travel insurance partner.",
+  mountain: Mountain.find_by_id(200),
+  guide_service: GuideService.find_by_id(1)
+  )
+end
+
+1.times do
+  Climb.create!(
+  title: "EVEREST + LHOTSE",
+  description: "Mt. Everest, rising 8,850 m (29,035 ft.) above sea level reigns as the highest mountain on Earth.
+Since the first ascent in 1953 by Edmund Hillary and Tenzing Norgay, reaching the summit of Everest has been considered one of the greatest achievements in mountaineering.
+Every spring, Alpine Ascents International embraces this challenge, taking a group of qualified climbers to climb Mt. Everest via the South Col route in Nepal.
+With over 25 years of guiding experience on Everest, Alpine Ascents is recognized as the premier guide service to provide you a truly rewarding experience climbing to the summit of the highest mountain in the world. We are known for the quality of our logistical services and the expertise of our guides, Sherpa team, and Base Camp staff. We have the latest technology in weather forecasting and communication systems both on and off the mountain. Our Base Camp services, which provide private tents and well-
+prepared meals by western trained chefs allow you to relax and regain strength when returning from your acclimation climbs.
+On the mountain, our guides and Sherpa are focused on your welfare and safety.
+Our philosophy is that by working together as a team we will climb safer and have more climbers reach the summit.
+Through leadership and excellent climber care, this has proven true year after year, giving us the highest success rate on the mountain and an excellent safety record.",
+  gearlist: "CLIMBING EQUIPMENT
+ -ICE AXE
+ -ACCESSORY CORD OR PRE-CUT PRUSSIKS
+ -CRAMPONS
+ -CARABINER SYSTEM
+ -ALPINE CLIMBING HARNESS
+ -BELAY DEVICE
+ -TREKKING POLES
+ -ASCENDER
+
+ FOOTWEAR
+ -HIGH-ALTITUDE ALL-IN-ONE BOOT
+ -CAMP BOOTS
+ -INSULATED CAMP BOOTIES
+ -LIGHT HIKING BOOTS OR TREKKING SHOES
+ -WOOL OR SYNTHETIC SOCKS
+ -LINER SOCKS
+
+ TECHNICAL CLOTHING
+ -BASELAYERS - TOP & BOTTOM
+ -HEAVY BASELAYER BOTTOMS
+ -MIDLAYER TOP
+ -TREKKING PANTS
+ -SOFTSHELL PANTS
+ -SOFTSHELL JACKET
+ -INSULATED SYNTHETIC HOODED JACKET
+ -INSULATED DOWN PARKA
+ -EXPEDITION DOWN PARKA
+ -EXPEDITION DOWN PANTS
+ -DOWN SUIT
+ -INSULATED SYNTHETIC PANTS
+
+ HANDWEAR
+ -LIGHTWEIGHT LINER GLOVES
+ -SOFTSHELL GLOVES
+ -INSULATED SHELL GLOVES
+ -EXPEDITION MITTENS
+
+ HEADWEAR
+ -CLIMBING HELMET
+ -BUFF
+ -SUN HAT
+ -BALACLAVA SYSTEM
+ -WOOL/SYNTHETIC SKI HAT
+ -FACEMASK
+ -GLACIER GLASSES
+ -SKI GOGGLES
+ -NOSE GUARD
+ -HEADLAMP
+
+ PERSONAL EQUIPMENT
+ -55-LITER CLIMBING PACK
+ --40 DOWN SLEEPING BAG
+ -SMALL PACK
+ --20 DOWN SLEEPING BAG
+ -INFLATABLE SLEEPING PAD
+ -FOAM PAD
+ -WATER BOTTLES
+ -MUG
+ -KNIFE
+ -PEE BOTTLE (1-1.5 LITER)
+ -SPOON
+ -WATER BOTTLES PARKAS
+ -PEE FUNNEL (FOR WOMEN)
+ -BOWL
+ -THERMOS
+ -TRASH COMPACTOR BAGS
+ -CAMERA
+ -LARGE DUFFEL BAG
+ -WATER PURIFICATION TOOLS
+ -TOILETRY BAG
+ -SUNSCREEN
+ -LIPSCREEN
+ -RUNNING SHOES
+ -SMALL PERSONAL FIRST-AID KIT
+ -MEDICATIONS & PRESCRIPTIONS
+ -HAND AND TOE WARMERS
+ -BASE CAMP COMFORTS
+ -FOOD
+
+ TRAVELING
+ -TRAVEL CLOTHES",
+  route: "EVEREST + LHOTSE",
+  date: DateTime.new(2018, 3, 27),
+  days: 66,
+  difficulty: "Major Mountain Expedition",
+  price: 84500,
+  payment: "Deposit: $20,000 due upon registration
+Balance: $64,500 due December 1, 2017
+Please note a 2.7% surcharge will be added to all credit card charges over $10,000.00
+Refunds: NO REFUNDS are provided on the deposit or payments for this expedition.
+
+Note: Acceptance based on prior experience. Enrollment is confirmed upon receipt of deposit.
+A complete Climber Information Package is forwarded to all members in conjunction with multiple email and phone briefings.
+Detailed gear lists, logistics, and training information are available upon request.
+
+PRICE INCLUDES
+
+Two nightsí accommodations in Kathmandu ó one night before, and one night after the expedition
+All food and lodging during the trek and climb. No expense is spared in providing high-quality food from the USA and Nepal. If you have particular dietary requirements, please give us specific details and we will accommodate your needs.
+Unlimited access to amedical doctor in Base Camp
+All transportation in Nepal, including round-trip flights from Kathmandu to Lukla/Syangboche
+All group equipment needed to reach Base Camp and climb the mountain: cooking gear, fuel, stoves, ropes, all forms of rock and ice protection, radio communications, oxygen, medical supplies, etc.
+Sherpa, porters, liaison officer, camp staff, and guides
+Wi-Fi available ñ fees to apply
+All administration fees owed to Nepal, including climbing permit.
+
+
+
+PRICE DOES NOT INCLUDE
+
+$25 wire transfer fee (if applicable)
+International round-trip airfare (USA-Nepal-USA)
+Meals in Kathmandu and hotels after the climb (once the climber has left the mountain)
+Personal gear, clothing and sleeping equipment (see Gear List)
+Insurance. Climbers are required to have a comprehensive medical insurance policy in order to embark on this expedition.
+Trip cancellation insurance. This is highly recommended and can be purchased through Alpine Ascents.
+Comprehensive medical exam. A physician-signed medical release form is required.
+Alcoholic beverages and bottled drinks
+All expenses incurred in the event of early departure (evacuation fees, transport, extra hotel nights, etc.)
+Personal Items
+Charges incurred as a result of delays beyond the control of Alpine Ascents International
+Personal communication (phone, fax, email) between Nepal and home country
+A medical evacuation insurance policy is mandatory. Available through Alpine Ascents (included in our standard Cancellation/Refund Policy.)",
+  notes:
+"EVEREST CANCELLATION/REFUND POLICY
+
+Refund Policy: No refunds are provided on the deposit or any payments for the expedition. The reason for such a strict refund policy is due to the great expense incurred in such an expedition. All gear and food must be purchased several months in advance to ensure that it reaches Nepal and Base Camp before we arrive. Our refund policy also protects other members who have committed their time and money to the expedition.
+Each deposit and remaining balance is nonrefundable.
+All balances are due 120 days prior to departure date unless otherwise specified.
+Emergency: In case of emergency and at any time during the expedition, Alpine Ascents and its staff will use all resources available to rescue and evacuate injured climbers. From Base Camp, helicopter rescue is possible. Above Base Camp, an emergency situation can only be handled with the resources of the expedition and other expeditions in the area.
+Any additional cost involved in an emergency will be the responsibility of the climbing member(s) requiring immediate medical attention and/or evacuation.
+
+
+TRIP CANCELLATION INSURANCE
+
+As there are many unforeseen circumstances that may occur during or leading up to the trip, we highly recommend trip cancellation insurance.
+In many situations, this may be the only way to receive a refund for unused services.
+In brief, trip cancellation insurance may allow you to get reimbursement if you need to cancel your expedition when you are not entitled to a refund from Alpine Ascents.
+Alpine Ascents International offers a plan in conjunction with our travel insurance partner.",
+  mountain: Mountain.find_by_id(364),
+  guide_service: GuideService.find_by_id(1)
+  )
+end
+
+1.times do
+  Climb.create!(
+  title: "EVEREST",
+  description: "MMount Everest is still the ultimate mountaineering adventure.  To stand at the pinnacle of the earth is one of life's most rewarding experiences.
+As pioneers of guided ascents on Everest, Adventure Consultants is recognised as the premier guiding service with a superb reputation for enabling members of our expeditions to achieve summit aspirations.
+An attempt on Everest is a committing undertaking which requires a huge amount of dedication and determination.
+If you are serious about achieving the top and feel you have the right ingredients and experience, we invite you to apply for a position on our team in 2018, on what will be our twenty-fifth Everest expedition.
+We recognise that no amount of finely tuned organisation will guarantee anyone the summit of Mount Everest.
+However, we do believe that our experience, combined with your enthusiasm and determination, will provide you with the best possible chance of standing on top of the world.  Our track record on Everest is unmatched with 283 summits to date!",
+  gearlist: "Expedition members will be sent a list detailing all of the necessary clothing and equipment to
+be individually provided, contained within a set of Expedition Reference Notes with all the
+details for the trip. These notes provide extensive information on everything from suggestions
+of what type of camera to bring to training advice for your expedition preparation.
+",
+  route: "EVEREST",
+  date: DateTime.new(2018, 4, 1),
+  days: 63,
+  difficulty: "Major Mountain Expedition",
+  price: 65000,
+  payment: "DEPOSIT
+A non-refundable deposit of US$15,000 is payable to secure a place on the expedition.
+
+
+BALANCE
+The balance of US$50,000 is payable in two instalments of US$25,000;
+The first on 20 October 2017 and the second on 20 January 2018.
+
+
+INCLUSIONS
+
+The cost of the expedition, ex Kathmandu, is inclusive and covers the following:
+
+1:4 Western Guide ratio and 1:1 Sherpa to climber ratio on summit day
+Bottled oxygen
+Personal equipment carried on the mountain
+Nepalese government royalty fees
+All expedition organisational requirements
+All climbing and trekking permits
+Air transport in Nepal
+All team equipment
+All expedition staff including Sherpa support
+All food whilst away from Kathmandu
+All supplies necessary to make a safe and strong bid for the summit
+Medical services from our Expedition Base Camp Doctor
+Base Camp e-mail and satellite phone facilities
+Internet dispatch page that is updated daily by guides and Base Camp staff, and semi-hourly on summit day
+dZi Foundation support for their ìrevitalize a villageî programme ñ likely to include support for a Nepalese childís education for a year
+
+
+EXCLUSIONS
+
+The expedition fee does not include the following:
+
+Air travel to and from Nepal
+The ëMax Oxí option (see Add-Ons)
+Hotel accommodation and meals in Kathmandu
+Nepalese airport entry visas
+Extras on the trek in/out such as bottled drinks, showers and laundry
+Personal clothing and equipment
+Personal Insurance/ Trip Cancellation Insurance/Medical Evacuation Insurance
+Actual satellite phone calls and e-mail costs
+Gratuities for guides and Sherpa staff",
+  notes:
+"MEDICAL EXAMINATION AND INSURANCE
+Expedition members will be provided with a medical questionnaire by the expedition doctor
+and asked to visit their family physician to receive a full medical examination. This information
+will be sighted only by the expedition doctor and Expedition Leader and treated with full
+confidentiality. Advice on immunisations will be provided at this time. We also require
+members to have rescue insurance and we will consult with individual team members as to
+your insurance needs and solutions for coverage.
+
+
+CANCELLATION AND REFUND POLICY
+An expedition member may cancel his/her participation on the following basis:
+a) prior to 20 January 2018, then on the basis of a 50% refund of the 20 October 2017
+balance payment
+b) after 20 January 2018 but before departure to the mountain from Kathmandu then
+on the basis of no refund of any monies paid.
+Team members should take out private insurance if they wish to be covered against
+cancellation due to medical or personal reasons. This is called Trip Cancellation Insurance
+and can be obtained from your normal travel agent.",
+  mountain: Mountain.find_by_id(200),
+  guide_service: GuideService.find_by_id(2)
+  )
+end
+
+  1.times do
+    Climb.create!(
+    title: "EVEREST AND LHOTSE",
+    description: "MMount Everest is still the ultimate mountaineering adventure.  To stand at the pinnacle of the earth is one of life's most rewarding experiences.
+  As pioneers of guided ascents on Everest, Adventure Consultants is recognised as the premier guiding service with a superb reputation for enabling members of our expeditions to achieve summit aspirations.
+  An attempt on Everest is a committing undertaking which requires a huge amount of dedication and determination.
+  If you are serious about achieving the top and feel you have the right ingredients and experience, we invite you to apply for a position on our team in 2018, on what will be our twenty-fifth Everest expedition.
+  We recognise that no amount of finely tuned organisation will guarantee anyone the summit of Mount Everest.
+  However, we do believe that our experience, combined with your enthusiasm and determination, will provide you with the best possible chance of standing on top of the world.  Our track record on Everest is unmatched with 283 summits to date!",
+    gearlist: "Expedition members will be sent a list detailing all of the necessary clothing and equipment to
+  be individually provided, contained within a set of Expedition Reference Notes with all the
+  details for the trip. These notes provide extensive information on everything from suggestions
+  of what type of camera to bring to training advice for your expedition preparation.
+  ",
+    route: "EVEREST AND LHOTSE",
+    date: DateTime.new(2018, 4, 1),
+    days: 63,
+    difficulty: "Major Mountain Expedition",
+    price: 84750,
+    payment: "DEPOSIT
+  A non-refundable deposit of US$15,000 is payable to secure a place on the expedition.
+
+
+  BALANCE
+  The balance of US$50,000 is payable in two instalments of US$25,000;
+  The first on 20 October 2017 and the second on 20 January 2018.
+
+
+  INCLUSIONS
+
+  The cost of the expedition, ex Kathmandu, is inclusive and covers the following:
+
+  1:4 Western Guide ratio and 1:1 Sherpa to climber ratio on summit day
+  Bottled oxygen
+  Personal equipment carried on the mountain
+  Nepalese government royalty fees
+  All expedition organisational requirements
+  All climbing and trekking permits
+  Air transport in Nepal
+  All team equipment
+  All expedition staff including Sherpa support
+  All food whilst away from Kathmandu
+  All supplies necessary to make a safe and strong bid for the summit
+  Medical services from our Expedition Base Camp Doctor
+  Base Camp e-mail and satellite phone facilities
+  Internet dispatch page that is updated daily by guides and Base Camp staff, and semi-hourly on summit day
+  dZi Foundation support for their ìrevitalize a villageî programme ñ likely to include support for a Nepalese childís education for a year
+
+
+  EXCLUSIONS
+
+  The expedition fee does not include the following:
+
+  Air travel to and from Nepal
+  The ëMax Oxí option (see Add-Ons)
+  Hotel accommodation and meals in Kathmandu
+  Nepalese airport entry visas
+  Extras on the trek in/out such as bottled drinks, showers and laundry
+  Personal clothing and equipment
+  Personal Insurance/ Trip Cancellation Insurance/Medical Evacuation Insurance
+  Actual satellite phone calls and e-mail costs
+  Gratuities for guides and Sherpa staff",
+    notes:
+  "MEDICAL EXAMINATION AND INSURANCE
+  Expedition members will be provided with a medical questionnaire by the expedition doctor
+  and asked to visit their family physician to receive a full medical examination. This information
+  will be sighted only by the expedition doctor and Expedition Leader and treated with full
+  confidentiality. Advice on immunisations will be provided at this time. We also require
+  members to have rescue insurance and we will consult with individual team members as to
+  your insurance needs and solutions for coverage.
+
+
+  CANCELLATION AND REFUND POLICY
+  An expedition member may cancel his/her participation on the following basis:
+  a) prior to 20 January 2018, then on the basis of a 50% refund of the 20 October 2017
+  balance payment
+  b) after 20 January 2018 but before departure to the mountain from Kathmandu then
+  on the basis of no refund of any monies paid.
+  Team members should take out private insurance if they wish to be covered against
+  cancellation due to medical or personal reasons. This is called Trip Cancellation Insurance
+  and can be obtained from your normal travel agent.",
+    mountain: Mountain.find_by_id(364),
+    guide_service: GuideService.find_by_id(2)
+    )
+end
+
+1.times do
+  Climb.create!(
+  title: "EVEREST AND LHOTSE",
+  description: "MMount Everest is still the ultimate mountaineering adventure.  To stand at the pinnacle of the earth is one of life's most rewarding experiences.
+As pioneers of guided ascents on Everest, Adventure Consultants is recognised as the premier guiding service with a superb reputation for enabling members of our expeditions to achieve summit aspirations.
+An attempt on Everest is a committing undertaking which requires a huge amount of dedication and determination.
+If you are serious about achieving the top and feel you have the right ingredients and experience, we invite you to apply for a position on our team in 2018, on what will be our twenty-fifth Everest expedition.
+We recognise that no amount of finely tuned organisation will guarantee anyone the summit of Mount Everest.
+However, we do believe that our experience, combined with your enthusiasm and determination, will provide you with the best possible chance of standing on top of the world.  Our track record on Everest is unmatched with 283 summits to date!",
+  gearlist: "Expedition members will be sent a list detailing all of the necessary clothing and equipment to
+be individually provided, contained within a set of Expedition Reference Notes with all the
+details for the trip. These notes provide extensive information on everything from suggestions
+of what type of camera to bring to training advice for your expedition preparation.
+",
+  route: "EVEREST AND LHOTSE",
+  date: DateTime.new(2018, 4, 1),
+  days: 63,
+  difficulty: "Major Mountain Expedition",
+  price: 84750,
+  payment: "DEPOSIT
+A non-refundable deposit of US$15,000 is payable to secure a place on the expedition.
+
+
+BALANCE
+The balance of US$50,000 is payable in two instalments of US$25,000;
+The first on 20 October 2017 and the second on 20 January 2018.
+
+
+INCLUSIONS
+
+The cost of the expedition, ex Kathmandu, is inclusive and covers the following:
+
+1:4 Western Guide ratio and 1:1 Sherpa to climber ratio on summit day
+Bottled oxygen
+Personal equipment carried on the mountain
+Nepalese government royalty fees
+All expedition organisational requirements
+All climbing and trekking permits
+Air transport in Nepal
+All team equipment
+All expedition staff including Sherpa support
+All food whilst away from Kathmandu
+All supplies necessary to make a safe and strong bid for the summit
+Medical services from our Expedition Base Camp Doctor
+Base Camp e-mail and satellite phone facilities
+Internet dispatch page that is updated daily by guides and Base Camp staff, and semi-hourly on summit day
+dZi Foundation support for their ìrevitalize a villageî programme ñ likely to include support for a Nepalese childís education for a year
+
+
+EXCLUSIONS
+
+The expedition fee does not include the following:
+
+Air travel to and from Nepal
+The ëMax Oxí option (see Add-Ons)
+Hotel accommodation and meals in Kathmandu
+Nepalese airport entry visas
+Extras on the trek in/out such as bottled drinks, showers and laundry
+Personal clothing and equipment
+Personal Insurance/ Trip Cancellation Insurance/Medical Evacuation Insurance
+Actual satellite phone calls and e-mail costs
+Gratuities for guides and Sherpa staff",
+  notes:
+"MEDICAL EXAMINATION AND INSURANCE
+Expedition members will be provided with a medical questionnaire by the expedition doctor
+and asked to visit their family physician to receive a full medical examination. This information
+will be sighted only by the expedition doctor and Expedition Leader and treated with full
+confidentiality. Advice on immunisations will be provided at this time. We also require
+members to have rescue insurance and we will consult with individual team members as to
+your insurance needs and solutions for coverage.
+
+
+CANCELLATION AND REFUND POLICY
+An expedition member may cancel his/her participation on the following basis:
+a) prior to 20 January 2018, then on the basis of a 50% refund of the 20 October 2017
+balance payment
+b) after 20 January 2018 but before departure to the mountain from Kathmandu then
+on the basis of no refund of any monies paid.
+Team members should take out private insurance if they wish to be covered against
+cancellation due to medical or personal reasons. This is called Trip Cancellation Insurance
+and can be obtained from your normal travel agent.",
+  mountain: Mountain.find_by_id(200),
+  guide_service: GuideService.find_by_id(2)
+  )
+end
+
 # Create Climbs
 500.times do
   Climb.create!(
@@ -8367,11 +10398,16 @@ guide_services = GuideService.all
   days: Faker::Number.number(2),
   difficulty: Faker::Number.number(1),
   price: Faker::Number.decimal(4,2),
+  payment: Faker::Food.ingredient,
+  notes: Faker::Color.color_name,
   mountain: mountains.sample,
   guide_service: guide_services.sample
   )
 end
 climbs = Climb.all
+
+#----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #Create Lodges
 10.times do

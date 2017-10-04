@@ -1,22 +1,34 @@
+<!-- Header -->
 <div id="top_bar" class="pull-right">
-<%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
-<h5 class="font_meie_script"> - When the summit calls, we answer - </h5>
-
-
-<h2 class="font_meie_script">Climbs</h2>
-<!--Search Form Starts-->
+  <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+  <h5 class="quote"> - When the summit calls, we answer - </h5>
+  <div class="pull-right user-info">
+    <% if user_signed_in? %>
+    <strong><big> <%= current_user.first_name%> </big></strong> |
+    <%= link_to 'Profile', current_user, :class => 'navbar-link' %> |
+    <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+    <% else %>
+    <%= link_to "Sign Up", new_user_registration_path, :class => 'navbar-link' %> -
+    <%= link_to "Sign In", new_user_session_path, :class => 'navbar-link' %>
+    <% end %>
+  </div>
 </div>
+<!-- Header -->
+
+<!--Search Form Starts-->
+
+<h3 class="quote">Search all climbs for this mountain:</h3>
 <div class="form-group" >
   <div class="input-group">
-    <%= form_tag(mountains_path, :method => "get", id: "search-form") do %>
+    <%= form_tag(climbs_path, :method => "get", id: "search-form") do %>
     <%= text_field_tag :search, params[:search], placeholder: "Search Climbs by Mountain", class: 'form-control' %>
     <%= submit_tag "Search", class: 'btn btn-sm btn-info' %>
-  <% end %>
-</div>
+    <% end %>
+  </div>
 </div >
 
 <!--Search Form Finishes-->
 
 <div class="divider"></div>
 
-  <%= render partial: 'climbs/climbs' %>
+<%= render partial: 'climbs/climbs' %>
