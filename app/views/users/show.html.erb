@@ -5,7 +5,7 @@
 <body>
   <!-- Header -->
   <div id="top_bar" class="pull-right">
-    <%= link_to image_tag("logo.png", size: "120x40"), home_index_path %>
+    <%= link_to image_tag("Summit Call Logo 4.png", size: "120x40"), home_index_path %>
     <h5 class="quote"> - When the summit calls, we answer - </h5>
     <div class="pull-right user-info">
       <% if user_signed_in? %>
@@ -26,7 +26,7 @@
 
   <h3 class="quote"><%= current_user.city %>, <%= current_user.country %></h3>
 
-  <h2 class="quote"><%= current_user.description %></h2>
+  <h2><%= current_user.description %></h2>
 
 </body>
 </html>
