@@ -15,15 +15,34 @@
       <%= image_tag("Summit Call Logo 4.png", style: 'width: auto; height: 105%') %>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
+      <!-- Language Picker -->
+
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle btn-xs pull-right glyphicon glyphicon-globe" type="button" data-toggle="dropdown">
+            <span class="caret"></span></button>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <%= link_to t('home.languages.en'), change_locale_path(:en) %>
+            </li>
+            <li>
+              <%= link_to t('home.languages.it'), change_locale_path(:it) %>
+            </li>
+          </ul>
+        </ul>
+      </div>
+
+
+      <!-- Language Picker Ends -->
       <div class="pull-right user-info">
-        <h3 class="quote-big">When the summit calls, we answer</h3>
+        <h3 class="quote-big"><%=t('home.quote')%></h3>
         <% if user_signed_in? %>
         <strong><big> <%= current_user.first_name%> </big></strong> |
-        <%= link_to 'Profile', current_user, :class => 'navbar-link' %> |
-        <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+        <%= link_to t('home.profile'), current_user, :class => 'navbar-link' %> |
+        <%= link_to t('home.logout'), destroy_user_session_path, method: :delete %>
         <% else %>
-        <%= link_to "Sign Up", new_user_registration_path, :class => 'navbar-link' %> -
-        <%= link_to "Sign In", new_user_session_path, :class => 'navbar-link' %>
+        <%= link_to t('home.signup'), new_user_registration_path, :class => 'navbar-link' %> |
+        <%= link_to t('home.signin'), new_user_session_path, :class => 'navbar-link' %>
         <% end %>
       </div>
     </div>
@@ -31,10 +50,10 @@
   <!-- Header -->
   <div class="container">
     <ul class="nav nav-tabs">
-      <li><%= link_to "Mountains", mountains_path %></li>
-      <li><%= link_to "Search Climbs", climbs_path  %></li>
-      <li><%= link_to "Guiding Services", guide_services_path  %></li>
-      <li><%= link_to "Lodges", lodges_path  %></li>
+      <li><%= link_to t('home.mountains'), mountains_path %></li>
+      <li><%= link_to t('home.climbs'), climbs_path  %></li>
+      <li><%= link_to t('home.guides'), guide_services_path  %></li>
+      <li><%= link_to t('home.lodges'), lodges_path  %></li>
     </ul>
   </div>
   <%= yield %>
@@ -46,12 +65,12 @@
       <%= form_tag(climbs_path, :method => "get", id: "search-form") do %>
       <%= hidden_field_tag :direction, params[:direction] %>
       <%= hidden_field_tag :sort, params[:sort] %>
-      <label for="name" class="quote"><strong>Where to:</strong></label>
-      <%= text_field_tag :search, params[:search], placeholder: "Any Mountain", class: 'form-control'%>
+      <label for="name" class="quote"><strong><%=t('home.where')%></strong></label>
+      <%= text_field_tag :search, params[:search], placeholder: t('home.any-mountain'), class: 'form-control'%>
       <%= text_field_tag :date, params[:date], placeholder: "Any Date", class: 'form-control', "data-provide" => 'datepicker', :value => Time.now.strftime('%m/%d/%Y')%>
 
       <span class="input-group-btn">
-        <%= submit_tag "Search", class: 'btn btn-success' %>
+        <%= submit_tag t('home.search'), class: 'btn btn-success' %>
       </span>
 
       <% end %>
@@ -61,7 +80,7 @@
   <!--Map - Tips - Advertise-->
   <div class="container">
     <div>
-      <label class="quote"><strong><big>Still undecided? Explore the map!</big></strong></label>
+      <label class="quote"><strong><big><%=t('home.map')%></big></strong></label>
     </div>
     <div class="col-lg-6 col-md-8 col-sm-8">
 
@@ -70,10 +89,10 @@
 
     <div class="col-lg-3 col-md-2 col-sm-2">
       <div id="offers" style='width: 100%; height: 200px;  border: 1px solid white;'>
-        <h5><span class="glyphicon glyphicon-hand-right"> Offers</span></h5>
+        <h5><span class="glyphicon glyphicon-hand-right"><%= t('home.offers')%></span></h5>
       </div>
       <div id="tips" style='width: 100%; height: 200px;  border: 1px solid white;'>
-        <h5><span class="glyphicon glyphicon-hand-right"> Tips</span></h5>
+        <h5><span class="glyphicon glyphicon-hand-right"><%= t('home.tips')%></span></h5>
       </div>
     </div>
     <div class="col-lg-3 col-md-2 col-sm-2">

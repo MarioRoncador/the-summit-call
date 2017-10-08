@@ -55,5 +55,11 @@ gem 'mini_magick'
 # Sortable table and pagination
 gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap'
+#Internationalization
+gem 'rails-i18n', '~> 4.0', '>= 4.0.8'
+#Geolocation according to IP Address
+gem 'geocoder'
+#Translations of text
+gem 'globalize'
 
 require 'digest/md5'

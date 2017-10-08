@@ -1,0 +1,20 @@
+it:
+    home:
+      search: "Cerca"
+      where: "Dove:"
+      mountains: "Montagne"
+      climbs: "Spedizioni"
+      guides: "Guide"
+      lodges: "Rifugi"
+      signin: "Accedi"
+      signup: "Registrati"
+      logout: "Esci"
+      map: "Ancora indeciso? Esplora la mappa!"
+      offers: "Offete"
+      tips: "Consigli"
+      any-mountain: "Tutte le montagne"
+      quote: "Quando la montagna chiama, noi rispondiamo"
+      profile: "Profilo"
+      languages:
+        en: "English"
+        it: "Italiano"
