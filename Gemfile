@@ -61,5 +61,7 @@ gem 'rails-i18n', '~> 4.0', '>= 4.0.8'
 gem 'geocoder'
 #Translations of text
 gem 'globalize'
+#New Relic Analytics
+gem 'newrelic_rpm'
 
 require 'digest/md5'
