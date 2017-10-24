@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Summit Call</title>
+  <title><%=t('company-name')%></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   <%= csrf_meta_tags %>
@@ -19,8 +19,8 @@
 </body>
 <footer id="footer" class="panel-footer">
   <div class="row">
-    <%= link_to "About", home_about_path %> <a href="mailto:mario.roncador@icloud.com">Email    </a>    <a href="tel:+19073467010">Call us</a>      <a href="https://www.linkedin.com/in/marioroncador/">LinkedIn   </a><a href="https://github.com/MarioRoncador">GitHub</a>
-    <p><small>Copyright © 2017 <strong>The Summit Call ®</strong>. All rights reserved </small></p>
+    <%= link_to t('about'), home_about_path %> <a href="mailto:mario.roncador@icloud.com"><%=t('email')%>    </a>    <a href="tel:+19073467010"><%=t('call-us')%> </a>      <a href="https://www.linkedin.com/in/marioroncador/">LinkedIn   </a><a href="https://github.com/MarioRoncador">GitHub</a>
+    <p><small>Copyright © 2018 <strong><%=t('company-name')%> ®</strong>. All rights reserved </small></p>
   </div>
 </footer>
 </html>

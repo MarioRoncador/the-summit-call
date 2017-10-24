@@ -9665,7 +9665,7 @@ guide_services = GuideService.all
 
 1.times do
   Climb.create!(
-  title: "EVEREST SOUTH COL",
+  title: "Everest South Col - Test Exum Guides",
   description: "Mt. Everest, rising 8,850 m (29,035 ft.) above sea level reigns as the highest mountain on Earth.\n
   Since the first ascent in 1953 by Edmund Hillary and Tenzing Norgay, reaching the summit of Everest has been considered one of the greatest achievements in mountaineering.\n
   Every spring, Alpine Ascents International embraces this challenge, taking a group of qualified climbers to climb Mt. Everest via the South Col route in Nepal.\n
@@ -10384,6 +10384,487 @@ cancellation due to medical or personal reasons. This is called Trip Cancellatio
 and can be obtained from your normal travel agent.",
   mountain: Mountain.find_by_id(200),
   guide_service: GuideService.find_by_id(2)
+  )
+end
+
+1.times do
+  Climb.create!(
+  title: "EVEREST SOUTH SIDE 8,848m",
+  description: "Himalayan Experience has traditionally been working on the Tibet (North) side of Everest. However, due to the unreliability of access, we have decided to operate from the Nepal (South) side.
+  Russell Brice, the founder of Himalayan Experience, first climbed on the West Ridge from the Western Cwm in 1981. Although this expedition is relatively new to our clients, Himalayan Experience is very familiar with this route. All of our Sherpa Staff come from the Khumbu region, just a few days walk from Base Camp.",
+  gearlist: "PRIMARY ESSENTIALS
+Passport
+Money, Travellers Cheques, Credit Cards	(Checked)
+Personal Travel Insurance	(Checked)
+CLOTHING
+Casual clothing for travel and Kathmandu	(Checked)
+Swimming gear	(Checked)
+Polypropylene Shirt	(2)
+Lightweight Shirt	(2)
+Heavyweight Shirt	(1)
+Fleece Jacket	(1)
+Wind Jacket	(1)
+Down Suit	(1)
+Down Jacket (lightweight)	(1)
+Down Pants (lightweight)	(1)
+Lightweight Trousers	(1)
+Heavyweight Trousers	(1)
+Fleece Trousers or Salopettes	(1)
+Wind Pants	(1)
+Polypropylene Long Johns	(1)
+Underwear	(6)
+Shorts	(1)
+Lightweight Gloves	(1)
+Heavy Mitts	(1)
+Down Mitts	(1)
+Ski Gloves	(1)
+Sun Hat	(1)
+Warm Hat	(1)
+Headband / Buff	(1)
+Lightweight Walking Socks	(4)
+Climbing Socks   (6)
+
+FOOTWEAR
+Climbing Boots (Millet / Sportiva)	(1)
+Plastic / Leather Climbing Boots	(1)
+Trekking Boots	(1)
+Gaiters	(1)
+
+PERSONAL
+Sun & Lip Creams	(2)
+Personal First Aid Kit	(1)
+Repair Kit	(1)
+Reading Material	(Checked)
+Diary & Writing Material	(Checked)
+Camera/Video	(Checked)
+Personal Toilet Equipment	(Checked)
+
+EQUIPMENT
+Harness	(1)
+Plain Karabiner(s)	(2)
+Screw Lock Karabiners	(2)
+Descender	(1)
+Ascender	(1)
+Tape Slings	(2)
+Set Prussic Loops	(1)
+Ice Axe	(1)
+Retractable Poles	(2)
+Crampons	(1)
+Helmet	(1)
+Head Lamp, Spare Bulbs, Batteries	(1)
+Pocket Knife	(1)
+Sunglasses	(1)
+Goggles	(1)
+Water Bottle	(2)
+Pee Bottle	(1)
+Large Pack  50-60 lt	(1)
+Day Pack  30-35 lt	(1)
+AA Batteries	(6)
+Avalanche Transceiver	(1)
+Kit Bag	(1)
+
+SLEEPING
+Sleeping Bag (minus 20° C)	(1)
+Thermarest	(1)",
+  route: "Everest South Side",
+  date: DateTime.new(2018, 4, 1), #Not Declated
+  days: 40,
+  difficulty: "Majour Mountain Expedition",
+  price: 70000,
+payment:"Deposit $2,000 Payable within 30 days of Booking Confirmation
+Second
+payment $34,000 Due by 29 November 2015
+Final payment $34,000 Due by 29 January 2016
+
+COST INCLUDE
+Airport transfers.
+Hotel accommodation on a single room and breakfast basis whilst in Kathmandu, preferably at the Hyatt Hotel.
+Helicopter transport to and from Lukla and Samagon.
+Lodge accommodation on a shared room basis en route to the Base Camp and on the return
+Equipment transport from Kathmandu to Base Camp and return up to 40kg.
+All peak fees and administration fees
+All oxygen.
+All Western Guide fees
+All Sherpa Base Camp Staff fees
+All high altitude Sherpa Staff fees (less bonuses) and their equipment. All meals en route to and from Base Camp, at Base Camp and on the mountain. All group equipment such as tents, stoves, ropes, climbing equipment, group first aid, hyperbaric chambers, radio communications, oxygen above 7,500m, and all sleeping bags and mats in all high camps will be supplied.
+
+COST DO NOT INCLUDE
+Air travel to and from Kathmandu.
+Drinks, laundry, postage, telephone calls, emails and all other items of a personal nature.
+Lunches and dinners in Kathmandu.
+Extra nights spent in Kathmandu Hotel which might be due to delayed departures due to weather or political factors, or early arrival, or a later departure date. (We provide 2 nights at start of trip and 2 nights at end of trip)
+Original entry visa into Nepal can be obtained at the airport upon arrival.
+Personal medical and travel insurance/cancellation insurance.
+Transport of baggage to and from Base Camp over 40kg. Extra baggage can be transported at $6 per kg.
+Personal spending money and tips.
+Sleeping bags at Base Camp.
+Western guide bonuses.
+Sherpa and base camp staff bonuses.
+Guaranteed summit, although we will try our best to get you to the summit, sometimes factors are out of our control, or maybe you are not capable of reaching the summit.
+
+PAYMENT
+The expedition price set by Himalayan Experience is the actual cost for the expedition. There are no discounts.
+We can only accept bank transfers, cheques or cash, not credit cards.
+Our costs are based on a minimum of 6 expedition members - if this minimum is not reached Himalayan Experience reserves the right to cancel the trip and to refund all monies or to request those already booked to pay a surcharge to cover the increased costs.
+Occasionally the authorities change certain mountaineering rules which in turn can affect expedition costs. Upon notification to the client of such changes, Himalayan Experience reserves the right to charge additional fees to cover such increases.
+Himalayan Experience reserves the right to adjust the price of an expedition should Climbing Permit (or other) fees be changed without prior notice.
+Prices are set in US Dollars. Payment from a different currency will be calculated at the exchange rate of the day that the payment reaches the Himalayan Experience bank account.
+Members are responsible for all bank charges. Any such charges incurred by Himalayan Experience will be charged to Members.
+Extra expenses should be paid directly by cash at Base Camp or Kathmandu prior to the departure at the end of the expedition.",
+mountain: Mountain.find_by_id(200),
+guide_service: GuideService.find_by_id(3)
+  )
+end
+
+1.times do
+  Climb.create!(
+  title: "Everest South Side Climb Nepal  •  29,035'  •  8850m",
+  description: "We’ve been organizing Everest expeditions for over 35 years, and each
+year do our best to put together a strong team with compatible climbers
+and top notch western and sherpa guides and leaders. Since 2009 Eric
+has been ably assisted by IMG’s Greg Vernovage. We fill our trips, and
+thus can be picky; we’ve turned away many climbers whom we feel will
+not be a good fit with our program.
+IMG has long been a leader in innovative climbing programs to the
+Himalayas. We were one of the very first companies to offer guided
+programs to Everest (1991), the first company to offer a stand-alone
+climb to the North Col (1994) and to 8000m (2001). We were one of
+the first companies to guide Shishapangma (1990) and Cho Oyu
+(1995), first to guide Khumbu Icefall as a stand-alone program (2000),
+first to offer the option of personal sherpa guides to climbers (2002),
+first successfully guided climb of Lhotse (2009), first with the Hybrid
+concept (2010), first to offer an Everest “Express” itinerary (2010), and
+the first to rappel an alternate route around the Hillary Step (2013).
+With over 600 summits of 8000 meter peaks to our IMG credit, and 482
+of them on Mount Everest, we are still never satisfied and continue to
+look for ways to improve our IMG Everest program. For 2018 we
+continue our tradition of innovation and attention to the details. We put
+in place first class logistics and staffing. We don’t cut corners. Our
+goal is to conduct the very best program that we can, at a fair price.
+We don’t think you will be disappointed.",
+  gearlist: "Travel Items
+- Duffel Bags: One duffle will accompany you on the trek to BC. Climbers will need a second duffel,
+which will be packed with the mountain equipment and which will go direct to BC. Duffels are carried
+by porters and yaks and should be sturdy and waterproof with name written on bag (in case tag is
+lost). Bags with wheels are nice for the airport, but the porters and yaks don’t like to carry them, so
+don’t bring wheeled bags. You will also store some travel clothes at the hotel in Kathmandu while
+trekking, so a smaller additional bag with a lock might be handy. Tip: Bring 5 large plastic garbage
+bags to pack gear inside duffels to protect gear from rain.
+- Daypack: Large daypack or bag with a shoulder strap, so you don’t have to set it down while doing
+the duffle shuffle or handling travel documents while going through passport control and customs at
+the airport. It needs to be big enough to hold everything you’ll need for an overnight stop.
+- Locks: You’ll want padlocks in Nepal and Tibet, but for flying out of the USA, it might be better to use
+plastic zip ties which can be cut by TSA staff if necessary (bring extra zip ties).
+- Travel Wallet: Important for carrying your important documents including passport, extra photos,
+duffel inventory list, and money. We suggest that you use a travel wallet that you can hang around
+your neck and place inside your shirt, or around your waist tucked under your shirt or trousers.
+- Passport (valid for at least 6 months after the trip ends with sufficient extra pages for visa stamps and
+in same name as airline ticket (or with endorsement-for women who changed name w/ marriage).
+Get your Nepal visa on arrival in Kathmandu at the airport ($40 for trekkers, $100 for climbers).
+- Additional passport photos: one for Nepal visa (needed on arrival at KTM airport). If you plan on
+buying a local sim card for your unlocked cell phone you will need one (also a copy of your passport).
+- Photocopy of passport and photocopy of flight itinerary
+- Bathing Suit: Some of the hotels have pools (eg, in Bangkok).
+
+Trekking Gear
+- Trekking Poles: Get collapsible poles that can attach to your backpack.
+- Backpacks: The “day pack” is great for a travel carry-on and may be big enough for the trek (need
+room for your clothes, water, camera, food, etc during the day while hiking). Climbers will need a
+larger pack (60 liter size is popular) and this will also be fine for the trek. For the international flights
+put your backpack into the duffle bags, but carry it on the plane for the Lukla flight.
+- Pack Cover: Waterproof rain cover for your pack.
+- Sleeping Bag: Rated to at least 0 degrees Fahrenheit. Synthetic or Down. Base Camp can get down
+to around 0-10 degrees F at night…so quite chilly. Everest and Lhotse climbers will want to bring a
+second sleeping bag (available for rent if you do not have a suitable one).
+- Trekkers do not need a pad (foam mattress provided for trek and Base Camp). Climbers should have
+a Thermarest, NeoAir, or similar lightweight pad to augment the closed cell pads in higher camps.
+
+Footwear
+- Lightweight Shoes: Running/tennis shoes and sandals for camp, around town, etc.
+- Hiking Boots: Medium-weight hiking boots, waterproofed and broken-in
+- Gaiters: To keep snow, mud, and scree out of your hiking boots while trekking to Base Camp.
+- Socks: at least 5 complete changes of socks, in a combination that you have used and know works
+for you. Make sure your boots are roomy enough for the sock combination you intend to use. Tight
+boots will make your feet cold. It is no problem to wash underwear, socks, etc at Base Camp!
+- For trekkers on the Gokyo departure option (crossing high passes) we suggest bringing Kahtoola
+Microspikes or similar traction devices in case of slippery trail conditions.
+
+  Clothing
+- Base Layer: 2 pair synthetic long johns: one midweight set and one expedition weight set.
+- Mid Layers: One additional warm layer (wool sweater, fleece jacket, shelled vest, light puffy, etc).
+- Shell Jacket: Waterproof/breathable jacket with hood.
+- Shell Pants: Waterproof/breathable pants (full side zips are best).
+- Climbing/Trekking Pants: Look for construction that provides freedom of movement and/or stretch
+materials. Fabric should be a breathable synthetic that preferably holds up to abrasion and dries
+quickly. You can wear them over longjohns if it is cold.
+- Warm Parka: Down or synthetic. This should be big enough to go over other garments. Many
+climbers and trekkers also like insulated pants for cold mornings and evenings.
+- Trekking Clothes: Light hiking pants and / or hiking shorts for warm weather down low- NOT cotton.
+Shirts for hiking on nice days (t-shirts OK, quick-drying synthetic fabric far better.)
+- Casual Clothes: For travel/meals in hotels. You’ll want a shirt or two with a collar to wear on flights
+and for restaurants. A sweatshirt or light jacket might be nice in the evening.
+- Gloves: Light gloves for hiking and warm ski gloves. Bring mittens too if your hands tend to get cold.
+- Hats: Warm wool or heavy fleece hat, sun hat and bandana.
+- A “Buff” or light balaclava to breathe through in the cold dry air. Good for preventing “Khumbu cough”
+
+Personal Accessories
+- Water Bottles: 2 water bottles with foam insulation shells. Bring a Pee bottle too.
+- Water Treatment: Iodine tablets (Potable Aqua or similar) or iodine crystals (Polar Pure) are easy and
+inexpensive. Many people also like to use the “Steri Pen” or similar devices. Filters can freeze.
+- Hand sanitizer (Purell), ear plugs, and several rolls of toilet paper (we will have a supply at Base
+Camp), small towel, soap/shampoo, a few disposable dust masks, hand cream (for chapped hands).
+- Headlamp. Climbers should bring a second “back up” headlamp. For high altitude we recommend use
+of lithium AA batteries (beware of headlamps which do not accept lithium batteries).
+- Camera: With spare batteries and memory cards (also for swapping photos).
+- Pocket Knife (climbers need a small sharp knife that is accessible if you really need it).
+- Wrist Watch: With alarm and light for reading in the dark. We like the Suunto altimeter ones.
+- Eyewear: Bring good sunglasses. For contact lens wearers, ski goggles with light color lenses (for
+use at night) might be useful in windy conditions that cause blowing dust.
+- Vision correction: Bring extra prescription eyeglasses or contact lenses if you wear them. Lens
+solutions are not widely available in Nepal, bring enough.
+- Skin Care: Maximum SPF sunscreen and lip balm.
+- Basic First Aid: you’ll want moleskin, tape, ibuprofen, acetaminophen, aspirin (many climbers take
+81mg every day to prevent stroke), Imodium and Pepto Bismol for diarrhea, Band-Aids, antacid.
+- Prescription Medications: 1) Antibiotic for upper respiratory problems (azithromycin) 2) Antibiotic for
+GI problems (Cipro or azithromycin); 3) Diamox (acetazolamide) for acclimatization (125 mg tabs
+recommended, enough for a week); 4) Sleeping pills for jet lag; 5) Tylenol 3 or similar for coughing; 6)
+Malaria Chemoprophylaxis, if needed based on travel plans; 7) Asthma medication, if any history
+(many climbers use Advair inhalers at high altitude to prevent Khumbu cough); 8) nifedipine (for
+pulmonary edema); and 9) dexamethasome (for cerebral edema).
+- Cold medicine (Sudafed, etc), Chloroseptic or Tessalon Perles throat lozenges.
+- Personal Snack Food: Approximately 10 pounds of personal snacks (for Everest climbers) or 5
+pounds (for EBC Trekkers and Lobuche climbers). Also, some drink mixes if you like these (add drink
+mix to your water bottle after giving iodine tablets 30 minutes of contact time). Everest climbers
+should really focus on bringing snacks you know you will be able to tolerate up high!
+- Books/ Ipods/ Kindle. Plan on sharing among your team members. You can also borrow from and add
+to the Base Camp Library we establish every year.",
+  route: "Everest South Side Climb",
+  date: DateTime.new(2018, 4, 5),
+  days: 73,
+  difficulty: "Major Mountain Expedition",
+  price: 44000,
+  payment: "Fee Payment Schedule for 2018 Everest programs:
+  Application Fee $10,000
+Oct. 13, 2017 $10,000
+Dec. 15, 2017  Balance",
+  notes: "Costs included in trip fee:
+  Transfers between hotel and airport in Kathmandu, hotels with breakfast in
+Kathmandu for stated itinerary at beginning of expedition, welcome dinner in Kathmandu for members
+traveling on published itinerary, round-trip fixed wing flight to Lukla, all group equipment, all meals once
+trip starts (since appetites are sensitive at high altitude, we suggest climbers bring some favorite high
+altitude snacks which they like to eat), Park fees and climbing permit fees, liaison officers, Sherpas, camp
+staff, radio communications, 110v power supply at Base Camp for charging electronics (solar and
+generator backup), yaks and porters, hyperbaric bag, pulse oximeter, emergency medical oxygen,
+unlimited medical consultation at the HRA EBC Medical clinic. High speed internet is available at Base
+Camp (price TBD). All trekkers and climbers are provided with a foam trekking mattress for BC. Everest,
+Lhotse, C2, C3, climbers will be provided a single tent at Base Camp, high-altitude camp equipment,
+Sherpa support, and unlimited consultation with the IMG leaders. Climbing Sherpas will establish the
+route and camps, carry both team gear and a reasonable amount of your personal member gear (for
+example your sleeping bag, down suit, high altitude gear can be sent up to C2 with sherpas). Each
+climber/sherpa team will be provided a handheld radio. Everest climbers will be provided 7200 liters of
+climbing oxygen as follows: 1800L at C3, 3600L at Col, 1800L at Balcony. This includes sleeping oxygen
+at Camp 3 and 4 on the summit bid and oxygen for “practice” at Base Camp prior to the summit bids.
+Additional oxygen and additional Sherpa support is available, but must be arranged before the expedition.
+
+Costs not included in trip fee:
+International round-trip air fare and travel expenses to/from Nepal/KTM,
+meals in Kathmandu, hotels in Kathmandu after the trek/climb, personal gear, excess baggage charges,
+airport taxes and Nepal entry visas, tip pool, internet, satellite phone, personal sundries and beverages,
+costs incurred as a result of delays or events beyond the control of IMG, required insurance coverage
+(medical, rescue/repatriation) and customary but optional tips for sherpas and IMG staff.
+
+Tips:
+We will collect for a tip pool, and ask the trekkers to please contribute $200, Lobuche/C2/C3
+climbers $300, and Everest/Lhotse climbers $500. We will collect the tip pool in Kathmandu and
+distribute it after the trip on behalf of the team as a thank you gift to the many unsung people that make
+the whole operation run smoothly: the porters, trek staff, cooks and helpers, hotel staff, Kathmandu staff,
+climbing sherpas, and others. You may also wish to provide additional tip to your Sherpas and IMG staff
+(figure 5% if you are looking for a generous number).
+
+  Single Supplements:
+  Single room in the hotel in Kathmandu and lodges on the trek, and a single tent at
+Lobuche and Everest BC is $500. Please advise IMG and we will adjust your statement.
+
+Extra Nights at EBC are $100 / night. For people arriving early in Kathmandu, we’ll put in the
+reservation and you can pay the upcharge direct at the Front Desk for your additional nights." ,
+  mountain: Mountain.find_by_id(200),
+  guide_service: GuideService.find_by_id(4)
+  )
+end
+
+1.times do
+  Climb.create!(
+  title: "Everest South Side Climb Nepal  •  29,035'  •  8850m",
+  description: "We’ve been organizing Everest expeditions for over 35 years, and each
+year do our best to put together a strong team with compatible climbers
+and top notch western and sherpa guides and leaders. Since 2009 Eric
+has been ably assisted by IMG’s Greg Vernovage. We fill our trips, and
+thus can be picky; we’ve turned away many climbers whom we feel will
+not be a good fit with our program.
+IMG has long been a leader in innovative climbing programs to the
+Himalayas. We were one of the very first companies to offer guided
+programs to Everest (1991), the first company to offer a stand-alone
+climb to the North Col (1994) and to 8000m (2001). We were one of
+the first companies to guide Shishapangma (1990) and Cho Oyu
+(1995), first to guide Khumbu Icefall as a stand-alone program (2000),
+first to offer the option of personal sherpa guides to climbers (2002),
+first successfully guided climb of Lhotse (2009), first with the Hybrid
+concept (2010), first to offer an Everest “Express” itinerary (2010), and
+the first to rappel an alternate route around the Hillary Step (2013).
+With over 600 summits of 8000 meter peaks to our IMG credit, and 482
+of them on Mount Everest, we are still never satisfied and continue to
+look for ways to improve our IMG Everest program. For 2018 we
+continue our tradition of innovation and attention to the details. We put
+in place first class logistics and staffing. We don’t cut corners. Our
+goal is to conduct the very best program that we can, at a fair price.
+We don’t think you will be disappointed.",
+  gearlist: "Travel Items
+- Duffel Bags: One duffle will accompany you on the trek to BC. Climbers will need a second duffel,
+which will be packed with the mountain equipment and which will go direct to BC. Duffels are carried
+by porters and yaks and should be sturdy and waterproof with name written on bag (in case tag is
+lost). Bags with wheels are nice for the airport, but the porters and yaks don’t like to carry them, so
+don’t bring wheeled bags. You will also store some travel clothes at the hotel in Kathmandu while
+trekking, so a smaller additional bag with a lock might be handy. Tip: Bring 5 large plastic garbage
+bags to pack gear inside duffels to protect gear from rain.
+- Daypack: Large daypack or bag with a shoulder strap, so you don’t have to set it down while doing
+the duffle shuffle or handling travel documents while going through passport control and customs at
+the airport. It needs to be big enough to hold everything you’ll need for an overnight stop.
+- Locks: You’ll want padlocks in Nepal and Tibet, but for flying out of the USA, it might be better to use
+plastic zip ties which can be cut by TSA staff if necessary (bring extra zip ties).
+- Travel Wallet: Important for carrying your important documents including passport, extra photos,
+duffel inventory list, and money. We suggest that you use a travel wallet that you can hang around
+your neck and place inside your shirt, or around your waist tucked under your shirt or trousers.
+- Passport (valid for at least 6 months after the trip ends with sufficient extra pages for visa stamps and
+in same name as airline ticket (or with endorsement-for women who changed name w/ marriage).
+Get your Nepal visa on arrival in Kathmandu at the airport ($40 for trekkers, $100 for climbers).
+- Additional passport photos: one for Nepal visa (needed on arrival at KTM airport). If you plan on
+buying a local sim card for your unlocked cell phone you will need one (also a copy of your passport).
+- Photocopy of passport and photocopy of flight itinerary
+- Bathing Suit: Some of the hotels have pools (eg, in Bangkok).
+
+Trekking Gear
+- Trekking Poles: Get collapsible poles that can attach to your backpack.
+- Backpacks: The “day pack” is great for a travel carry-on and may be big enough for the trek (need
+room for your clothes, water, camera, food, etc during the day while hiking). Climbers will need a
+larger pack (60 liter size is popular) and this will also be fine for the trek. For the international flights
+put your backpack into the duffle bags, but carry it on the plane for the Lukla flight.
+- Pack Cover: Waterproof rain cover for your pack.
+- Sleeping Bag: Rated to at least 0 degrees Fahrenheit. Synthetic or Down. Base Camp can get down
+to around 0-10 degrees F at night…so quite chilly. Everest and Lhotse climbers will want to bring a
+second sleeping bag (available for rent if you do not have a suitable one).
+- Trekkers do not need a pad (foam mattress provided for trek and Base Camp). Climbers should have
+a Thermarest, NeoAir, or similar lightweight pad to augment the closed cell pads in higher camps.
+
+Footwear
+- Lightweight Shoes: Running/tennis shoes and sandals for camp, around town, etc.
+- Hiking Boots: Medium-weight hiking boots, waterproofed and broken-in
+- Gaiters: To keep snow, mud, and scree out of your hiking boots while trekking to Base Camp.
+- Socks: at least 5 complete changes of socks, in a combination that you have used and know works
+for you. Make sure your boots are roomy enough for the sock combination you intend to use. Tight
+boots will make your feet cold. It is no problem to wash underwear, socks, etc at Base Camp!
+- For trekkers on the Gokyo departure option (crossing high passes) we suggest bringing Kahtoola
+Microspikes or similar traction devices in case of slippery trail conditions.
+
+  Clothing
+- Base Layer: 2 pair synthetic long johns: one midweight set and one expedition weight set.
+- Mid Layers: One additional warm layer (wool sweater, fleece jacket, shelled vest, light puffy, etc).
+- Shell Jacket: Waterproof/breathable jacket with hood.
+- Shell Pants: Waterproof/breathable pants (full side zips are best).
+- Climbing/Trekking Pants: Look for construction that provides freedom of movement and/or stretch
+materials. Fabric should be a breathable synthetic that preferably holds up to abrasion and dries
+quickly. You can wear them over longjohns if it is cold.
+- Warm Parka: Down or synthetic. This should be big enough to go over other garments. Many
+climbers and trekkers also like insulated pants for cold mornings and evenings.
+- Trekking Clothes: Light hiking pants and / or hiking shorts for warm weather down low- NOT cotton.
+Shirts for hiking on nice days (t-shirts OK, quick-drying synthetic fabric far better.)
+- Casual Clothes: For travel/meals in hotels. You’ll want a shirt or two with a collar to wear on flights
+and for restaurants. A sweatshirt or light jacket might be nice in the evening.
+- Gloves: Light gloves for hiking and warm ski gloves. Bring mittens too if your hands tend to get cold.
+- Hats: Warm wool or heavy fleece hat, sun hat and bandana.
+- A “Buff” or light balaclava to breathe through in the cold dry air. Good for preventing “Khumbu cough”
+
+Personal Accessories
+- Water Bottles: 2 water bottles with foam insulation shells. Bring a Pee bottle too.
+- Water Treatment: Iodine tablets (Potable Aqua or similar) or iodine crystals (Polar Pure) are easy and
+inexpensive. Many people also like to use the “Steri Pen” or similar devices. Filters can freeze.
+- Hand sanitizer (Purell), ear plugs, and several rolls of toilet paper (we will have a supply at Base
+Camp), small towel, soap/shampoo, a few disposable dust masks, hand cream (for chapped hands).
+- Headlamp. Climbers should bring a second “back up” headlamp. For high altitude we recommend use
+of lithium AA batteries (beware of headlamps which do not accept lithium batteries).
+- Camera: With spare batteries and memory cards (also for swapping photos).
+- Pocket Knife (climbers need a small sharp knife that is accessible if you really need it).
+- Wrist Watch: With alarm and light for reading in the dark. We like the Suunto altimeter ones.
+- Eyewear: Bring good sunglasses. For contact lens wearers, ski goggles with light color lenses (for
+use at night) might be useful in windy conditions that cause blowing dust.
+- Vision correction: Bring extra prescription eyeglasses or contact lenses if you wear them. Lens
+solutions are not widely available in Nepal, bring enough.
+- Skin Care: Maximum SPF sunscreen and lip balm.
+- Basic First Aid: you’ll want moleskin, tape, ibuprofen, acetaminophen, aspirin (many climbers take
+81mg every day to prevent stroke), Imodium and Pepto Bismol for diarrhea, Band-Aids, antacid.
+- Prescription Medications: 1) Antibiotic for upper respiratory problems (azithromycin) 2) Antibiotic for
+GI problems (Cipro or azithromycin); 3) Diamox (acetazolamide) for acclimatization (125 mg tabs
+recommended, enough for a week); 4) Sleeping pills for jet lag; 5) Tylenol 3 or similar for coughing; 6)
+Malaria Chemoprophylaxis, if needed based on travel plans; 7) Asthma medication, if any history
+(many climbers use Advair inhalers at high altitude to prevent Khumbu cough); 8) nifedipine (for
+pulmonary edema); and 9) dexamethasome (for cerebral edema).
+- Cold medicine (Sudafed, etc), Chloroseptic or Tessalon Perles throat lozenges.
+- Personal Snack Food: Approximately 10 pounds of personal snacks (for Everest climbers) or 5
+pounds (for EBC Trekkers and Lobuche climbers). Also, some drink mixes if you like these (add drink
+mix to your water bottle after giving iodine tablets 30 minutes of contact time). Everest climbers
+should really focus on bringing snacks you know you will be able to tolerate up high!
+- Books/ Ipods/ Kindle. Plan on sharing among your team members. You can also borrow from and add
+to the Base Camp Library we establish every year.",
+  route: "Everest South Side Climb",
+  date: DateTime.new(2018, 3, 24),
+  days: 73,
+  difficulty: "Major Mountain Expedition",
+  price: 44000,
+  payment: "Fee Payment Schedule for 2018 Everest programs:
+  Application Fee $10,000
+Oct. 13, 2017 $10,000
+Dec. 15, 2017  Balance",
+  notes: "Costs included in trip fee:
+  Transfers between hotel and airport in Kathmandu, hotels with breakfast in
+Kathmandu for stated itinerary at beginning of expedition, welcome dinner in Kathmandu for members
+traveling on published itinerary, round-trip fixed wing flight to Lukla, all group equipment, all meals once
+trip starts (since appetites are sensitive at high altitude, we suggest climbers bring some favorite high
+altitude snacks which they like to eat), Park fees and climbing permit fees, liaison officers, Sherpas, camp
+staff, radio communications, 110v power supply at Base Camp for charging electronics (solar and
+generator backup), yaks and porters, hyperbaric bag, pulse oximeter, emergency medical oxygen,
+unlimited medical consultation at the HRA EBC Medical clinic. High speed internet is available at Base
+Camp (price TBD). All trekkers and climbers are provided with a foam trekking mattress for BC. Everest,
+Lhotse, C2, C3, climbers will be provided a single tent at Base Camp, high-altitude camp equipment,
+Sherpa support, and unlimited consultation with the IMG leaders. Climbing Sherpas will establish the
+route and camps, carry both team gear and a reasonable amount of your personal member gear (for
+example your sleeping bag, down suit, high altitude gear can be sent up to C2 with sherpas). Each
+climber/sherpa team will be provided a handheld radio. Everest climbers will be provided 7200 liters of
+climbing oxygen as follows: 1800L at C3, 3600L at Col, 1800L at Balcony. This includes sleeping oxygen
+at Camp 3 and 4 on the summit bid and oxygen for “practice” at Base Camp prior to the summit bids.
+Additional oxygen and additional Sherpa support is available, but must be arranged before the expedition.
+
+Costs not included in trip fee:
+International round-trip air fare and travel expenses to/from Nepal/KTM,
+meals in Kathmandu, hotels in Kathmandu after the trek/climb, personal gear, excess baggage charges,
+airport taxes and Nepal entry visas, tip pool, internet, satellite phone, personal sundries and beverages,
+costs incurred as a result of delays or events beyond the control of IMG, required insurance coverage
+(medical, rescue/repatriation) and customary but optional tips for sherpas and IMG staff.
+
+Tips:
+We will collect for a tip pool, and ask the trekkers to please contribute $200, Lobuche/C2/C3
+climbers $300, and Everest/Lhotse climbers $500. We will collect the tip pool in Kathmandu and
+distribute it after the trip on behalf of the team as a thank you gift to the many unsung people that make
+the whole operation run smoothly: the porters, trek staff, cooks and helpers, hotel staff, Kathmandu staff,
+climbing sherpas, and others. You may also wish to provide additional tip to your Sherpas and IMG staff
+(figure 5% if you are looking for a generous number).
+
+  Single Supplements:
+  Single room in the hotel in Kathmandu and lodges on the trek, and a single tent at
+Lobuche and Everest BC is $500. Please advise IMG and we will adjust your statement.
+
+Extra Nights at EBC are $100 / night. For people arriving early in Kathmandu, we’ll put in the
+reservation and you can pay the upcharge direct at the Front Desk for your additional nights." ,
+  mountain: Mountain.find_by_id(200),
+  guide_service: GuideService.find_by_id(4)
   )
 end
 

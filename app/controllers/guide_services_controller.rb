@@ -12,7 +12,7 @@ class GuideServicesController < ApplicationController
   private
 
   def sortable_columns
-    ["name", "city", "country"]
+    [t('guide-name'), t('guide-city'), t('guide-country')]
   end
 
   def sort_column

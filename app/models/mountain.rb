@@ -1,6 +1,7 @@
 class Mountain < ActiveRecord::Base
   has_many :climbs
   has_many :lodges
+  translates :description
 
   mount_uploader :image, ImageUploader
 
@@ -11,5 +12,5 @@ class Mountain < ActiveRecord::Base
       scoped
     end
   end
-  
+
 end

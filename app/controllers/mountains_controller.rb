@@ -38,7 +38,7 @@ class MountainsController < ApplicationController
   private
 
   def sortable_columns
-    ["name", "elevation", "range", "country", "difficulty", "climb_period"]
+    [t('mountain-name'), t('mountain-elevation'), t('mountain-range'), t('mountain-country'), t('mountain-difficulty'), t('mountain-climbing-period')]
   end
 
   def sort_column

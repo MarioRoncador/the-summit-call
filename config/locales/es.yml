@@ -1,21 +1,98 @@
-en:
-  activerecord:
-    attributes:
-      article:
-        title: "Title"
-        body: "Body"
-        forms:
-          messages:
-            success: "Operation succeeded!"
-            buttons:
-              edit: "Edit"
-              submit: "Submit"
-              menu:
-                new_article: "Add an article"
-                articles:
-                  index:
-                    title: "List of articles"
-                    edit:
-                      title: "Add article"
-                      new:
-                        title: "New article"
+es:
+  company-name: "The Summit Call" #Do not translate!
+  value-statement: "Cuando la cumbre llama, respondemos. Una plataforma donde los escaladores pueden elegir la montaña que quieren escalar y conectarse con los servicios de guía para esa montaña específica. Los escaladores encontrarán comparaciones de precios, servicios ofrecidos y más, y la mejor manera de ponerse en contacto con su guía para comenzar a planificar la próxima aventura."
+  search: "Buscar"
+  search-adventure: "Busca tu próxima gran aventurae"
+  where: "A donde"
+  mountains: "Montañas"
+  climbs: "Todos Sube"
+  guides: "Servicios de guía"
+  lodges: "Refugios"
+  signin: "Registrarse"
+  signup: "Inscribirse"
+  logout: "Cerrar Sesión"
+  map: "¿Todavía indeciso? Explorar el mapa!"
+  offers: "Oferta"
+  tips: "Consejos"
+  any-mountain: "Cualquier Montaña"
+  quote: "Cuando la cumbre llama, respondemos"
+  profile: "Perfil"
+  thankyou: "Gracias"
+  contribution: "por esta contribución!"
+  description: "Descripción"
+  save: "Salvar"
+  about: "Acerca de"
+  email: "Correo Electrónico"
+  call-us: "Llámenos"
+  languages: "Lenguajes"
+  not-signed-in: "Inicie sesión o regístrese antes de continuar"
+  en: "English" #Do not translate!
+  it: "Italiano" #Do not translate!
+  fr: "François" #Do not translate!
+  es: "Español" #Do not translate!
+  de: "Deutsch" #Do not translate!
+#Mountains
+  mountain-name: "Nombre"
+  mountain-elevation: "Elevaciòn"
+  mountain-range: "Distancia"
+  mountain-country: "Paìs"
+  mountain-continent: "Continente"
+  mountain-difficulty: "Dificultad"
+  mountain-climbing-period: "Periodo de escalada"
+  mountain-climbs-search: "Búsqueda de ascensiones por montañas"
+  mountain-cant-find: "¿No puedes encontrar la montaña que estás buscando?"
+  mountain-signup: "¡Regístrese ahora!"
+  mountain-months: "Los mejores meses para escalar"
+  mountain-lat: "Latitud"
+  mountain-lng: "Longitud"
+  mountain-image: "Imagen"
+  mountain-firstsummit: "Año de la primera cumbre"
+  mountain-climbers: "Primeros escaladores exitosos"
+  mountain-climbers-year: "Escaladores por año"
+  mountain-success-rate: "con una tasa de éxito de"
+  mountain-airport: "Aeropuerto más cercano"
+  mountain-want-to-climb: "¿Quieres escalar esta montaña?"
+  mountain-climbs: "Subidas relacionadas"
+  mountain-new: "Nueva montaña"
+  mountain-new-first-summit-year: "Ingrese el año de la primera subida exitosa."
+  mountain-new-first-summiter: "Ingrese primeros cumbres"
+  mountain-new-description: "Ingrese una breve descripción de la montaña"
+  mountain-new-latlng: "Ingrese latitud y longitud"
+  mountain-new-country: "Entrar al pais"
+  mountain-new-range: "Ingrese rango"
+  mountain-new-elevation: "Ingrese la elevación de la montaña"
+  mountain-new-name: "Ingresa el nombre de la montaña"
+  mountain-new-continent: "Ingrese continente"
+  mountain-new-success: "Tu montaña ha sido enviada, ¡gracias!"
+  mountain-new-failure: "Hubo un error al guardar la información de la montaña. Inténtalo de nuevo."
+  mountain-new-difficulty: "Ingrese dificultad de ascenso"
+  mountain-new-climbers: "Entre los primeros escaladores para cumbre de la montaña"
+  mountain-new-months: "Ingrese los mejores meses para escalar la montaña."
+  mountain-new-climbers-year: "Anota cuántos escaladores escalan esta montaña cada año."
+  mountain-new-airport: "Ingrese el aeropuerto más cercano"
+  mountain-new-message: "Nota: Esta información será revisada por nuestros expertos antes de ser publicada en el sitio web."
+#Climbs
+  climb-search-header: "Busca todas las subidas para esta montaña"
+  climb-search: "Búsqueda de ascensiones por montaña"
+  climb-title: "Título"
+  climb-route: "Ruta"
+  climb-date: "Fecha"
+  climb-price: "Precio"
+  climb-gear: "Lista de engranajes"
+  climb-days: "dìas"
+  climb-signup: "Regístrate para esta subida"
+  climb-search-all: "Busca todas las subidas para esta montaña"
+  climb-no-climbs: "No hay ascensos para las fechas indicadas: ¡busca todos los ascensos para esta montaña!"
+#Guiding Services
+  guide-name: "Nombre"
+  guide-city: "Ciudad"
+  guide-country: "Paìs"
+  guide-email: "Corredo Electrònico"
+  guide-phone: "Telèfono"
+  guide-website: "Sitio web"
+  guide-address: "Direcciòn"
+  guide-are-you: "¿Eres una guía o un negocio guía?"
+  guide-signup: "Regístrate ahora!"
+#Lodges
+  lodge-quote: "Reserve su lugar en una cabaña de montaña: prepárese para la oferta de cumbre, disfrute de vistas preciosas, descanse después de un día satisfactorio en las montañas y conozca personas al aire libre como tù."
+  lodge-message: "¡Próximamente! ¡Manténganse al tanto!"

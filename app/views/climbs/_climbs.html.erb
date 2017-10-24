@@ -3,11 +3,11 @@
   <table id="table_list" class="table table-bordered" style="width:100%" >
     <thead>
       <tr>
-        <th><%= sort_link "mountain" %></th>
-        <th><%= sort_link "title" %></th>
-        <th><%= sort_link "route" %></th>
-        <th><%= sort_link "date" %></th>
-        <th><%= sort_link "price" %></th>
+        <th><%= sort_link t('mountain-name') %></th>
+        <th><%= sort_link t('climb-title')  %></th>
+        <th><%= sort_link t('climb-route')  %></th>
+        <th><%= sort_link t('climb-date')  %></th>
+        <th><%= sort_link t('climb-price')  %></th>
       </tr>
     </thead>
     <% @climbs.each do |climb| %>
@@ -20,7 +20,7 @@
     </tr>
     <% end %>
     <% else %>
-     <h1><big><span class="glyphicon glyphicon-hand-up"></h1></span> No climbs for the given dates -- search all climbs for this mountain!</big></p>
+     <h1><big><span class="glyphicon glyphicon-hand-up"></h1></span> <%=t('climb-no-climbs')%></big></p>
     <% end %>
   </table>
     <%= will_paginate @climbs, renderer: BootstrapPagination::Rails %>

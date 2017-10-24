@@ -4,16 +4,22 @@ class ClimbsController < ApplicationController
   def index
     # @climbs = Climb.all.order("#{sort_column} #{sort_direction}")
 
+    flex_dates = true
+
     filter = {}
     if params[:search]
       filter = filter.merge(mountains: {name: params[:search]})
     end
     if params[:date]
-      date = params[:date]
-      split = date.to_s.split('/')
-      result = split[2]+"-"+split[0]+"-"+split[1] #Retrieve date in the correct format
+      result = Date.strptime((params[:date]), '%m/%d/%Y')
       filter = filter.merge(date: result)
+      # if flex_dates == true
+      #   # floor the result data to he year
+      #   result_beginnier = result.beginning_of_year
+      #   result_end = now.end_of_year
+      # end
     end
+
 
     @climbs = Climb.joins(:mountain)
       .where(filter)
@@ -38,7 +44,7 @@ class ClimbsController < ApplicationController
   private
 
   def sortable_columns
-    ["mountain.name", "title", "route", "date" , "price"]
+    [t('mountain-name'), t('climb-title'), t('climb-route'), t('climb-date') , t('climb-price')]
   end
 
   def sort_column

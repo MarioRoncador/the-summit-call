@@ -1,46 +1,83 @@
 <%= form_for @mountain do |f| %>
-  <div class="form-group">
-    <%= f.label :name %>
-    <%= f.text_field :name, class: 'form-control', placeholder: "Enter Mountain Name" %>
-  </div>
+<div class="form-group">
+  <%= f.label t('mountain-name') %>
+  <%= f.text_field :name, class: 'form-control', placeholder: t('mountain-new-name') %>
+</div>
 
-  <div class="form-group">
-    <%= f.label :elevation %>
-    <%= f.text_field :elevation, class: 'form-control', placeholder: "Enter Mountain Height" %>
-  </div>
+<div class="form-group">
+  <%= f.label t('mountain-elevation') %>
+  <%= f.text_field :elevation, class: 'form-control', placeholder: t('mountain-new-elevation') %>
+</div>
 
 
-  <div>
-    <%= f.label :image %>
-    <%= f.file_field :image %>
-  </div>
-  
-    <div class="form-group">
-      <%= f.label :range %>
-      <%= f.text_field :range, class: 'form-control', placeholder: "Enter Mountain Range" %>
-    </div>
+<div>
+  <%= f.label t('mountain-image')  %>
+  <%= f.file_field :image %>
+</div>
 
-    <div class="form-group">
-      <%= f.label :country %>
-      <%= f.text_field :country, class: 'form-control', placeholder: "Enter Country" %>
-    </div>
+<div class="form-group">
+  <%= f.label t('mountain-range')  %>
+  <%= f.text_field :range, class: 'form-control', placeholder: t('mountain-new-range')  %>
+</div>
 
-    <div class="form-group">
-      <%= f.label :latitude_And_Longitude %>
-      <%= f.text_field :lat, class: 'form-control', placeholder: "Enter Latitude" %>
-      <%= f.text_field :lng, class: 'form-control', placeholder: "Enter Longitude" %>
-    </div>
+<div class="form-group">
+  <%= f.label t('mountain-country') %>
+  <%= f.text_field :country, class: 'form-control', placeholder: t('mountain-new-country') %>
+</div>
 
-  <div class="form-group">
-      <%= f.label :description %>
-      <%= f.text_area :description, rows: 4, class: 'form-control', placeholder: "Enter a short description of the mountain" %>
-  </div>
+<div class="form-group">
+  <%= f.label t('mountain-continent') %>
+  <%= f.text_field :continent, class: 'form-control', placeholder: t('mountain-new-continent') %>
+</div>
 
-  <div class="form-group">
-    <%= f.label :first_summit %>
-    <%= f.text_field :first_summit, class: 'form-control', placeholder: "Enter First Summiter and Year" %>
-  </div>
+<div class="form-group">
+  <%= f.label t('mountain-new-latlng') %>
+  <%= f.text_field :lat, class: 'form-control', placeholder: t('mountain-lat') %>
+  <%= f.text_field :lng, class: 'form-control', placeholder: t('mountain-lng') %>
+</div>
 
-  <%= f.submit "Save", class: 'btn btn-success' %>
+<div class="form-group">
+  <%= f.label t('mountain-difficulty')  %>
+  <%= f.text_field :difficulty, class: 'form-control', placeholder: t('mountain-new-difficulty') %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('description')  %>
+  <%= f.text_area :description, rows: 4, class: 'form-control', placeholder: t('mountain-new-description') %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('mountain-firstsummit') %>
+  <%= f.text_field :first_summit, class: 'form-control', placeholder: t('mountain-new-first-summit-year') %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('mountain-climbers') %>
+  <%= f.text_field :first_summiter, class: 'form-control', placeholder: t('mountain-new-climbers') %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('mountain-months') %>
+  <%= f.text_field :climb_period, class: 'form-control', placeholder: t('mountain-new-months') %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('mountain-climbers-year') %>
+  <%= f.text_field :climbs_year, class: 'form-control', placeholder: t('mountain-new-climbers-year') %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('mountain-climbers') %>
+  <%= f.text_field :summit_rate, class: 'form-control', placeholder: t('mountain-new-climbers') %>
+</div>
+
+<div class="form-group">
+  <%= f.label  t('mountain-airport') %>
+  <%= f.text_field :nearest_airport, class: 'form-control', placeholder: t('mountain-new-airport') %>
+</div>
+
+<div><em><%= t('mountain-new-message')%></em></div>
+
+<%= f.submit t('save'), class: 'btn btn-success' %>
 
 <% end %>

@@ -2,15 +2,15 @@
 <!-- Header -->
 <div id="top_bar" class="pull-right">
   <%= link_to image_tag("Summit Call Logo 4.png", size: "120x40"), home_index_path %>
-  <h5 class="quote"> - When the summit calls, we answer - </h5>
+  <h5 class="quote"> <%= t('quote') %> </h5>
   <div class="pull-right user-info">
     <% if user_signed_in? %>
-    <strong><big> <%= current_user.first_name%> </big></strong> |
-    <%= link_to 'Profile', current_user, :class => 'navbar-link' %> |
-    <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+    <strong><big> <%= current_user.first_name%> <%= current_user.last_name%> </big></strong> |
+    <%= link_to t('profile'), current_user, :class => 'navbar-link' %> |
+    <%= link_to t('logout'), destroy_user_session_path, method: :delete %>
     <% else %>
-    <%= link_to "Sign Up", new_user_registration_path, :class => 'navbar-link' %> -
-    <%= link_to "Sign In", new_user_session_path, :class => 'navbar-link' %>
+    <%= link_to t('signup'), new_user_registration_path, :class => 'navbar-link' %> -
+    <%= link_to t('signin'), new_user_session_path, :class => 'navbar-link' %>
     <% end %>
   </div>
 </div>
@@ -23,10 +23,10 @@
 <div class="container">
   <ul>
     <p><em><%= @guide_service.description%></em></p>
-    <p>Website: <a href="<%=@guide_service.website%>"><strong><%= @guide_service.website %></a></strong></p>
-    <p>Email: <a href="mailto:<%=@guide_service.email%>"><strong><%= @guide_service.email %></a></strong></p>
-    <p>Phone: <a href="tel:<%=@guide_service.phone%>"><strong><%= @guide_service.phone %></strong></a></p>
-    <p>Address: <%= @guide_service.address %>
+    <p><%= t('guide-website') %>: <a href="<%=@guide_service.website%>"><strong><%= @guide_service.website %></a></strong></p>
+    <p><%= t('guide-email') %>: <a href="mailto:<%=@guide_service.email%>"><strong><%= @guide_service.email %></a></strong></p>
+    <p><%= t('guide-phone') %>: <a href="tel:<%=@guide_service.phone%>"><strong><%= @guide_service.phone %></strong></a></p>
+    <p><%= t('guide-address') %>: <%= @guide_service.address %>
     <%= @guide_service.city %>
     <%= @guide_service.zip %>
     <%= @guide_service.country %></p>
@@ -36,10 +36,10 @@
     <table style="width:50%">
       <tr>
         <th></th>
-        <th>Route</th>
-        <th>Date</th>
-        <th>Days</th>
-        <th>Price</th>
+        <th><%= t('climb-route') %></th>
+        <th><%= t('climb-date') %></th>
+        <th><%= t('climb-days') %></th>
+        <th><%= t('climb-price') %></th>
       </tr>
       <%  @guide_service.climbs.each do |climb| %>
       <tr>

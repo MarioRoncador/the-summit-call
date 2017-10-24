@@ -4,10 +4,10 @@
   <table style="width:50%">
     <tr>
       <th></th>
-      <th>Route</th>
-      <th>Date</th>
-      <th>Days</th>
-      <th>Price</th>
+      <th><%=t('climb-route')%></th>
+      <th><%=t('climb-date')%></th>
+      <th><%=t('climb-days')%></th>
+      <th><%=t('climb-price')%></th>
     </tr>
     <%  @mountain.climbs.each do |climb| %>
     <tr>
@@ -20,8 +20,8 @@
     <% end %>
   </table>
   <% else %>
-   <p>Call us at: <a href="tel:+19073467010">+1 (907) 340-7010</a></p>
+   <p><%=t('call-us')%>: <a href="tel:+19073467010">+1 (907) 340-7010</a></p>
   <% end %>
 <% else %>
-<p>Search for your next big adventure</p>
+<p><%=t('search-adventure')%></p>
 <% end %>

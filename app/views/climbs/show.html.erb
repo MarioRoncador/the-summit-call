@@ -1,38 +1,38 @@
-<div id="top_bar" class="pull-right"><%= link_to "Climbs", climbs_path  %></div>
+<div id="top_bar" class="pull-right"><%= link_to t('climbs'), climbs_path  %></div>
 
 <!-- Header -->
 <div id="top_bar" class="pull-right">
   <%= link_to image_tag("Summit Call Logo 4.png", size: "120x40"), home_index_path %>
-  <h5 class="quote"> - When the summit calls, we answer - </h5>
+  <h5 class="quote"> <%= t('quote') %> </h5>
   <div class="pull-right user-info">
     <% if user_signed_in? %>
-    <strong><big> <%= current_user.first_name%> </big></strong> |
-    <%= link_to 'Profile', current_user, :class => 'navbar-link' %> |
-    <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+    <strong><big> <%= current_user.first_name%> <%= current_user.last_name%></big></strong> |
+    <%= link_to t('profile'), current_user, :class => 'navbar-link' %> |
+    <%= link_to t('logout'), destroy_user_session_path, method: :delete %>
     <% else %>
-    <%= link_to "Sign Up", new_user_registration_path, :class => 'navbar-link' %> -
-    <%= link_to "Sign In", new_user_session_path, :class => 'navbar-link' %>
+    <%= link_to t('signup'), new_user_registration_path, :class => 'navbar-link' %> -
+    <%= link_to t('signin'), new_user_session_path, :class => 'navbar-link' %>
     <% end %>
   </div>
 </div>
 <!-- Header -->
 
 <h1 class="quote"><strong><%= @climb.title %></strong> - <%= @climb.mountain.name %> <%= @climb.mountain.elevation %> mt.</h1>
-\
+
 <div class="divider"></div>
 
 <div class="container">
   <ul>
     <p><%= @climb.description%></p>
-    <p>Route: <strong><%= @climb.route%></strong></p>
-    <p>Date: <strong><%= @climb.date%></strong> - <strong><%=@climb.days%></strong> days</p>
-    <p>Difficulty: <strong><%= @climb.difficulty%></strong></p>
-    <p>Price: <strong>$ <%= number_with_precision(@climb.price, :precision => 2, :delimiter => ',') %></strong></p>
+    <p><%= t('climb-route') %>: <strong><%= @climb.route%></strong></p>
+    <p><%= t('climb-date') %>: <strong><%= @climb.date%></strong> - <strong><%=@climb.days%></strong> <%= t('climb-days') %></p>
+    <p><%= t('climb-difficulty') %>: <strong><%= @climb.difficulty%></strong></p>
+    <p><%= t('climb-price') %>: <strong>$ <%= number_with_precision(@climb.price, :precision => 2, :delimiter => ',') %></strong></p>
     <%if current_user.present?%>
-      <button type="button" class="btn btn-info"><%=link_to "Sign up for this climb", new_charge_path %></button>
+      <button type="button" class="btn btn-info"><%=link_to t('climb-signup'), new_charge_path %></button>
     <%else%>
-      <button type="button" class="btn btn-info"><%=link_to "Sign up for this climb", new_user_session_path %></button>
+      <button type="button" class="btn btn-info"><%=link_to t('climb-signup'), new_user_session_path %></button>
     <%end%>
-    <p>Gear List: <%= @climb.gearlist%></p>
+    <p><%=t('climb-gear')%>: <%= @climb.gearlist%></p>
   </ul>
 </div>
