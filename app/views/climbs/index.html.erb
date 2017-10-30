@@ -26,7 +26,12 @@
   </div>
 </div >
 <!--Search Form Finishes-->
-
-<div class="divider"></div>
+<% if current_user.access == "Guide" || current_user.access == "Admin" %>
+<div style="background-color: transparent">
+  <div class="center"><big><em>
+    <%= t('climb-add-climb-message') %> </em><button type="button xsm" class="btn btn-info btn-sm"><%=link_to t('climb-add-climb'), new_climb_path %></button>
+  </big></div>
+</div>
+<% end %>
 
 <%= render partial: 'climbs/climbs' %>

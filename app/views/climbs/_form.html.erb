@@ -1,0 +1,12 @@
+<%= form_for @climb do |f| %>
+<div class="form-group">
+  <%= f.label t('climb-title') %>
+  <%= f.text_field :title, class: 'form-control', placeholder: t('climb-new-title') %>
+</div>
+
+
+<div><em><%= t('climb-new-message')%></em></div>
+
+<%= f.submit t('save'), class: 'btn btn-success' %>
+
+<% end %>

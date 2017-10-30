@@ -96,3 +96,18 @@ en:
 #Lodges
   lodge-quote: "Reserve your spot on a mountain hut- Get ready for the summit bid, enjoy gorgous views, rest after a satisfing day in the mountains and meet outdoorsy people like you-"
   lodge-message: "Coming soon! Stay tuned!"
+
+
+#----------> New, to translate
+
+
+#User
+  access-user: "Climber"
+  access-guide: "Guide"
+  access-admin: "Administrator"
+#Climbs
+  climb-new: "New climb"
+  climb-new-title: "Enter climb title"
+  climb-new-message: "Note: This information will be reviewed by our experts before being posted on the website."
+  climb-add-climb-message: "Click here to add a new climb:"
+  climb-add-climb: "New climb"

@@ -41,6 +41,22 @@ class ClimbsController < ApplicationController
     @climb = Climb.find(params[:id])
   end
 
+  def new
+    @climb = Climb.new
+  end
+
+  def create
+    @climb = Climb.create(climb_params)
+
+    if @climb.save
+      flash[:notice] = "Your climb has been submitted, best luck!"
+      redirect_to @climb
+    else
+      flash.now[:alert] = "There was an error saving the climb infromation. Please try again."
+      render :new
+    end
+  end
+
   private
 
   def sortable_columns
@@ -53,6 +69,10 @@ class ClimbsController < ApplicationController
 
   def sort_direction
     %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
+  def climb_params
+    params.require(:climb).permit(:title, :description, :route, :date, :difficulty, :price, :gearlist)
   end
 
 end
