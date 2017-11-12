@@ -7,7 +7,7 @@ ruby '2.3.3'
 # #1
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
+  gem 'rails_12factor', group: :production
 end
 
 # #2
