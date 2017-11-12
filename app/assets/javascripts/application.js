@@ -11,8 +11,6 @@
 // about supported directives.
 //
 //= require gmaps/google
-//= require bootstrap
-//= require jquery
 //= require jquery_ujs
 //= require underscore
 //= require bootstrap-datepicker

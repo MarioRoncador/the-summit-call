@@ -10865,6 +10865,1797 @@ Si el pronostico del tiempo anunciara nevadas, sera indispensable el uso de cram
   )
 end
 
+include Faker
+
+# Create Mountains
+# Create
+
+1.times do
+  Mountain.create!(
+  name: "Senjou Dake" ,
+  elevation: 3033,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.7195,
+  lng: 	138.184,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Aug, Spet, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International, Kansai International",
+  created_by: "The Summit Call",
+  description: "From Kitazawa Pass the summit can be easily reached in three to four hours."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sepu Kangri" ,
+  elevation: 6995,
+  continent: "Asia",
+  country: "China",
+  range: "",
+  lat: 	31.5167,
+  lng: 	94.3,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "unclimbed",
+  climb_period: "Apr, May, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lhasa",
+  created_by: "The Summit Call",
+  description: "Around the main summit are several other peaks.  For the time being Sepu Kangri remains an unclimbed peak, possibly the last great climb remaining in the world today."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shachaur" ,
+  elevation: 7084,
+  continent: "Asia",
+  country: "Afghanistan/ Pakistan",
+  range: "Hindu Kush",
+  lat: 	36.55,
+  lng: 	71.9667,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1969,
+  first_summiter: "Gerald Gruber, Rudolf Pischinger (Austria) SW Face",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "The Hindu Kush have in general better weather than the Himalaya, but are less safe, because of the fact that they are close to a war zone."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shah Alborz" ,
+  elevation: 4200,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 		36.314523,
+  lng: 	50.753262,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tehran",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shaho" ,
+  elevation: 3390,
+  continent: "Asia",
+  country: "Iran",
+  range: "",
+  lat: 	35.03,
+  lng: 	46.25,
+  difficulty: "Scrumble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tehran",
+  created_by: "The Summit Call",
+  description: "One of the highest peeks of the Zagroos Mountains ."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sherpi Kangri" ,
+  elevation: 7380,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 	35.466542,
+  lng: 	76.782074,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "	Gilgit (Pakistan)",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shiomi Dake" ,
+  elevation: 3052,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.5746,
+  lng: 	138.186,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International Airport, Kansai International Airport",
+  created_by: "The Summit Call",
+  description: "It has two peaks, the eastern peak being slightly higher than the western one. From the top you can see across the South Alps, Mt. Fuji, the Central Alps and the North Alps in the far distance."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shirouma Dake" ,
+  elevation: 2932,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.7575,
+  lng: 	137.757,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "	Narita International, Kansai International",
+  created_by: "The Summit Call",
+  description: "Shirouma Dake is the highest of three peaks known as the Hakuba Sanzan (Shirouma, Shakushi, Shirouma Yarigatake). rom the summit you can look over the Sea of Japan and over to the Tateyama mountain area. On a clear day you can see as far as Fuji San."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shisha Pangma" ,
+  elevation: 8013,
+  continent: "Asia",
+  country: "China",
+  range: "Central Nepal Himalaya",
+  lat: 	28.35,
+  lng: 		85.7833,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1964,
+  first_summiter: "Hsu Ching and his ten-man Chinese",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu, Nepal",
+  created_by: "The Summit Call",
+  description: "Shisha Pangma is the fourteenth highest mountain in the world, the lowest of the 8000 meter peaks. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shisper Pak" ,
+  elevation: 7611,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "",
+  lat: 	36.423759,
+  lng: 		74.653398,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "	Islamabad, Gilgit",
+  created_by: "The Summit Call",
+  description: "One of the most beautiful peak in the Karakoram."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Shitidhar" ,
+  elevation: 5212,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Manali",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Shivling" ,
+  elevation: 6543,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	30.880259,
+  lng: 	79.063324,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1974,
+  first_summiter: "	Hukam Singh, Ang Tharhay, Pemba Tharkay, Laxman Singh, Pasang Sherpa",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi, India",
+  created_by: "The Summit Call",
+  description: " it is a dramatic rock peak, and most visually striking peak seen from Gaumukh; that and the difficulty of the climb make it a famed prize for mountaineers."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sia Kangri" ,
+  elevation: 7422,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "Karakoram",
+  lat: 	35.663259,
+  lng: 	76.761861,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1934,
+  first_summiter: "Gunther Dyhrenfurth and party",
+  climb_period: "Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad, Pakistan",
+  created_by: "The Summit Call",
+  description: "The mountain is well glaciated, its snowy crest rising above a vast, barren landscape of deep, rocky canyons. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sialan" ,
+  elevation: 4250,
+  continent: "Asia",
+  country: "Iran",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Mar, Apr, May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tehran",
+  created_by: "The Summit Call",
+  description: "Very pretty view from the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sicaba Dacu Peak" ,
+  elevation: 1379,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 	10.799443,
+  lng: 	123.24073,
+  difficulty: "Scramble",
+  first_summit: 1999,
+  first_summiter: "Dennis S. Ella, Mariebelle P. Ella and Pedro F. Palabrica",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Mostly covered by forest."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sicaba Diotay Peak" ,
+  elevation: 1536,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 	10.770094,
+  lng: 	123.233243,
+  difficulty: "Scramble",
+  first_summit: 2000,
+  first_summiter: "Dennis S. Ella and Pedro F. Palabrica",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Situated close to the Central-East side of Mount Silay, Sicaba Diotay Peak is the highest point of the mountain."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Singhi Kangri" ,
+  elevation: 7207,
+  continent: "Asia",
+  country: "Pakistan/India",
+  range: "Karakoram",
+  lat: 	35.599846,
+  lng: 	76.983647,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1976,
+  first_summiter: "	Japanese Expedition via North face/ North ridge (Staghar Glacier)",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Singhi Kangri means -difficult peak-.  In this area the government of India permits only one expedition per year. Only joint Indian expeditions are allowed. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Singu Chuli" ,
+  elevation: 6501,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	28.587328,
+  lng: 	83.882963,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "Wilfred Noyce and party",
+  climb_period: "Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Pokhara",
+  created_by: "The Summit Call",
+  description: " Various routes are possible but the south ridge dominates the eye."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Skil Brum" ,
+  elevation: 7360,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "",
+  lat: 	35.8535,
+  lng: 	76.4217,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1957,
+  first_summiter: "Marcus Schmuck, Fritz Wintersteller",
+  climb_period: "May, Jun, Jul",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Islamabad",
+  created_by: "The Summit Call",
+  description: "It is a beautiful peak located close by the World second highest peak, K2 in the Godwin Austin Glacier area."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Skyang Kangri" ,
+  elevation: 7545,
+  continent: "Asia",
+  country: "China",
+  range: "Karakoram",
+  lat: 	35.9264,
+  lng: 	76.5675,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Hotan",
+  created_by: "The Summit Call",
+  description: "It is said it has been climbed by japanes, but no information of it can be obtained. The specialist on this region in China mr Tang says it has been attempted once but the summit was not made, so if any ascent ever took place it must have been from the Pakistanis side."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Slamet" ,
+  elevation: 3428,
+  continent: "Asia",
+  country: "Indonesia",
+  range: "Java",
+  lat: 	-7.241389,
+  lng: 	109.214444,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: " Highest mountain in mid-Java, and the second highest in Java. The mountain has four crates on the summit. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sofeh" ,
+  elevation: 2257,
+  continent: "Asia",
+  country: "Iran",
+  range: "South Central Zagros",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "",
+  first_summit: 1980,
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Esfahan",
+  created_by: "The Summit Call",
+  description: "Good route to the peak. Possibility to take the telecabin to reach the top."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Spantik Peak" ,
+  elevation: 7027,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1978,
+  first_summiter: "Hashi to Harashi (Japan)",
+  climb_period: "May, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Skardu",
+  created_by: "The Summit Call",
+  description: "As with many high mountains, weather and snow conditions, and climbers personal fitness and acclimatization will determine weather the summit is reached. Although not technically difficult. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Stok Kangri" ,
+  elevation: 6121,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	33.986111,
+  lng: 	77.4425,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Steep near the top. Path is narrow and exposed."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Suitilla" ,
+  elevation: 6373,
+  continent: "Asia",
+  country: "India",
+  range: "",
+  lat: 	30.331408,
+  lng: 	80.380772,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi",
+  created_by: "The Summit Call",
+  description: "Conical peak with a stupendous North face."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Suphan Dagi" ,
+  elevation: 4048,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Southeast Anatolia",
+  lat: 	38.9333,
+  lng: 	42.8333,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Van, Turkey",
+  created_by: "The Summit Call",
+  description: "Third highest mountain in Turkey."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Sutay Uul" ,
+  elevation: 4090,
+  continent: "Asia",
+  country: "Mongolia",
+  range: "Altai",
+  lat: 		46.61768,
+  lng: 	93.594063,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: " Isolated peak in the Mongolian Altai mountains. It is covered by a large plateau glacier. It's fairly easy to climb.",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Swargarohini" ,
+  elevation: 6252,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	31.1,
+  lng: 	78.5,
+  difficulty: "	Major Mountain Expedition",
+  first_summit: 1992,
+  first_summiter: "N.Banks",
+  climb_period: "May, Jun, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Jolly Grant, Dehradun",
+  created_by: "The Summit Call",
+  description: "After a challenging 32 Km trek one can reach the base camp of this peak. After a great climbing ahead to reach the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tahtali Dagi" ,
+  elevation: 2365,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Taurus Mountain",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May, Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Antalya",
+  created_by: "The Summit Call",
+  description: "Extinct volcano. The region and mountain is under coverage as National Park. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Takhte Soleyman" ,
+  elevation: 1463,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 		36.604297,
+  lng: 		36.604297,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Tehran",
+  created_by: "The Summit Call",
+  description: "One side of Takhte Soleyman is an 800-meter rock face, a very difficult climb. The other side is a gentle slope."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Talamitan" ,
+  elevation: 704,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 	14.1078,
+  lng: 	120.76,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Manila International Airport",
+  created_by: "The Summit Call",
+  description: "Peak made of rock and mostly covered by grass."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mount Talinis" ,
+  elevation: 1903,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 		9.242761,
+  lng: 		123.17625,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dumaguete Airport",
+  created_by: "The Summit Call",
+  description: "Most activities by mountaineers in Mount Talinis cover trekking and camping. Only a few are engaged in summit climbing."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tambuyukon" ,
+  elevation: 2597,
+  continent: "Asia",
+  country: "Malaysia",
+  range: "Borneo",
+  lat: 	6.21667,
+  lng: 	116.65,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kota Kinabalu, Sabah",
+  created_by: "The Summit Call",
+  description: "Third highest mountain in Malaysia. The mountain has a rich forest almost throughout."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tarak Ridge" ,
+  elevation: 1288,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 	14.5058,
+  lng: 	120.492,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Manila International Airport & Subic Bay International Airport",
+  created_by: "The Summit Call",
+  description: "The best time of the year to go here is between November to May, or if you feel the rage to a more challenging adventure, you better set to go when it's raining."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tatejama" ,
+  elevation: 3015,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.5759,
+  lng: 	137.619,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Aug, Spe, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International Airport, Kansai International Airport",
+  created_by: "The Summit Call",
+  description: "Tateyama is one of Japan's three most sacred mountains. From the top of Tateyama it is possible to look across the North Alps and see all the way to Fuji San and the South Alps. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tatos" ,
+  elevation: 3633,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Pontic Mountains",
+  lat: 	40,
+  lng: 	32,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Trabzon",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tattakuti" ,
+  elevation: 4741,
+  continent: "Asia",
+  country: "India",
+  range: "Pir Panjal Range",
+  lat: 		33.89333,
+  lng: 	74.48861,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Srinagar",
+  created_by: "The Summit Call",
+  description: "Highest peak in Pir Panjal Range. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tavan Bogd" ,
+  elevation: 4082,
+  continent: "Asia",
+  country: "Mongolia",
+  range: "Altai",
+  lat: 	49.145335,
+  lng: 	87.816163,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "Unknown",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Ölgyi, Mongolia",
+  created_by: "The Summit Call",
+  description: "Takes a whole days drive, and one day walk to reach the mountain foot from the town of Ölgyi. Extraordinary beutiful mountainlandscape with steep snowy peaks and big glaciers."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tawetse" ,
+  elevation: 6542,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.896667,
+  lng: 	86.7775,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1974,
+  first_summiter: "French expedition led by Yannick Seigneur and the clarinettist and composer Jean-Christian Michel. The summit team included Louis Dubost, Paul Gendre and Jacques Brugirard",
+  climb_period: "Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: " Taboche is connected to Cholatse by a long ridge.  "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Telkamar" ,
+  elevation: 2800,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 	35.731743,
+  lng: 	52.025843,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Jan, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Mehrabad,Tehran",
+  created_by: "The Summit Call",
+  description: "Telkamar is the acient peak that Thousands people have climbed it."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tengkongma" ,
+  elevation: 6200,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Tengkongma is the only trekking peak near to Kangchenjunga."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Thalay Sagar" ,
+  elevation: 6904,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	30.859861,
+  lng: 	78.995849,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1979,
+  first_summiter: "	Roy Kligfield, Pete Thexton, John Thackray",
+  climb_period: "Apr, May, Jun",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi",
+  created_by: "The Summit Call",
+  description: " It is one of the most difficult mountains in the Garhwal with no easy ascent route. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Thamserku" ,
+  elevation: 6623,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	27.8617,
+  lng: 	86.8639,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Snow-covered mountain which lies South East of Namche Bazaar."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Thapa Peak" ,
+  elevation: 6000,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: 	28.25,
+  lng: 	85.5833,
+  difficulty: "Basic Snow/ Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu / Jomsom",
+  created_by: "The Summit Call",
+  description: "Conical peak generally snow covered."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tharepati" ,
+  elevation: 3780,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: 	28.064558,
+  lng: 	85.519209,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May, Jun, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "The peak is easily accessible in 4 to 5 hours from the village of Melamchigon.  It does offer a great view of the surrounding Langtan Range."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tharpu Chuli" ,
+  elevation: 5500,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Basic Snow / Ice climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Pokhara",
+  created_by: "The Summit Call",
+  description: "Excellent trekking peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tiana" ,
+  elevation: 7250,
+  continent: "Asia",
+  country: "China",
+  range: "Nyainqentanglha Shan",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Basic Snow / Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lhasa",
+  created_by: "The Summit Call",
+  description: "Beautiful, not technically demanding mountain that is a fantastic experience for those who are not brilliant on ice, or do not have a vast amount of experience. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tingtingon Daku Peak" ,
+  elevation: 1185,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 	10.742988,
+  lng: 	123.220046,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Good trekking peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tingtingon Diotay Peak" ,
+  elevation: 1230,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 		10.741807,
+  lng: 	123.229659,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "New Bacolod-Silay Airport",
+  created_by: "The Summit Call",
+  description: "Standing beside Tingtingon Diotay Peak, Tingtingon Daku Peak or Big Tingtingon is situated in the southeast side of Mount Silay. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tirich Mir" ,
+  elevation: 7706,
+  continent: "Asia",
+  country: "Pakistan",
+  range: "	Hindu Kush",
+  lat: 	36.25,
+  lng: 	71.8333,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1950,
+  first_summiter: "Arne Naess, P. Kvernberg, H. Berg, Tony Streather, (Norwegian expedition)",
+  climb_period: "Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Peshawar, Pakistan",
+  created_by: "The Summit Call",
+  description: " highest mountain in the Hindu Kush. It is a cluster of rocky, ice-covered pyramid."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Touchal" ,
+  elevation: 3964,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 	35.53,
+  lng: 	51.25,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Apr",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Mehrabad in Tehran",
+  created_by: "The Summit Call",
+  description: "In winter ,climbing this mount is a few difficult and pleasant. There are some under marine volcanic lava horizons within the tuff beds and very few remains of marine sediments and locally some marine fossils. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mt. Toyangan" ,
+  elevation: 2170,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 	16.569444,
+  lng: 	120.738056,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Trisul" ,
+  elevation: 7120,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	30.3167,
+  lng: 	79.7833,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1907,
+  first_summiter: "Tom Longstaff, Brocherel Burathoki, Karbir Burathoki",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi, India",
+  created_by: "The Summit Call",
+  description: " One of the more majestic mountains of the Garhwal region of the Himalayas.  Today it remains the most frequently climbed of India's 7,000 meter peaks. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Trusmadi" ,
+  elevation: 2642,
+  continent: "Asia",
+  country: "Malaysia",
+  range: "Borneo",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Mar, Apr",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kota Kinabalu",
+  created_by: "The Summit Call",
+  description: "Second highest peak in Malaysia. It can be done in three days."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tsengel Khairkhan Uul" ,
+  elevation: 3938,
+  continent: "Asia",
+  country: "Mongolia",
+  range: "Altai",
+  lat: 	48.64879,
+  lng: 	89.15755,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Olgii",
+  created_by: "The Summit Call",
+  description: "This isolated mountain is noticeable for being the highest within a wide region of the Mongolian Altai."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tsergo Ri" ,
+  elevation: "",
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Tsergo Ri sits immediately above Kyanjin Gompa, the highest settlement in the Langtang Valley."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tsetsee Gun Uul" ,
+  elevation: 2258,
+  continent: "Asia",
+  country: "Mongolia",
+  range: "",
+  lat: 	47.700173,
+  lng: 	106.920061,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Buyant Ukhan International",
+  created_by: "The Summit Call",
+  description: "The trail is relatively well marked with yellow paint marks on the Mongolian larch and pine trees. The final 100 metres climbs steeply to the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tsjangabang" ,
+  elevation: 6756,
+  continent: "Asia",
+  country: "India",
+  range: "Garhwal Himalaya",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1974,
+  first_summiter: "Expedition leader : Chris Bonington",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Delhi, India",
+  created_by: "The Summit Call",
+  description: "Nanda Devi. The -easiest- approach of Tsjangabang is via the south-east ridge. Other ways to reach the summit are extremely difficult."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tsubakuro Dake (Mt. Tsubakuro)" ,
+  elevation: 2763,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.3996,
+  lng: 	137.716,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "	Narita International Airport, Kansai International Airport",
+  created_by: "The Summit Call",
+  description: " One of Japan's more interesting mountains because of its landscape of fins, needles and spires of soft granite."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Tsurugi Dake" ,
+  elevation: 2998,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.6204,
+  lng: 	137.62,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International Airport, Kansai International Airport",
+  created_by: "The Summit Call",
+  description: "One of Japan's 100 Famous Peaks. Some parts are steep and rocky, but it is a good peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Uchityel" ,
+  elevation: 4572,
+  continent: "Asia",
+  country: "Kyrgyzstan",
+  range: "Kuznetskiy Alatau",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Bishkek",
+  created_by: "The Summit Call",
+  description: "Good trekking peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Mt. Ugo" ,
+  elevation: 2150,
+  continent: "Asia",
+  country: "Philippines",
+  range: "Luzon",
+  lat: 	16.318,
+  lng: 	120.801,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Mar, Apr, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Foggy and cold summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Uludag" ,
+  elevation: 2543,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Western Anatolia",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Technical climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Very good peak."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Ulugh Muztagh" ,
+  elevation: 6987,
+  continent: "Asia",
+  country: "China",
+  range: "Kunlun",
+  lat: 	36.4125,
+  lng: 	87.384167,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1985,
+  first_summiter: "Hu Fengling, Zhang Baohua, Ardaxi, Mamuti, Wu Qiangxing",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Urumqi",
+  created_by: "The Summit Call",
+  description: "High snow peak.  Due to its location, Ulugh Muztagh is easily one of the most remote and inaccessible mountains in the world."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Uyluk Peak" ,
+  elevation: 3024,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Taurus Mountains",
+  lat: 	37,
+  lng: 	37,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "	May, Jun, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Antalya",
+  created_by: "The Summit Call",
+  description: "Highest mountain in the west of Turkey."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Vercenik" ,
+  elevation: 3730,
+  continent: "Asia",
+  country: "Turkey",
+  range: "Pontic Mountains",
+  lat: 	39,
+  lng: 	38,
+  difficulty: "",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Trabzon",
+  created_by: "The Summit Call",
+  description: "Good mountain. Harder to climb than the others Pontic Mountains system."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Victoria Peak" ,
+  elevation: 552,
+  continent: "Asia",
+  country: "China",
+  range: "",
+  lat: 	22.25,
+  lng: 	114.167,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Hong Kong",
+  created_by: "The Summit Call",
+  description: "A cable car is available to take tourists to the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Washiba Dake" ,
+  elevation: 2924,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.4116,
+  lng: 	137.591,
+  difficulty: "Walk up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International, Kansai International",
+  created_by: "The Summit Call",
+  description: "Remote peak. All the ways to reach the summit take several hours."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Wutai Shan" ,
+  elevation: 3058,
+  continent: "Asia",
+  country: "China",
+  range: "North Central China",
+  lat: 	"",
+  lng: 	113.417,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Taiyuan",
+  created_by: "The Summit Call",
+  description: "One of the China's sacred mountain to Buddhists. It has five peaks, which are accessible all the year."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Xian Peng" ,
+  elevation: 3673,
+  continent: "Asia",
+  country: "China",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "May, Jun",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "A small peak surrounded by larger mountains that ends in an impressive view of some of the central Chinese peaks. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yagumyum Peak" ,
+  elevation: 1700,
+  continent: "Asia",
+  country: "Philippines",
+  range: "",
+  lat: 	9.256968,
+  lng: 	123.190134,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "	Dumaguete Airport",
+  created_by: "The Summit Call",
+  description: "The position and elevation of the summit make it ideal for viewing except that vistas here are often marred by the fog that often hovers on the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yala Peak" ,
+  elevation: 5520,
+  continent: "Asia",
+  country: "Nepal",
+  range: "Central Nepal Himalaya",
+  lat: 	28.25,
+  lng: 	85.6167,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Mar, Apr, May, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Usually climbed in two days. Climb is relatively easy and non-technical."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yalung Ri" ,
+  elevation: 5630,
+  continent: "Asia",
+  country: "Nepal",
+  range: "",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Basic Snow / Ice Climb",
+  first_summit: 1952,
+  first_summiter: "",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kathmandu",
+  created_by: "The Summit Call",
+  description: "Yalung Ri is often climbed without a permit, when trekking/climbing groups have a permit for the nearby trekkingpeak Ramdung(19454ft,5930m)"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yarigadake" ,
+  elevation: 3180,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	36.3428,
+  lng: 	137.648,
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Matsumoto",
+  created_by: "The Summit Call",
+  description: "There are a series of ladders and chains that have been placed along the final 100 meters to the summit so no gear is required."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yatsu ga Take" ,
+  elevation: 2899,
+  continent: "Asia",
+  country: "Japan",
+  range: "Honshu",
+  lat: 	35.97075,
+  lng: 	138.37014,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Jul, Aug, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Narita International, Kansai International",
+  created_by: "The Summit Call",
+  description: " It is an ancient volcano that has crumbled into several rugged peaks.  There is a lodge near the summit and a bigger facility below the summit."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yulong Xue Shan" ,
+  elevation: 5596,
+  continent: "Asia",
+  country: "China",
+  range: "Parallel Gorges Area",
+  lat: 	"",
+  lng: 	100.167,
+  difficulty: "Technical Climb",
+  first_summit: "",
+  first_summiter: "Unclimbed",
+  climb_period: "Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Kunming(China)",
+  created_by: "The Summit Call",
+  description: "The name of the mountain, Jade Snow Dragon Mountain, has to do with the jade-green color of some parts the snows on the mountain, presumably due to algae or minerals; and some think that the mountain looks like a gigantic dragon. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yushan" ,
+  elevation: 3997,
+  continent: "Asia",
+  country: "Taiwan",
+  range: "Taiwan",
+  lat: 	23.4667,
+  lng: 	120.95,
+  difficulty: "",
+  first_summit: 1896,
+  first_summiter: "S. Honda with Forestry officials",
+  climb_period: "	May, Jun, Oct, Nov",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Taipei (Taiwan)",
+  created_by: "The Summit Call",
+  description: "Highest mountain in Taiwan. Located in the National Park."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Yuzhu Feng" ,
+  elevation: 6187,
+  continent: "Asia",
+  country: "China",
+  range: "Kunlun",
+  lat: 	35.6667,
+  lng: 	94.2167,
+  difficulty: "Basic Snow / Ice Climb",
+  first_summit: 1993,
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Beijing",
+  created_by: "The Summit Call",
+  description: "The south side of the mountain has the easy approach, whereas the N side is more complex with ice slopes/glaciers and crevasses."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Zamok" ,
+  elevation: 5070,
+  continent: "Asia",
+  country: "Tajikistan",
+  range: "Pamir",
+  lat: 	39.216667,
+  lng: 	68.2,
+  difficulty: "Basic Snow / Ice Climb",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Dushanbe",
+  created_by: "The Summit Call",
+  description: ""
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Zanzber Kangri" ,
+  elevation: 6972,
+  continent: "Asia",
+  country: "China",
+  range: "",
+  lat: 	85.7667,
+  lng: 	34.3667,
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Apr, May, Jun",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Urumqi",
+  created_by: "The Summit Call",
+  description: "Easily the most remotest mountain on the globe. It is more than 350 kilometer distant from the nearest human settlements. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Zarin Kooh" ,
+  elevation: 3850,
+  continent: "Asia",
+  country: "Iran",
+  range: "Alborz",
+  lat: 	35.706377,
+  lng: 	52.227974,
+  difficulty: "Walk Up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Mar, Apr, May, Jun",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Mehrabad in Tehran",
+  created_by: "The Summit Call",
+  description: "The north face of Zarin Kooh is near the Tar Lake. From Tar Lake need 3 hours time to climb it. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Zemu Gap Peak" ,
+  elevation: 7780,
+  continent: "Asia",
+  country: "India / Nepal",
+  range: "Sikkim-Eastern Nepal Himalaya",
+  lat: 	"",
+  lng: 	"",
+  difficulty: "Major Mountain Expedition",
+  first_summit: "",
+  first_summiter: "Unclimbed",
+  climb_period: "Apr, May, Sep, Oct",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: " One of the highest unclimbed peaks that is not a sub-peak of another massif. "
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Aduja De La S",
+  elevation: 2335 ,
+  continent: "South America",
+  country: "Argentina",
+  range: "Central Argentina-Chile",
+  lat: -49.3,
+  lng: -73.05,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1968,
+  first_summiter: "Amy and others",
+  climb_period: "Jan, Feb, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Aguja con numerosas vìas de ascensiûn. La vìa normal es de unos 400 metros y su dificultad en roca es de IV/V+ƒ. La aprûximacion es a travès del Glaciar Sucio. Lo mos dificil de este cerro por esta vìa es la climatologìa adversa.
+Posee otra vìa de gran belleza: La ruta austrìca del '89 (450mts. V+ƒ/70ƒ)
+"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Aduja Saint Exupery",
+  elevation: 817 ,
+  continent: "South America",
+  country: "Argentina",
+  range: "Patagonia",
+  lat: -49.2833,
+  lng: -73.0333,
+  difficulty: "Major Mountain Expedition",
+  first_summit: 1968,
+  first_summiter: "Buscaini, Metzelin and others",
+  climb_period: "Jan, Feb, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Rio Gallegos",
+  created_by: "The Summit Call",
+  description: "Es un cerro de baja altura y de alta dificultad tècnica. No posee rutas accesibles. El espolûn este, utilizado por los pirmeros ascensionistas es la mas facil de todas sus rutas. El clima adverso y cambiante es una trampa para los escaladores lentos. Dificultad de la Ruta Buscaini: 850mts/6b-A3-45ƒ"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Alma Negra",
+  elevation:6110 ,
+  continent: "South America",
+  country: "Argentina",
+  range: "Central Argentina-Chile",
+  lat: "",
+  lng: "",
+  difficulty: "Scramble",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "San Juan, Mendoza",
+  created_by: "The Summit Call",
+  description: "La Ramada belongs to the Cordon de la Ramada. The highest mountain and the probably most climbed summit in this range is Mercedario. Since the access is not so easy all the mountains that are located in the south of Mercedario are only very rarely visited. From Santa Ana that you only can reach by 4WD you have to hike at least one and a half days to reach the base camp Pirca de Polacos. You have to cross the Rio Colorado for several times which not always is possible when the river is in flood. But therefore you are compensated with a fantastic and almost untouched landscape."
+  )
+end
 
 
 mountains = Mountain.all
