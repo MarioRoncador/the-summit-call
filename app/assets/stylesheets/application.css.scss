@@ -28,11 +28,11 @@
 //font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 
 .quote-big {
-  font-family: "Brush Script MT";
+  font-family: 'Meie Script', cursive;
 }
 
 .quote {
-  font-family: "Brush Script MT";
+  font-family: 'Meie Script', cursive;
 }
 
 //<-Fonts
@@ -172,4 +172,13 @@ a:active {
 .pagination li a {
   color: black;
   background-color:#D8BFD8;
+}
+
+body {
+ background:image-url(asset-path('background2.jpg'))no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  border: 20px solid transparent;
+  padding-bottom: 20px;
 }
