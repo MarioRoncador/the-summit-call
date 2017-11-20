@@ -43,6 +43,8 @@ class ClimbsController < ApplicationController
 
   def new
     @climb = Climb.new
+    @mountain_options = Mountain.all.map{|u| [ u.name, u.id ] }
+    @logged_in_guide = GuideService.where(:name => current_user.first_name).map{|u| [ u.name, u.id ] }
   end
 
   def create
@@ -72,7 +74,7 @@ class ClimbsController < ApplicationController
   end
 
   def climb_params
-    params.require(:climb).permit(:title, :description, :route, :date, :difficulty, :price, :gearlist)
+    params.require(:climb).permit(:title, :description, :route, :date, :days, :difficulty, :price, :gearlist, :mountain_id, :guide_service_id)
   end
 
 end

@@ -1,9 +1,63 @@
 <%= form_for @climb do |f| %>
 <div class="form-group">
   <%= f.label t('climb-title') %>
-  <%= f.text_field :title, class: 'form-control', placeholder: t('climb-new-title') %>
+  <%= f.text_field :title, class: 'form-control', placeholder: t('climb-new-title'), :required => true %>
 </div>
 
+<div class="form-group">
+  <%= f.label t('climb-new-mountain-name') %>
+  <%= f.select(:mountain_id, @mountain_options, :required => true) %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-new-guide-name') %>
+  <%= f.select(:guide_service_id, @logged_in_guide, :required => true) %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-start-date') %>
+  <%= f.date_select :date, :order => [:month, :day, :year], :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-days') %>
+  <%= f.select(:days, options_for_select(0..365), { prompt: 5 }, :required => true)%>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-description') %>
+  <%= f.text_area :description, class: 'form-control', placeholder: t('climb-new-description'), :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-gear') %>
+  <%= f.text_area :gearlist, class: 'form-control', placeholder: t('climb-new-gear'), :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-route') %>
+  <%= f.text_field :route, class: 'form-control', placeholder: t('climb-new-route'), :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-difficulty') %>
+  <%= f.text_field :difficulty, class: 'form-control', placeholder: t('climb-new-difficulty'), :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-price') %>
+  <%= f.text_field :price, class: 'form-control', placeholder: t('climb-new-price'), :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-payment') %>
+  <%= f.text_area :days, class: 'form-control', placeholder: t('climb-new-payment'), :required => true %>
+</div>
+
+<div class="form-group">
+  <%= f.label t('climb-notes') %>
+  <%= f.text_area :notes, class: 'form-control', placeholder: t('climb-new-notes'), :required => true %>
+</div>
 
 <div><em><%= t('climb-new-message')%></em></div>
 

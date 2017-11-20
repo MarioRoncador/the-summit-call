@@ -17,7 +17,7 @@
 </div>
 <!-- Header -->
 
-<h1 class="quote"><strong><%= @climb.title %></strong> - <%= @climb.mountain.name %> <%= @climb.mountain.elevation %> mt.</h1>
+<h1 class="quote"><strong><%= @climb.title %></strong> - <%= @climb.mountain.name if @climb.mountain %> <%= @climb.mountain.elevation if @climb.mountain%> mt.</h1>
 
 <div class="divider"></div>
 

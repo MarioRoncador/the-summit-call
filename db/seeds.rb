@@ -13622,6 +13622,27 @@ end
   )
 end
 
+
+#TO DELETE FOR GO-LIVE
+1.times do
+  GuideService.create!(
+  name: "Guide",
+  logo: "",
+  languages: "EN",
+  since: "2017",
+  founder: "Test Guide",
+  website: "http://thesummitcall.com/",
+  email: "guide@thesummitcall.com",
+  address: "Test Guide",
+  city: "Test Guide",
+  zip: "06902",
+  country: "Test Guide",
+  phone: "Test Guide",
+  achievements: "Test Guide",
+  description: "Test Guide"
+  )
+end
+
 guide_services = GuideService.all
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
