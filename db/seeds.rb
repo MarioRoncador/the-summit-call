@@ -2,32 +2,6 @@ include Faker
 
 # Create Mountains
 
-
-# Create Achen Niyeu
-1.times do
-  Mountain.create!(
-  name: "Achen Niyeu",
-  elevation: 1600,
-  continent: "South America",
-  country: "Argentina",
-  range: "Patagonia",
-  lat: -39.863701,
-  lng: -71.56477,
-  difficulty: "Walk up",
-  first_summit: "",
-  first_summiter: "",
-  climb_period: "Jan, Feb, Mar, Apr, Nov, Dec",
-  climbs_year: "",
-  summit_rate: "",
-  nearest_airport: "Chapelco Airport",
-  created_by: "The Summit Call",
-  description: "Also known as Cerro Escorial. A young basaltic volcano, south of Lanín volcano. A stratovolcano of Pleistocene age.
-The route is very simple, with a path well marked starting in Laguna Verde, crosing the forest and continue until it turns to the right, passing the lava trail behind, and start to climb the volcano itself. It's a very nice walk up for a full day journey. The crater reaches in 4-5 hours. In the opposite slope lies the summit, well marked by rocks and coihue sticks."
-  )
-end
-
-
-
 # Create Akioud Buimras
 1.times do
   Mountain.create!(
@@ -12657,6 +12631,155 @@ end
   )
 end
 
+# Create Achen Niyeu
+1.times do
+  Mountain.create!(
+  name: "Achen Niyeu",
+  elevation: 1600,
+  continent: "South America",
+  country: "Argentina",
+  range: "Patagonia",
+  lat: -39.863701,
+  lng: -71.56477,
+  difficulty: "Walk up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "Jan, Feb, Mar, Apr, Nov, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Chapelco Airport",
+  created_by: "The Summit Call",
+  description: "Also known as Cerro Escorial. A young basaltic volcano, south of Lanín volcano. A stratovolcano of Pleistocene age.
+The route is very simple, with a path well marked starting in Laguna Verde, crosing the forest and continue until it turns to the right, passing the lava trail behind, and start to climb the volcano itself. It's a very nice walk up for a full day journey. The crater reaches in 4-5 hours. In the opposite slope lies the summit, well marked by rocks and coihue sticks."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Anchouma",
+  elevation: 6430 ,
+  continent: "South America",
+  country: "Bolivia",
+  range: "Bolivia Andes",
+  lat: -15.85427,
+  lng: -68.541641,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: 1915,
+  first_summiter: "R. Dienst, A. Schulze ",
+  climb_period: "May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "La Paz, Bolivia",
+  created_by: "The Summit Call",
+  description: "Ancohuma is the second highest mountain of Bolivia's Cordillera Real. Some measurements have placed it at 21,489 feet (6,550 meters), which surpasses the generally accepted highest mountain, Illimani (21,201 ft.). Ancohuma is located immediately northwest of the capital city of La Paz, in a complex cluster of high icy peaks, many of which exceed 6,000 meters. Illampu is another high peak of this group."
+  )
+end
+1.times do
+  Mountain.create!(
+  name: "Antisana",
+  elevation: 5758,
+  continent: "South America",
+  country: "Ecuador",
+  range: "Ecuador Andes",
+  lat: -0.481389,
+  lng: -78.1408,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "Edward Whimper",
+  climb_period: "Jan, Feb, Dec",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Quito",
+  created_by: "The Summit Call",
+  description: "This peak lies on private property, so it could be a problem to access. Usually you can contact the hacienda for permission. It is the fourth highest peak in Equador. It seldomly sees climbers so there is no route to follow. There is also no climbers hut and needs to be accessed with a 4WD vehicle. Camp can be made at about 14,500ft below what seems to be the best route that season. The glaciers change quite a bit from year to year, so there are several routes from which to choose from. The climb is steep and there are many hidden crevasses. At about 18,000ft there is about 100ft of 65 degree climbing and then a traverse to the left which requires a fixed line and then leads up to the summit plateau. It is a hard climb, but so incredibly beautiful, but the best part is to have the entire mountain to yourself and not see another soul for days."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Antuco",
+  elevation: 2953,
+  continent: "South America",
+  country: "Chile",
+  range: "Central Argentina-Chile ",
+  lat: "",
+  lng: "",
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: "",
+  first_summiter: "Jan, Feb, Nov, Dec",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "",
+  created_by: "The Summit Call",
+  description: "Very impressive volcano in the middle south Andes of Chile in the Laguna del Laja National Park near to Sierra Veluda range. Not with active lava but warm stones on top. Not dangerous. Top round view to the other volcanoes Lanin, Villarica, Llaima and Lonquimay. About 1100m vertical drop from ski station. Not to steep but very strenous because of the volcano ash. On top you can find ice caves to go in and make fantastic photos. On the base is Laguna del Laja,a beautiful green shimmering sea."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Artesonraju",
+  elevation: 6025 ,
+  continent: "South America",
+  country: "Peru",
+  range: "Peruvian Andes",
+  lat: -8.95,
+  lng: -77.633333,
+  difficulty: "Technical Climb",
+  first_summit: 1932,
+  first_summiter: "E. Hein, E. Schneider (Germany) ",
+  climb_period: "Jun, Jul, Aug",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Lima",
+  created_by: "The Summit Call",
+  description: "Artesonraju is a magnificent pyramid. From the north it is the -Paramount Peak- with just the circle of stars missing. The north ridge is about AD+ and accessible from Quebrada Santa Cruz. The southeast face is an immaculate 50 degree ice wall, D. Access to this face is from the Paron valley. The summit ridge is exposed and features fragile cornices. There is some risk of slab avalanches early in the season. The peak is getting more and more popular."
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Aucanquilcha",
+  elevation: 6176,
+  continent: "South America",
+  country: "Chile",
+  range: "Central Argentina-Chile",
+  lat: -21.2167,
+  lng: -68.4667,
+  difficulty: "Walk up",
+  first_summit: "",
+  first_summiter: "",
+  climb_period: "",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Calama",
+  created_by: "The Summit Call",
+  description: "Superbe montagne très facile d'accès. Une piste praticable en 4x4 monte depuis le village d'Amincha à une mine abandonnée à 5600m, et peut-être même plus haut. Nous avons tenté l'escalade en novembre 2002, de nuit, mais nous avons rebroussé chemin en raison du froid glacial (-20 degrés ?). Il y a apparemment également une piste du côté sud de la montagne. www.parapente-planete.com"
+  )
+end
+
+1.times do
+  Mountain.create!(
+  name: "Ausangate",
+  elevation: 6384,
+  continent: "South America",
+  country: "Peru",
+  range: "Peruvian Andes",
+  lat: -13.7881,
+  lng: -71.2308,
+  difficulty: "Basic Snow/Ice Climb",
+  first_summit: 1953,
+  first_summiter: "H. Harrer, H. Steinmetz, F. Marz, J. Wellenkamp",
+  climb_period: "May, Jun, Jul, Aug, Sep",
+  climbs_year: "",
+  summit_rate: "",
+  nearest_airport: "Cuzco, Peru",
+  created_by: "The Summit Call",
+  description: "Ausangate is the highest mountain in the Cordillera Vilcanota, towering in the southeast sky from the city of Cuzco. It is a long, rugged mountain, with two high peaks rising from its jagged summit crest. The lower peak rises just east of the high peak, and is separated by a small saddle. There is no easy route to the summit of Ausangate, and the normal route is a technical climb up the steep icefall of the south face."
+  )
+end
+
+
 
 mountains = Mountain.all
 
@@ -17059,8 +17182,7 @@ Solar/Generator/Light: 1 Solar panel and Generator for lights at base camp, batt
 Weather Forecast: Weather forecast report from Meteotest, Bern (Switzerland) during the entire expedition.
 Comprehensive Medical kit for the group and staffs.
 
-
-notes : All expedition stuffs and equipment has to be return after the expedition.
+  notes: All expedition stuffs and equipment has to be return after the expedition.
 
 Cost escludes
 Air Fare: International flight airfare (from and to Kathmandu).
@@ -17080,7 +17202,6 @@ Any other item not listed in “Cost Includes” section.",
   guide_service: GuideService.find_by_id(15)
   )
 end
-
 
 # Create Climbs
 500.times do
@@ -17103,6 +17224,25 @@ climbs = Climb.all
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
+# Create Treks
+250.times do
+  Trek.create!(
+  title: Faker::Book.title,
+  description: Faker::Food.ingredient,
+  gearlist: Faker::Food.measurement,
+  route: Faker::Color.color_name,
+  date: Faker::Time.forward,
+  days: Faker::Number.number(2),
+  difficulty: Faker::Number.number(1),
+  price: Faker::Number.decimal(4,2),
+  payment: Faker::Food.ingredient,
+  notes: Faker::Color.color_name,
+  guide_service: guide_services.sample
+  )
+end
+treks = Trek.all
+
+#----------------------------------------------------------------------------------------------------------------------------------------------
 
 #Create Lodges
 10.times do
@@ -17186,3 +17326,4 @@ puts "#{Climb.count} climbs created"
 puts "#{Mountain.count} mountains created"
 puts "#{GuideService.count} companies created"
 puts "#{Lodge.count} lodges created"
+puts "#{Trek.count} treks created"

@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'treks/index'
+
+  get 'treks/show'
+
   get 'users/show'
 
   resources :lodges
@@ -9,6 +13,8 @@ Rails.application.routes.draw do
   resources :mountains
 
   resources :climbs
+
+  resources :treks
 
   resources :charges, only: [:new, :create]
 

@@ -27,27 +27,50 @@
     <p><%= t('guide-email') %>: <a href="mailto:<%=@guide_service.email%>"><strong><%= @guide_service.email %></a></strong></p>
     <p><%= t('guide-phone') %>: <a href="tel:<%=@guide_service.phone%>"><strong><%= @guide_service.phone %></strong></a></p>
     <p><%= t('guide-address') %>: <%= @guide_service.address %>
-    <%= @guide_service.city %>
-    <%= @guide_service.zip %>
-    <%= @guide_service.country %></p>
-  </ul>
-</div>
+      <%= @guide_service.city %>
+      <%= @guide_service.zip %>
+      <%= @guide_service.country %></p>
+    </ul>
+  </div>
 
-    <table style="width:50%">
-      <tr>
-        <th></th>
-        <th><%= t('climb-route') %></th>
-        <th><%= t('climb-date') %></th>
-        <th><%= t('climb-days') %></th>
-        <th><%= t('climb-price') %></th>
-      </tr>
-      <%  @guide_service.climbs.each do |climb| %>
-      <tr>
-        <td><%= link_to climb.title, climb %></td>
-        <td><%= climb.route %></td>
-        <td><%= climb.date %></td>
-        <td><%= climb.days %> days</td>
-        <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>
-      </tr>
-      <% end %>
-    </table>
+
+  <table id="table_list" class="table table-bordered" style="width:70%">
+    <h3 class="divider center">All Climbs Offered:</h1>
+    <tr>
+      <th style="width:30%"></th>
+      <th style="width:20%"><%= t('climb-route') %></th>
+      <th style="width:15%"><%= t('climb-date') %></th>
+      <th style="width:10%"><%= t('climb-days') %></th>
+      <th style="width:20%"><%= t('climb-price') %></th>
+    </tr>
+    <%  @guide_service.climbs.each do |climb| %>
+    <tr>
+      <td><%= link_to climb.title, climb %></td>
+      <td><%= climb.route %></td>
+      <td><%= climb.date %></td>
+      <td><%= climb.days %> days</td>
+      <td>$ <%= number_with_precision(climb.price, :precision => 2, :delimiter => ',') %></td>
+    </tr>
+    <% end %>
+  </table>
+
+
+  <table id="table_list" class="table table-bordered" style="width:70%">
+    <h3 class="divider center">All Treks Offered:</h1>
+    <tr>
+      <th style="width:30%"></th>
+      <th style="width:20%"><%= t('trek-route') %></th>
+      <th style="width:15%"><%= t('trek-date') %></th>
+      <th style="width:10%"><%= t('trek-days') %></th>
+      <th style="width:20%"><%= t('trek-price') %></th>
+    </tr>
+    <%  @guide_service.treks.each do |trek| %>
+    <tr>
+      <td><%= link_to trek.title, trek %></td>
+      <td><%= trek.route %></td>
+      <td><%= trek.date %></td>
+      <td><%= trek.days %> days</td>
+      <td>$ <%= number_with_precision(trek.price, :precision => 2, :delimiter => ',') %></td>
+    </tr>
+    <% end %>
+  </table>

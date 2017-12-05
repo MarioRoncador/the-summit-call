@@ -1,0 +1,25 @@
+<div class="container">
+  <% if @treks.exists? %>
+  <table id="table_list" class="table table-bordered" style="width:100%" >
+    <thead>
+      <tr>
+        <th><%= sort_link t('trek-title')  %></th>
+        <th><%= sort_link t('trek-route')  %></th>
+        <th><%= sort_link t('trek-date')  %></th>
+        <th><%= sort_link t('trek-price')  %></th>
+      </tr>
+    </thead>
+    <% @treks.each do |trek| %>
+    <tr>
+      <td><%= link_to trek.title, trek %> - <%= link_to trek.guide_service.name, trek.guide_service %></td>
+      <td><%= trek.route %></td>
+      <td><%= trek.date %></td>
+      <td>$ <%= number_with_precision(trek.price, :precision => 2, :delimiter => ',') %></td>
+    </tr>
+    <% end %>
+    <% else %>
+     <h1><big><span class="glyphicon glyphicon-hand-up"></h1></span> <%=t('trek-no-treks')%></big></p>
+    <% end %>
+  </table>
+    <%= will_paginate @treks, renderer: BootstrapPagination::Rails %>
+</div>

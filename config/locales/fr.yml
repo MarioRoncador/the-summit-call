@@ -1,7 +1,7 @@
 fr:
   company-name: "The Summit Call" #Do not translate!
   value-statement: "When the summit calls, we answer. A platform where climbers can pick the mountain they want to climb and get connected to the guiding services for that specific mountain. Climbers will find comparisons of prices, services offered and more, and the best way to get in touch with their guide to start planning the next adventure."
-  search: "Search"
+  search: "Rechercher"
   search-adventure: "Search for your next big adventure"
   where: "Where to"
   mountains: "Mountains"
@@ -28,7 +28,7 @@ fr:
   not-signed-in: "Sign in or sign up before proceeding"
   en: "English" #Do not translate!
   it: "Italiano" #Do not translate!
-  fr: "François" #Do not translate!
+  fr: "Français" #Do not translate!
   es: "Español" #Do not translate!
   de: "Deutsch" #Do not translate!
 #Mountains
@@ -96,3 +96,36 @@ fr:
 #Lodges
   lodge-quote: "Reserve your spot on a mountain hut- Get ready for the summit bid, enjoy gorgous views, rest after a satisfing day in the mountains and meet outdoorsy people like you-"
   lodge-message: "Coming soon! Stay tuned!"
+
+
+#----------> New, to translate
+
+
+#User
+  access-user: "Climber"
+  access-guide: "Guide"
+  access-admin: "Administrator"
+#Climbs
+  climb-new: "New climb"
+  climb-new-title: "Enter climb title"
+  climb-new-message: "Note: This information will be reviewed by our experts before being posted on the website."
+  climb-add-climb-message: "Click here to add a new climb:"
+  climb-add-climb: "New climb"
+  climb-notes: "Notes"
+  climb-description: "Description"
+  climb-difficulty: "Difficulty"
+  climb-payment: "Payment Details"
+  climb-new-description: "Add a brief description"
+  climb-new-gear: "Insert gear list"
+  climb-new-route: "Insert the route"
+  climb-new-date: "Select start date"
+  climb-new-days: "Insert the total number of days"
+  climb-new-difficulty: "Insert the difficulty of the itinerary"
+  climb-new-price: "USD per person"
+  climb-new-payment: "Add specific for the payment"
+  climb-new-notes: "Additional information for the client"
+  climb-new-mountain: "Select the mountain you will be climbing on"
+  climb-new-guide: "This is your climber ID"
+  climb-new-mountain-name: "Mountain name"
+  climb-new-guide-name: "Guiding service name"
+  climb-start-date: "Start date"

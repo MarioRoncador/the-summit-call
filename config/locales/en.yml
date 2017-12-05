@@ -5,7 +5,7 @@ en:
   search-adventure: "Search for your next big adventure"
   where: "Where to"
   mountains: "Mountains"
-  climbs: "All Climbs"
+  climbs: "Climbs"
   guides: "Guiding Services"
   lodges: "Lodges"
   signin: "Sign In"
@@ -28,7 +28,7 @@ en:
   not-signed-in: "Sign in or sign up before proceeding"
   en: "English" #Do not translate!
   it: "Italiano" #Do not translate!
-  fr: "François" #Do not translate!
+  fr: "Français" #Do not translate!
   es: "Español" #Do not translate!
   de: "Deutsch" #Do not translate!
 #Mountains
@@ -100,7 +100,7 @@ en:
 
 #----------> New, to translate
 
-
+  treks: "Treks"
 #User
   access-user: "Climber"
   access-guide: "Guide"
@@ -129,3 +129,16 @@ en:
   climb-new-mountain-name: "Mountain name"
   climb-new-guide-name: "Guiding service name"
   climb-start-date: "Start date"
+#Treks
+  trek-search-all: "Search all treks"
+  trek-add-trek-message: "Click here to add a new trek:"
+  trek-add-trek: "New trek"
+  trek-no-treks: "New trek"
+  trek-title: "Title"
+  trek-route: "Route"
+  trek-date: "Date"
+  trek-days: "Days"
+  trek-price: "Price"
+  treks-search: "Search treks"
+  trek-gear: "Gear List"
+  trek-signup: "Sign up for this trek"
