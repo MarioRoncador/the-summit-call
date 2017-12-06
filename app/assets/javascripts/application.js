@@ -11,7 +11,10 @@
 // about supported directives.
 //
 //= require gmaps/google
+//= require jquery
 //= require jquery_ujs
+//= require jquery-ui
+//= require autocomplete-rails
 //= require underscore
 //= require bootstrap-datepicker
 //= require_tree .

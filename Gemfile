@@ -8,7 +8,7 @@ ruby '2.3.3'
 group :production do
   gem 'pg'
   gem 'rails_12factor', group: :production
-end 
+end
 
 # #2
 
@@ -27,7 +27,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', "~> 2.3.0"
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
 # Use bootstrap-sass as a stylesheets
@@ -64,5 +64,7 @@ gem 'geocoder'
 gem 'globalize'
 #New Relic Analytics
 gem 'newrelic_rpm'
+#Autocomplete
+gem 'rails4-autocomplete'
 
 require 'digest/md5'

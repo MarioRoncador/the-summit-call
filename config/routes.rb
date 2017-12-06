@@ -12,7 +12,9 @@ Rails.application.routes.draw do
 
   resources :mountains
 
-  resources :climbs
+  resources :climbs do
+    get :autocomplete_mountain_name, :on => :collection
+  end
 
   resources :treks
 

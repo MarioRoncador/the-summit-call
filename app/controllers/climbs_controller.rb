@@ -1,6 +1,8 @@
 class ClimbsController < ApplicationController
   helper_method :sort_column, :sort_direction
 
+  autocomplete :mountain, :name
+
   def index
     # @climbs = Climb.all.order("#{sort_column} #{sort_direction}")
 

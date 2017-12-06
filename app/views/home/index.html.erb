@@ -77,7 +77,10 @@
     <%= hidden_field_tag :direction, params[:direction] %>
     <%= hidden_field_tag :sort, params[:sort] %>
     <label for="name" class="quote"><strong><%=t('where')%> </strong></label>
-    <%= text_field_tag :search, params[:search], placeholder: t('any-mountain'), class: 'form-control'%>
+
+    <%= text_field_tag :search, params[:search], autocomplete: "off", placeholder: t('any-mountain'), class: 'form-control' %>
+<!--      <%= autocomplete_field_tag 'name','', autocomplete_mountain_name_climbs_path, class: 'form-control'%>
+-->
     <%= text_field_tag :date, params[:date], placeholder: "Any Date", class: 'form-control', "data-provide" => 'datepicker', :value => Time.now.strftime('%m/%d/%Y')%>
 
     <span class="input-group-btn">
@@ -115,6 +118,7 @@
   </div>
   <!--Space Map - Tips - Advertise-->
 </div>
+
 
 <script type="text/javascript">
 handler = Gmaps.build('Google');
