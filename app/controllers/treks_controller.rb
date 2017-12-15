@@ -12,6 +12,8 @@ class TreksController < ApplicationController
 
   def show
     @trek = Trek.find(params[:id])
+    session[:selected_climb_price] = (@trek.price*100).to_i
+    session[:selected_climb] = @trek
   end
 
   def new

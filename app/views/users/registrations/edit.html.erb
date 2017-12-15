@@ -1,10 +1,29 @@
-<%= link_to "Profile", :back %>
-<!-- Header -->
-<div id="top_bar" class="pull-right">
-  <%= link_to image_tag("Summit Call Logo 4.png", size: "120x40"), home_index_path %>
-  <h5 class="quote"> - When the summit calls, we answer - </h5>
-</div>
-<!-- Header -->
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <!-- Header -->
+  <div id="top_bar" class="pull-right">
+    <%= link_to image_tag("Summit Call Logo 5.png", size: "120x40"), home_index_path %>
+    <h5 class="quote"> - When the summit calls, we answer - </h5>
+  </div>
+  <!-- Header Ends-->
+
+    <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
+
+  <!-- Navbar -->
+  <div class="container" style="background-color:white; border-style:black;">
+    <ul class="nav nav-tabs">
+      <li><%= link_to t('reservations').upcase, reservations_path  %></li>
+      <li><%= link_to t('adventures').upcase, adventures_path  %></li>
+      <li><%= link_to t('gallery').upcase, gallery_path  %></li>
+      <li style="float:right; font-weight: lighter;"><%= link_to t('logout').upcase, destroy_user_session_path, method: :delete %></li>
+      <li style="float:right;"><%= link_to t('edit').upcase, edit_user_registration_path %></li>
+    </ul>
+  </div>
+  <!-- Navbar Ends -->
+
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
 

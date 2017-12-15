@@ -1,5 +1,6 @@
 class Trek < ActiveRecord::Base
     belongs_to :guide_service
+    belongs_to :user
 
     def self.search(search)
       if search

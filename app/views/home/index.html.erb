@@ -13,7 +13,7 @@
   <div class="container" style='height: 120px;'>
     <!-- Header -->
     <div class="col-lg-8 col-md-8 col-sm-8" style='height: 100%;'>
-      <%= image_tag("Summit Call Logo 4.png", style: 'width: auto; height: 105%') %>
+      <%= image_tag("Summit Call Logo 5.png", style: 'width: auto; height: 105%') %>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
       <!-- Language Picker -->
@@ -72,23 +72,23 @@
 
 <!--Search Form Starts V2-->
 <div class="container_search">
-  <div class="input-group"><big><big>
+  <div class="input-group"><big><big><big><big><big>
     <%= form_tag(climbs_path, :method => "get", id: "search-form") do %>
     <%= hidden_field_tag :direction, params[:direction] %>
     <%= hidden_field_tag :sort, params[:sort] %>
-    <label for="name" class="quote"><strong><%=t('where')%> </strong></label>
+    <label for="name" class="quote"><small><small><small><strong><%=t('where')%> </strong></small></small></small></label>
 
-    <%= text_field_tag :search, params[:search], autocomplete: "off", placeholder: t('any-mountain'), class: 'form-control' %>
+    <big><%= text_field_tag :search, params[:search], autocomplete: "off", placeholder: t('any-mountain'), class: 'form-control' %></big>
 <!--      <%= autocomplete_field_tag 'name','', autocomplete_mountain_name_climbs_path, class: 'form-control'%>
 -->
-    <%= text_field_tag :date, params[:date], placeholder: "Any Date", class: 'form-control', "data-provide" => 'datepicker', :value => Time.now.strftime('%m/%d/%Y')%>
+    <big><%= text_field_tag :date, params[:date], placeholder: "Any Date", class: 'form-control', "data-provide" => 'datepicker', :value => Time.now.strftime('%m/%d/%Y')%></big>
 
     <span class="input-group-btn">
       <%= submit_tag t('search'), class: 'btn btn-success' %>
     </span>
 
     <% end %>
-  </big></big></div>
+  </big></big></big></div></big>
   <!--Search Form Finishes-->
 </div>
 <!--Map - Tips - Advertise-->

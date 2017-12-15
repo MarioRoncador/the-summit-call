@@ -105,6 +105,11 @@ en:
   access-user: "Climber"
   access-guide: "Guide"
   access-admin: "Administrator"
+  reservations: "Reservations"
+  adventures: "Adventures"
+  gallery: "Gallery"
+  edit: "Edit"
+
 #Climbs
   climb-new: "New climb"
   climb-new-title: "Enter climb title"

@@ -1,25 +1,26 @@
 class ChargesController < ApplicationController
 
-  def create
 
+
+  def create
     @user = current_user
     # Creates a Stripe Customer object, for associating
     # with the charge
     customer = Stripe::Customer.create(
-    email: current_user.email,
-    card: params[:stripeToken]
+      email: current_user.email,
+      card: params[:stripeToken]
     )
 
     # Where the real magic happens
     charge = Stripe::Charge.create(
-    customer: customer.id, # Note -- this is NOT the user_id in your app
-    amount: "1", #Amount.default,
-    description: "Climb Payment - #{current_user.email}",
-    currency: 'usd'
+      customer: customer.id, # Note -- this is NOT the user_id in your app
+      amount: session[:selected_climb_price], #Amount.default,
+      description: "Climb Payment - #{current_user.email}",
+      currency: 'usd'
     )
 
     flash[:notice] = "Thanks you, #{current_user.email}! We wish you a memorable experience!"
-    redirect_to root_path # or wherever
+    redirect_to reservations_path # or wherever
 
     # Stripe will send back CardErrors, with friendly messages
     # when something goes wrong.
@@ -31,10 +32,11 @@ class ChargesController < ApplicationController
 
 
   def new
+    @current_climb = params[:shared_param__]
     @stripe_btn_data = {
       key: "#{ Rails.configuration.stripe[:publishable_key] }",
       description: "Climb Payment - #{current_user.email}",
-      amount: "1" #Amount.default,
+      amount: session[:selected_climb_price] #Amount.default,
     }
   end
 
@@ -43,6 +45,5 @@ class ChargesController < ApplicationController
   # def upgrade_user_role
   #   @user.role = 'premium'
   # end
-
 
 end

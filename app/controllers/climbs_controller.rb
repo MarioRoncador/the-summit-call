@@ -41,7 +41,10 @@ class ClimbsController < ApplicationController
 
   def show
     @climb = Climb.find(params[:id])
+    session[:selected_climb_price] = (@climb.price*100).to_i
+    session[:selected_climb] = @climb
   end
+
 
   def new
     @climb = Climb.new

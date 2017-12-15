@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'treks/index'
 
-  get 'treks/show'
-
-  get 'users/show'
 
   resources :lodges
 
@@ -22,6 +18,12 @@ Rails.application.routes.draw do
 
   devise_for :users
   resources :users
+
+  as :user do
+    get 'reservations' => 'users#reservations', as: :reservations
+    get 'adventures' => 'users#adventures', as: :adventures
+    get 'gallery' => 'users#gallery', as: :gallery
+  end
 
   get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
 
